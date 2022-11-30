@@ -1,0 +1,8 @@
+---
+title-block-banner: true
+toc: false
+---
+
+# Welcome to the Palaeoverse {.center-h1}
+
+##### Bringing the Palaeobiology community together {.center-h5}

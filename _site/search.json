@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Palaeoverse",
+    "section": "",
+    "text": "Welcome to the Palaeoverse\n\nBringing the Palaeobiology community together"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "directory.html",
+    "href": "directory.html",
+    "title": "Palaeoverse",
+    "section": "",
+    "text": "Recent announcments\n\n\n\n\n\n\n\n\n\n\n\nJob opportunity!\n\n\n\n\n\n\n\nVacancy\n\n\n\n\nApply!!!!\n\n\n\n\n\n\nNov 30, 2023\n\n\nLewis Jones\n\n\n\n\n\n\n\n\nWorkshop\n\n\n\n\n\n\n\nWorkshop\n\n\n\n\nThere is a workshop!\n\n\n\n\n\n\nMay 22, 2021\n\n\nLewis A. Jones\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "package.html",
+    "href": "package.html",
+    "title": "Palaeoverse",
+    "section": "",
+    "text": "The palaeoverse R package aims to provide a community software toolkit of generic functions for the palaeobiological community. The package does not provide implementations of statistical analyses, rather it provides auxiliary functions to help streamline analyses and improve code readability and reproducibility. Head over to the package website at XXX to find out more!"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Job opportunity!",
+    "section": "",
+    "text": "This is a test!"
+  },
+  {
+    "objectID": "posts/palaeoverse/index.html",
+    "href": "posts/palaeoverse/index.html",
+    "title": "Workshop",
+    "section": "",
+    "text": "This is a test!"
+  }
+]

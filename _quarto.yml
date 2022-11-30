@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Palaeoverse"
+  image: /images/logo.png
+  favicon: /images/logo.png
+  navbar:
+    left:
+      - href: index.qmd
+        text: Overview
+      - about.qmd
+      - href: package.qmd
+        text: R Package
+      - href: directory.qmd
+        text: Directory
+      - resources.qmd
+      - community.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+

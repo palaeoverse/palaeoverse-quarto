@@ -1,0 +1,58 @@
+---
+title-block-banner: true
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+toc: false
+---
+
+# Palaeoverse Directory {.center-h1}
+
+::: justify
+Welcome to the Palaeoverse Directory! This resource is provided to promote the communciation of upcoming conferences, workshops, and vacancies. It also provides a register of research labs and their research themes. We hope that this resource will foster networking and collaboration across the globe. If you have any feedback on this resource, we would love to hear from you.
+
+If you wish to register an upcoming conferences, workshops, vacancy or your lab, please complete the following form...
+:::
+
+```{r}
+#| echo: false
+library(leaflet)
+library(leaflet.extras)
+
+example <- read.csv("./data/example.csv", sep = ",")
+
+icons <- awesomeIconList(
+  Lab = makeAwesomeIcon(icon = "group",
+                        iconColor = "#FFFFFF",
+                        library = "fa",
+                        markerColor = "cadetblue"),
+  Conference = makeAwesomeIcon(icon = "comments", 
+                               iconColor = "#FFFFFF",
+                               library = "fa",
+                               markerColor = "darkred"),
+  Workshop = makeAwesomeIcon(icon = "gear",
+                             iconColor = "#FFFFFF",
+                             library = "fa",
+                             markerColor = "orange")
+)
+
+m <- leaflet(example) %>% 
+  setView(lng = 0, lat = 0, zoom = 1) %>% 
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  addAwesomeMarkers(lng = ~lng,
+             lat = ~lat,
+             icon = ~icons[type],
+             group = ~type,
+             label = ~title,
+             popup = ~description) %>%
+  addLayersControl(
+    overlayGroups = ~type,
+    options = layersControlOptions(collapsed = FALSE)
+  ) %>%
+  addFullscreenControl()
+m
+```
+
+# Recent announcments {.center-h1}

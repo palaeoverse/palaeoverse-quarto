@@ -1,0 +1,13 @@
+---
+toc: false
+---
+
+# Palaeoverse R Package {.center-h1}
+
+##### Developed by palaeobiologists, for palaeobiologists {.center-h5}
+
+![](images/logo.png){fig-align="center" width=20%}
+
+::: justify
+The palaeoverse R package aims to provide a community software toolkit of generic functions for the palaeobiological community. The package does not provide implementations of statistical analyses, rather it provides auxiliary functions to help streamline analyses and improve code readability and reproducibility. Head over to the package website at XXX to find out more!
+:::
