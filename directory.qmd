@@ -11,17 +11,28 @@ toc: false
 # Palaeoverse Directory {.center-h1}
 
 ::: justify
-Welcome to the Palaeoverse Directory! This resource is provided to promote the communciation of upcoming conferences, workshops, and vacancies. It also provides a register of research labs and their research themes. We hope that this resource will foster networking and collaboration across the globe. If you have any feedback on this resource, we would love to hear from you.
+Welcome to the Palaeoverse Directory! This resource is provided to promote the communciation of upcoming conferences, workshops, and vacancies. It also provides a register of research labs and their research focus. We hope that this resource will foster networking and collaboration across the globe.
 
-If you wish to register an upcoming conferences, workshops, vacancy or your lab, please complete the following [form](./form/index.qmd).
+If you wish to register an upcoming conferences, workshops, vacancy or your lab, please complete the [submission form](./form/index.qmd).
 :::
 
 ```{r}
 #| echo: false
+#| warning: false
+# Load libraries
 library(leaflet)
 library(leaflet.extras)
-
-example <- read.csv("./data/example.csv", sep = ",")
+library(dplyr)
+library(tidygeocoder)
+library(googlesheets4)
+# Get sheet
+df <- read_sheet("https://docs.google.com/spreadsheets/d/1escqpJM_Ljt5h5claM0xV5e9IEWBv6rNMIsuQsnUXYY/edit?usp=sharing")
+# Get addresses
+address <- tribble( ~name,~addr,
+                         df$Title, paste(df$Institution, df$City, df$Country, sep = ", "))
+coordinates <- address %>%
+  geocode(addr)
+df <- bind_cols(df, coordinates)
 
 icons <- awesomeIconList(
   Lab = makeAwesomeIcon(icon = "group",
@@ -38,25 +49,32 @@ icons <- awesomeIconList(
                              markerColor = "orange")
 )
 
-m <- leaflet(example) %>% 
+m <- leaflet(df) %>% 
   setView(lng = 0, lat = 0, zoom = 1) %>% 
   addProviderTiles(providers$CartoDB.Positron) %>%
-  addAwesomeMarkers(lng = ~lng,
+  addAwesomeMarkers(lng = ~long,
              lat = ~lat,
-             icon = ~icons[type],
-             group = ~type,
-             label = ~title,
-             popup = ~description) %>%
+             icon = ~icons[Post],
+             group = ~Post,
+             label = ~Title,
+             popup = ~paste(Title,
+                            "<br>",
+                            Description,
+                            "<br>",
+                            "<a href='mailto:",
+                            Email,
+                            "'>Contact</a>",
+                            "<br>",
+                            "<a href='",
+                            Link,
+                            "'>More info</a>"
+                            )) %>%
   addLayersControl(
-    overlayGroups = ~type,
+    overlayGroups = ~Post,
     options = layersControlOptions(collapsed = FALSE)
   ) %>%
   addFullscreenControl()
 m
 ```
-If you want to appear in the directory, fill out the following form!
-
-
-
 
 # Recent announcments {.center-h1}
