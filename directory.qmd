@@ -87,8 +87,6 @@ m <- leaflet(df) %>%
   addFullscreenControl()
 m
 ```
-<br>
-You are also welcome to make an announcement via this page. To do so, please use the [announcement template](https://github.com/palaeoverse-community/palaeoverse-quarto/issues/new?assignees=LewisAJones%2C+SofiaGalv&labels=announcement&template=announcement.md&title=Announcement) via GitHub. Announcements should focus on opportunities for the palaeobiology community such as upcoming vacancies, workshops or conferences.
 :::
 
 # Recent announcements {.center-h1}

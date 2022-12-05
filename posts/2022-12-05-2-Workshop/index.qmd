@@ -1,0 +1,18 @@
+---
+title: "Introduction to Analytical Palaeobiology"
+description: "Online"
+categories: Workshop
+date: today
+---
+
+**Contact**: [Alessandro Chiarenza](a.chiarenza15@gmail.com)  
+**Location**: Online  
+**Dates**: 13^th^ to 17^th^ February 2023
+
+**Short description**:
+
+This course will provide a complete guide to basic analytical techniques for examining macroevolutionary and biodiversity patterns using online databases (primarily The Paleobiology Database), from instruction on data collection, handling, and curation, to plotting and publishing results.
+
+[Further information](https://www.physalia-courses.org/courses-workshops/paleobiology-in-r/)
+
+

@@ -55,7 +55,7 @@ We reserve the right to refuse the posting of any inappropriate material or remo
 <input name="Country" type="text" placeholder="Country" required>\
 <br>
 
-<p>**Expiry date (e.g. registration or application deadline)**</p>
+<p>**Expiry date (e.g. registration or application deadline, for research labs you may use 2099)**</p>
 
 <input name="Expiry" type="date" required>\
 <br>
