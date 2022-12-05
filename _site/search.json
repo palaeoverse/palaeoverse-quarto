@@ -1,47 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Palaeoverse",
-    "section": "",
-    "text": "Welcome to the Palaeoverse\n\nBringing the Palaeobiology community together"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "directory.html",
-    "href": "directory.html",
-    "title": "Palaeoverse",
-    "section": "",
-    "text": "Recent announcements\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Analytical Palaeobiology\n\n\n\n\n\n\n\nWorkshop\n\n\n\n\nOnline\n\n\n\n\n\n\nDec 5, 2022\n\n\n\n\n\n\n\n\nEGU Annual Meeting 2023\n\n\n\n\n\n\n\nConference\n\n\n\n\nUniversity of Cambridge, UK\n\n\n\n\n\n\nDec 5, 2022\n\n\n\n\n\n\n\n\nPalAss Annual Meeting 2023\n\n\n\n\n\n\n\nConference\n\n\n\n\nUniversity of Cambridge, UK\n\n\n\n\n\n\nDec 5, 2022\n\n\n\n\n\n\n\n\nAssistant Professor, Paleobiology\n\n\n\n\n\n\n\nVacancy\n\n\n\n\nNorth Carolina State University\n\n\n\n\n\n\nDec 5, 2022\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "package.html",
-    "href": "package.html",
-    "title": "Palaeoverse",
-    "section": "",
-    "text": "The palaeoverse R package aims to provide a community software toolkit of generic functions for the palaeobiological community. The package does not provide implementations of statistical analyses, rather it provides auxiliary functions to help streamline analyses and improve code readability and reproducibility. Head over to the package website at XXX to find out more!"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Job opportunity!",
-    "section": "",
-    "text": "This is a test!"
-  },
-  {
-    "objectID": "posts/palaeoverse/index.html",
-    "href": "posts/palaeoverse/index.html",
-    "title": "Workshop",
-    "section": "",
-    "text": "This is a test!"
-  },
-  {
     "objectID": "form/index.html",
     "href": "form/index.html",
     "title": "Palaeoverse Directory Form",
@@ -49,11 +7,18 @@
     "text": "Contact name\n\n\n\n\nContact email\n\n\n\n\nType of posting (Lab, Conference, Workshop or Vacancy)\n\n Lab Conference\nWorkshop Vacancy  \n\n\nPost title (e.g. name of lab, workshop or position)\n\n\n\n\nPost link (e.g. lab website)\n\n\n\n\nInstitution\n\n\n\n\nCity\n\n\n\n\nCountry\n\n\n\n\nExpiry date (e.g. registration or application deadline, for research labs you may use 2099)\n\n\n\n\nProvide a short description of the posting (limited to 50–350 characters)\n\nEnter text...\n  \n Submit"
   },
   {
-    "objectID": "posts/2022-11-28-vacancy/index.html",
-    "href": "posts/2022-11-28-vacancy/index.html",
-    "title": "Assistant Professor, Paleobiology",
+    "objectID": "posts/2022-12-05-2-Workshop/index.html",
+    "href": "posts/2022-12-05-2-Workshop/index.html",
+    "title": "Introduction to Analytical Palaeobiology",
     "section": "",
-    "text": "The Department of Biological Sciences in the College of Sciences at North Carolina State University (NC State) seeks outstanding candidates for a tenure-track faculty position in Paleobiology at the preferred rank of Assistant Professor, although exceptional candidates for Associate Professor will be considered.\nThe successful candidate will enhance or expand NC State’s existing strengths in paleontological research, bridge departmental expertise in evolutionary science from genomics and proteomics to broad ecological interactions, and work towards forging interdisciplinary collaborations across the university and with our partner institutions including the North Carolina Museum of Natural Sciences.\nCandidates pursuing research in any quantitative area of paleobiology are encouraged to apply. We seek applications from researchers who investigate broad evolutionary, molecular, taphonomic, or paleobiological/ecological questions. Candidates who employ quantitative approaches to model evolution on temporal and geospatial scales; study biosphere/geosphere interactions; characterize taphonomic alterations on molecules; use advanced visualization tools to reconstruct morphological evolution in deep time; or study biomechanics/biophysical modeling at macro and micro (histological) scales are particularly encouraged to apply.\nThe successful candidate will be expected to develop and maintain an extramurally funded, nationally recognized, independent research program and to support the academic mission of the department by including undergraduate, graduate, and postdoctoral training. The candidate will also be expected to develop and teach innovative and inclusive undergraduate and graduate courses in topics related to their research and in coordination with curricular needs of the department and its Paleontology minor.\nThe Department of Biological Sciences seeks candidates committed to implementing antiracism and equity-based pedagogies to join a Department that aspires to become a leader in inclusive and equitable teaching and research. The successful candidate will help implement the visions outlined in the College of Sciences Strategic Plan, with a particular focus on the Strategic Priorities to Advance Equity and Open Up Science.\nMore info"
+    "text": "Short description:\nThis course will provide a complete guide to basic analytical techniques for examining macroevolutionary and biodiversity patterns using online databases (primarily The Paleobiology Database), from instruction on data collection, handling, and curation, to plotting and publishing results.\nFurther information"
+  },
+  {
+    "objectID": "posts/2022-12-05-4-Conference/index.html",
+    "href": "posts/2022-12-05-4-Conference/index.html",
+    "title": "EGU Annual Meeting 2023",
+    "section": "",
+    "text": "Short description:\nThe EGU General Assembly 2023 brings together geoscientists from all over the world to one meeting covering all disciplines of the Earth, planetary, and space sciences. The EGU aims to provide a forum where scientists, especially early career researchers, can present their work and discuss their ideas with experts in all fields of geoscience.\nFurther information"
   },
   {
     "objectID": "posts/2022-12-05-1-Conference/index.html",
@@ -70,17 +35,24 @@
     "text": "Short description:\nThe Department of Biological Sciences in the College of Sciences at North Carolina State University (NC State) seeks outstanding candidates for a tenure-track faculty position in Paleobiology at the preferred rank of Assistant Professor, although exceptional candidates for Associate Professor will be considered.\nFurther information"
   },
   {
-    "objectID": "posts/2022-12-05-2-Workshop/index.html",
-    "href": "posts/2022-12-05-2-Workshop/index.html",
-    "title": "Introduction to Analytical Palaeobiology",
+    "objectID": "package.html",
+    "href": "package.html",
+    "title": "Palaeoverse",
     "section": "",
-    "text": "Short description:\nThis course will provide a complete guide to basic analytical techniques for examining macroevolutionary and biodiversity patterns using online databases (primarily The Paleobiology Database), from instruction on data collection, handling, and curation, to plotting and publishing results.\nFurther information"
+    "text": "The palaeoverse R package aims to provide a community software toolkit of generic functions for the palaeobiological community. The package does not provide implementations of statistical analyses, rather it provides auxiliary functions to help streamline analyses and improve code readability and reproducibility. Head over to the package website at XXX to find out more!"
   },
   {
-    "objectID": "posts/2022-12-05-4-Conference/index.html",
-    "href": "posts/2022-12-05-4-Conference/index.html",
-    "title": "EGU Annual Meeting 2023",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Short description:\nThe EGU General Assembly 2023 brings together geoscientists from all over the world to one meeting covering all disciplines of the Earth, planetary, and space sciences. The EGU aims to provide a forum where scientists, especially early career researchers, can present their work and discuss their ideas with experts in all fields of geoscience.\nFurther information"
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "directory.html",
+    "href": "directory.html",
+    "title": "Palaeoverse",
+    "section": "",
+    "text": "Recent announcements\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Analytical Palaeobiology\n\n\n\n\n\n\n\nWorkshop\n\n\n\n\nOnline\n\n\n\n\n\n\nDec 5, 2022\n\n\n\n\n\n\n\n\nEGU Annual Meeting 2023\n\n\n\n\n\n\n\nConference\n\n\n\n\nUniversity of Cambridge, UK\n\n\n\n\n\n\nDec 5, 2022\n\n\n\n\n\n\n\n\nPalAss Annual Meeting 2023\n\n\n\n\n\n\n\nConference\n\n\n\n\nUniversity of Cambridge, UK\n\n\n\n\n\n\nDec 5, 2022\n\n\n\n\n\n\n\n\nAssistant Professor, Paleobiology\n\n\n\n\n\n\n\nVacancy\n\n\n\n\nNorth Carolina State University\n\n\n\n\n\n\nDec 5, 2022\n\n\n\n\n\n\nNo matching items"
   }
 ]
