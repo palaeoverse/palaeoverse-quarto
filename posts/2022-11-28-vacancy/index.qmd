@@ -1,0 +1,22 @@
+---
+title: "Assistant Professor, Paleobiology"
+description: "NC State University, USA"
+author: ""
+date: "11/28/2022"
+categories: Vacancy
+---
+::: justify
+
+The Department of Biological Sciences in the College of Sciences at North Carolina State University (NC State) seeks outstanding candidates for a tenure-track faculty position in Paleobiology at the preferred rank of Assistant Professor, although exceptional candidates for Associate Professor will be considered.
+
+The successful candidate will enhance or expand NC State’s existing strengths in paleontological research, bridge departmental expertise in evolutionary science from genomics and proteomics to broad ecological interactions, and work towards forging interdisciplinary collaborations across the university and with our partner institutions including the North Carolina Museum of Natural Sciences.
+
+Candidates pursuing research in any quantitative area of paleobiology are encouraged to apply. We seek applications from researchers who investigate broad evolutionary, molecular, taphonomic, or paleobiological/ecological questions. Candidates who employ quantitative approaches to model evolution on temporal and geospatial scales; study biosphere/geosphere interactions; characterize taphonomic alterations on molecules; use advanced visualization tools to reconstruct morphological evolution in deep time; or study biomechanics/biophysical modeling at macro and micro (histological) scales are particularly encouraged to apply.
+
+The successful candidate will be expected to develop and maintain an extramurally funded, nationally recognized, independent research program and to support the academic mission of the department by including undergraduate, graduate, and postdoctoral training. The candidate will also be expected to develop and teach innovative and inclusive undergraduate and graduate courses in topics related to their research and in coordination with curricular needs of the department and its Paleontology minor.
+
+The Department of Biological Sciences seeks candidates committed to implementing antiracism and equity-based pedagogies to join a Department that aspires to become a leader in inclusive and equitable teaching and research. The successful candidate will help implement the visions outlined in the College of Sciences Strategic Plan, with a particular focus on the Strategic Priorities to Advance Equity and Open Up Science.
+
+[More info](https://jobs.ncsu.edu/postings/174886)
+
+:::

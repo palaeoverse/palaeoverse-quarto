@@ -16,7 +16,7 @@ Welcome to the Palaeoverse Directory! This resource is provided to promote the c
 If you wish to register an upcoming conference, workshop, vacancy or your lab, please complete the [submission form](./form/index.qmd).
 
 Posts shared here do not imply endorsement from the Palaeoverse team and we can hold no responsibility for any interactions you make via this service. If you face any issues or have any concerns about current postings, please contact a member of the Palaeoverse team.
-:::
+
 
 ```{r}
 #| echo: false
@@ -87,5 +87,8 @@ m <- leaflet(df) %>%
   addFullscreenControl()
 m
 ```
+<br>
+You are also welcome to make an announcement via this page. To do so, please use the [announcement template](https://github.com/palaeoverse-community/palaeoverse-quarto/issues/new?assignees=LewisAJones%2C+SofiaGalv&labels=announcement&template=announcement.md&title=Announcement) via GitHub. Announcements should focus on opportunities for the palaeobiology community such as upcoming vacancies, workshops or conferences.
+:::
 
-# Recent announcments {.center-h1}
+# Recent announcements {.center-h1}

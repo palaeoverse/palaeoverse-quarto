@@ -1,9 +1,0 @@
----
-title: "Job opportunity!"
-description: "Apply!!!!"
-author: "Lewis Jones"
-date: "11/30/2023"
-categories: Vacancy
----
-
-This is a test!

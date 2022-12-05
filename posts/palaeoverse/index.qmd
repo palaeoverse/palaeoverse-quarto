@@ -1,9 +1,0 @@
----
-title: "Workshop"
-description: "There is a workshop!"
-author: "Lewis A. Jones"
-date: "5/22/2021"
-categories: Workshop
----
-
-This is a test!
