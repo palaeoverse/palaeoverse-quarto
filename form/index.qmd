@@ -6,9 +6,9 @@ toc: false
 
 ::: justify
 
-This service is provided to advertise research labs, vacancies, upcoming conferences, and workshops. If you wish to make a posting, please complete the following form. **Please note, all information provided here will be published online and accessible to all.** 
+This service is provided to advertise research labs, vacancies, upcoming conferences, and workshops related to the field of palaeobiology. If you wish to make a posting, please complete the following form. **Please note, all information provided here will be published online and accessible to all.** 
 
-If you face any issues, please contact a member of the Palaeoverse team. We reserve the right to refuse posting of any inappropiate material.
+If you face any issues, please contact a member of the Palaeoverse team. We reserve the right to refuse the posting of any inappropiate material.
 
 :::
 
@@ -16,10 +16,10 @@ If you face any issues, please contact a member of the Palaeoverse team. We rese
   method="POST" 
   action="https://script.google.com/macros/s/AKfycby7R1CqnjGdY357OVYtC62a7FP-9_D_FErKooYTuykcpd3cWux5fhTE9YUNd1814USWZg/exec"
 >
-  <p>Contact name (the point of contact)</p>
+  <p>Contact name</p>
   <input name="Name" type="name" placeholder="Contact name" required>  
   <br>
-  <p>Contact email (the point of contact)</p>
+  <p>Contact email</p>
   <input name="Email" type="text" placeholder="Contact email" required>  
   <br>
   <p>Type of posting (Lab, Conference, Workshop or Vacancy)</p>
@@ -30,11 +30,11 @@ If you face any issues, please contact a member of the Palaeoverse team. We rese
     <option value = "Vacancy">Vacancy</option>
   </select>
   <br>  
-  <p>Post title</p>
-  <input name="Title" type="text" placeholder="Post title (e.g. name of lab)" required>  
+  <p>Post title (e.g. name of lab, workshop or position)</p>
+  <input name="Title" type="text" placeholder="Post title" required>  
   <br>
-  <p>Post URL</p>
-  <input name="Link" type="text" placeholder="A URL to further details" required>  
+  <p>Post link (e.g. lab website)</p>
+  <input name="Link" type="text" placeholder="URL" required>  
   <br>
   <p>Institution</p>
   <input name="Institution" type="text" placeholder="Institution" required>  
