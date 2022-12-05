@@ -30,8 +30,8 @@ library(googlesheets4)
 # Get sheet
 df <- read_sheet("https://docs.google.com/spreadsheets/d/1escqpJM_Ljt5h5claM0xV5e9IEWBv6rNMIsuQsnUXYY/edit?usp=sharing")
 # Get addresses
-address <- tribble( ~name,~addr,
-                         df$Title, paste(df$Institution, df$City, df$Country, sep = ", "))
+address <- data.frame(name = df$Title,
+                      addr = paste(df$Institution, df$City, df$Country, sep = ", "))
 coordinates <- address %>%
   geocode(addr)
 df <- bind_cols(df, coordinates)
@@ -48,7 +48,11 @@ icons <- awesomeIconList(
   Workshop = makeAwesomeIcon(icon = "gear",
                              iconColor = "#FFFFFF",
                              library = "fa",
-                             markerColor = "orange")
+                             markerColor = "orange"),
+  Vacancy = makeAwesomeIcon(icon = "briefcase",
+                            iconColor = "#FFFFFF",
+                            library = "fa",
+                            markerColor = "darkpurple")
 )
 
 m <- leaflet(df) %>% 
