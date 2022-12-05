@@ -1,0 +1,56 @@
+---
+title: Palaeoverse Directory Form
+title-block-banner: true
+toc: false
+---
+
+::: justify
+
+This service is provided to advertise research labs, vacancies, upcoming conferences, and workshops. If you wish to make a posting, please complete the following form. **Please note, all information provided here will be published online and accessible to all.** 
+
+If you face any issues, please contact a member of the Palaeoverse team. We reserve the right to refuse posting of any inappropiate material.
+
+:::
+
+<form 
+  method="POST" 
+  action="https://script.google.com/macros/s/AKfycby7R1CqnjGdY357OVYtC62a7FP-9_D_FErKooYTuykcpd3cWux5fhTE9YUNd1814USWZg/exec"
+>
+  <p>Contact name (the point of contact)</p>
+  <input name="Name" type="name" placeholder="Contact name" required>  
+  <br>
+  <p>Contact email (the point of contact)</p>
+  <input name="Email" type="text" placeholder="Contact email" required>  
+  <br>
+  <p>Type of posting (Lab, Conference, Workshop or Vacancy)</p>
+  <select name = "Post">
+    <option value = "Lab" selected>Lab</option>
+    <option value = "Conference">Conference</option>  
+    <option value = "Workshop">Workshop</option>
+    <option value = "Vacancy">Vacancy</option>
+  </select>
+  <br>  
+  <p>Post title</p>
+  <input name="Title" type="text" placeholder="Post title (e.g. name of lab)" required>  
+  <br>
+  <p>Post URL</p>
+  <input name="Link" type="text" placeholder="A URL to further details" required>  
+  <br>
+  <p>Institution</p>
+  <input name="Institution" type="text" placeholder="Institution" required>  
+  <br>
+  <p>City</p>
+  <input name="City" type="text" placeholder="City" required>  
+  <br>
+  <p>Country</p>
+  <input name="Country" type="text" placeholder="Country" required>  
+  <br>
+  <p>Expiry date (e.g. registration or application deadline)</p>
+  <input name="Date" type="date" required>  
+  <br>
+  <p>Provide a short description of the posting (limited to 50--350 characters)</p>
+  <textarea name="Description" rows="5" cols="50" placeholder="Enter description..." maxlength="350" minlength="50">Enter text...
+  </textarea>
+  <br>
+  <button type="submit">Submit</button>
+</form>
