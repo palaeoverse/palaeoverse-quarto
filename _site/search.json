@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "form/index.html",
+    "href": "form/index.html",
+    "title": "Palaeoverse Directory Form",
+    "section": "",
+    "text": "Contact name\n\n\n\n\nContact email\n\n\n\n\nType of posting (Lab, Conference, Workshop or Vacancy)\n\n Lab Conference\nWorkshop Vacancy  \n\n\nPost title (e.g. name of lab, workshop or position)\n\n\n\n\nPost link (e.g. lab website)\n\n\n\n\nInstitution\n\n\n\n\nStreet address\n\n\n\n\nCity\n\n\n\n\nCounty, province or state\n\n\n\n\nCountry\n\n\n\n\nExpiry date (e.g. registration or application deadline, for research labs you may use 2099)\n\n\n\n\nProvide a short description of the posting (limited to 50–350 characters)\n\nEnter text...\n  \n Submit"
+  },
+  {
+    "objectID": "posts/2022-12-05-2-Workshop/index.html",
+    "href": "posts/2022-12-05-2-Workshop/index.html",
+    "title": "Introduction to Analytical Palaeobiology",
+    "section": "",
+    "text": "Short description:\nThis course will provide a complete guide to basic analytical techniques for examining macroevolutionary and biodiversity patterns using online databases (primarily The Paleobiology Database), from instruction on data collection, handling, and curation, to plotting and publishing results.\nFurther information"
+  },
+  {
+    "objectID": "posts/2022-12-05-4-Conference/index.html",
+    "href": "posts/2022-12-05-4-Conference/index.html",
+    "title": "EGU Annual Meeting 2023",
+    "section": "",
+    "text": "Short description:\nThe EGU General Assembly 2023 brings together geoscientists from all over the world to one meeting covering all disciplines of the Earth, planetary, and space sciences. The EGU aims to provide a forum where scientists, especially early career researchers, can present their work and discuss their ideas with experts in all fields of geoscience.\nFurther information"
+  },
+  {
+    "objectID": "posts/2022-12-05-1-Conference/index.html",
+    "href": "posts/2022-12-05-1-Conference/index.html",
+    "title": "PalAss Annual Meeting 2023",
+    "section": "",
+    "text": "Short description:\nThe 67th Annual Meeting of the Palaeontological Association will be held at the University of Cambridge from 11th to 15th September 2023.\nFurther information"
+  },
+  {
+    "objectID": "posts/2022-12-05-3-Vacancy/index.html",
+    "href": "posts/2022-12-05-3-Vacancy/index.html",
+    "title": "Assistant Professor, Paleobiology",
+    "section": "",
+    "text": "Short description:\nThe Department of Biological Sciences in the College of Sciences at North Carolina State University (NC State) seeks outstanding candidates for a tenure-track faculty position in Paleobiology at the preferred rank of Assistant Professor, although exceptional candidates for Associate Professor will be considered.\nFurther information"
+  },
+  {
+    "objectID": "package.html",
+    "href": "package.html",
+    "title": "Palaeoverse",
+    "section": "",
+    "text": "The palaeoverse R package aims to provide a community software toolkit of generic functions for the palaeobiological community. The package does not provide implementations of statistical analyses, rather it provides auxiliary functions to help streamline analyses and improve code readability and reproducibility. Head over to the package website at XXX to find out more!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "directory.html",
+    "href": "directory.html",
+    "title": "Palaeoverse",
+    "section": "",
+    "text": "Recent announcements\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Analytical Palaeobiology\n\n\n\n\n\n\n\nWorkshop\n\n\n\n\nOnline\n\n\n\n\n\n\nDec 6, 2022\n\n\n\n\n\n\n\n\nEGU Annual Meeting 2023\n\n\n\n\n\n\n\nConference\n\n\n\n\nUniversity of Cambridge, UK\n\n\n\n\n\n\nDec 6, 2022\n\n\n\n\n\n\n\n\nPalAss Annual Meeting 2023\n\n\n\n\n\n\n\nConference\n\n\n\n\nUniversity of Cambridge, UK\n\n\n\n\n\n\nDec 6, 2022\n\n\n\n\n\n\n\n\nAssistant Professor, Paleobiology\n\n\n\n\n\n\n\nVacancy\n\n\n\n\nNorth Carolina State University\n\n\n\n\n\n\nDec 6, 2022\n\n\n\n\n\n\nNo matching items"
+  }
+]

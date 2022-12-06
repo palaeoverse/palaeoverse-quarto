@@ -1,0 +1,25 @@
+/* css styles */
+
+.center-h1 h1 {
+  text-align: center;
+}
+
+.center-h2 h2 {
+  text-align: center;
+}
+
+.center-h3 h3 {
+  text-align: center;
+}
+
+.center-h4 h4 {
+  text-align: center;
+}
+
+.center-h5 h5 {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify !important
+}
