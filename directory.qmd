@@ -30,7 +30,7 @@ library(googlesheets4)
 df <- read_sheet("https://docs.google.com/spreadsheets/d/1escqpJM_Ljt5h5claM0xV5e9IEWBv6rNMIsuQsnUXYY/edit?usp=sharing")
 # Get addresses
 address <- data.frame(name = df$Title,
-                      addr = paste(df$Institution, df$City, df$Country, sep = ", "))
+                      addr = paste(df$Street, df$City, df$Province, df$Country, sep = ", "))
 coordinates <- address %>%
   geocode(addr)
 df <- bind_cols(df, coordinates)
@@ -63,8 +63,8 @@ m <- leaflet(df) %>%
   addAwesomeMarkers(lng = ~long,
              lat = ~lat,
              icon = ~icons[Post],
-             group = ~Post,
-             label = ~Title,
+             group = c("posts"),
+             label = paste0(df$Post, ": ", df$Title, ", ", df$Institution),
              popup = ~paste("<b>",
                             Title,
                             "</b>",
@@ -77,12 +77,17 @@ m <- leaflet(df) %>%
                             "|",
                             "<a href='",
                             Link,
-                            "'>More info</a>"
-                            )) %>%
+                            "'>More info</a>"),
+             clusterOptions = markerClusterOptions()) %>%
   addLayersControl(
     overlayGroups = ~Post,
-    options = layersControlOptions(collapsed = FALSE)
-  ) %>%
+    options = layersControlOptions(collapsed = FALSE)) %>%
+  addResetMapButton() %>%
+  addSearchFeatures(
+    targetGroups = c("posts"),
+    options = searchFeaturesOptions(
+      zoom = 12, openPopup = TRUE, firstTipSubmit = TRUE,
+      autoCollapse = TRUE, hideMarkerOnCollapse = TRUE )) %>%
   addFullscreenControl()
 m
 ```

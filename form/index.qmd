@@ -5,10 +5,9 @@ toc: false
 ---
 
 ::: justify
-This service is provided to advertise research labs, vacancies, upcoming conferences, and workshops related to the field of palaeobiology. If you wish to make a posting, please complete the following form. **Please note that all information provided here will be published online and accessible to all.** We aim to update postings once a week. 
+This service is provided to advertise research labs, vacancies, upcoming conferences, and workshops related to the field of palaeobiology. If you wish to make a posting, please complete the following form. **Please note that all information provided here will be published online and accessible to all.** We aim to update postings once a week.
 
 We reserve the right to refuse the posting of any inappropriate material or remove content where necessary. If you face any issues, please contact a member of the Palaeoverse team.
-
 :::
 
 ------------------------------------------------------------------------
@@ -45,9 +44,19 @@ We reserve the right to refuse the posting of any inappropriate material or remo
 <input name="Institution" type="text" placeholder="Institution" required>\
 <br>
 
+<p>**Street address**</p>
+
+<input name="Street" type="text" placeholder="Street address" required>\
+<br>
+
 <p>**City**</p>
 
 <input name="City" type="text" placeholder="City" required>\
+<br>
+
+<p>**County, province or state**</p>
+
+<input name="Province" type="text" placeholder="County, province or state" required>\
 <br>
 
 <p>**Country**</p>
