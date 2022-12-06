@@ -1,10 +1,5 @@
 ---
 title-block-banner: true
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
 toc: false
 ---
 
@@ -17,6 +12,8 @@ If you wish to register an upcoming conference, workshop, vacancy or your lab, p
 
 Posts shared here do not imply endorsement from the Palaeoverse team and we can hold no responsibility for any interactions you make via this service. If you face any issues or have any concerns about current postings, please contact a member of the Palaeoverse team.
 
+## Map view  {.center-h2}
+
 ```{r}
 #| echo: false
 #| warning: false
@@ -26,8 +23,11 @@ library(leaflet.extras)
 library(dplyr)
 library(tidygeocoder)
 library(googlesheets4)
+library(DT)
 # Get sheet
 df <- read_sheet("https://docs.google.com/spreadsheets/d/1escqpJM_Ljt5h5claM0xV5e9IEWBv6rNMIsuQsnUXYY/edit?usp=sharing")
+# Filter old data
+df <- df %>% filter(as.Date(Expiry) > Sys.Date())
 # Get addresses
 address <- data.frame(name = df$Title,
                       addr = paste(df$Street, df$City, df$Province, df$Country, sep = ", "))
@@ -91,6 +91,40 @@ m <- leaflet(df) %>%
   addFullscreenControl()
 m
 ```
-:::
 
-# Recent announcements {.center-h1}
+<br>
+
+## Table view  {.center-h2}
+
+```{r}
+#| echo: false
+#| warning: false
+# Load libraries
+library(DT)
+# Get sheet
+df <- read_sheet("https://docs.google.com/spreadsheets/d/1escqpJM_Ljt5h5claM0xV5e9IEWBv6rNMIsuQsnUXYY/edit?usp=sharing")
+
+# Filter old data and sort by date
+df <- df %>%
+  filter(as.Date(Expiry) > Sys.Date()) %>%
+  arrange(desc(as.Date(Date)))
+
+# Generate links
+df$Contact <- paste0("<a href='",df$Email,"' target='_blank'>",df$Name,"</a>")
+df$Title <- paste0("<a href='",df$Link,"' target='_blank'>",df$Title,"</a>")
+
+df <- data.frame(Type = df$Post,
+                 Title = df$Title,
+                 Contact = df$Contact,
+                 Institution = df$Institution,
+                 Country = df$Country,
+                 Description = df$Description)
+
+df %>%
+  DT::datatable(style = "auto", escape = FALSE, rownames = FALSE,
+                options = list(
+            columnDefs = list(list(className = 'dt-justify', targets = "_all"))
+            )) %>%
+  DT::formatStyle(columns = c(1:6), fontSize = '65%')
+```
+:::
