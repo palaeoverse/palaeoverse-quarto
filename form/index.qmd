@@ -54,7 +54,7 @@ We reserve the right to refuse the posting of any inappropriate material or remo
 <input name="City" type="text" placeholder="City" required>\
 <br>
 
-<p>**County, province or state**</p>
+<p>**County, province, or state**</p>
 
 <input name="Province" type="text" placeholder="County, province or state" required>\
 <br>
