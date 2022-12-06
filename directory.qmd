@@ -110,7 +110,7 @@ df <- df %>%
   arrange(desc(as.Date(Date)))
 
 # Generate links
-df$Contact <- paste0("<a href='",df$Email,"' target='_blank'>",df$Name,"</a>")
+df$Contact <- paste0("<a href='mailto:",df$Email,"' target='_blank'>",df$Name,"</a>")
 df$Title <- paste0("<a href='",df$Link,"' target='_blank'>",df$Title,"</a>")
 
 df <- data.frame(Type = df$Post,
