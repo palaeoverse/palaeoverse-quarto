@@ -54,6 +54,8 @@ icons <- awesomeIconList(
                             markerColor = "darkpurple")
 )
 
+df$Label <- paste0(df$Post, ": ", df$Title, ", ", df$Institution)
+
 m <- leaflet(df) %>% 
   setView(lng = 0,
           lat = 0,
@@ -63,8 +65,8 @@ m <- leaflet(df) %>%
   addAwesomeMarkers(lng = ~long,
              lat = ~lat,
              icon = ~icons[Post],
-             group = c("posts"),
-             label = paste0(df$Post, ": ", df$Title, ", ", df$Institution),
+             group = ~Post,
+             label = ~Label,
              popup = ~paste("<b>",
                             Title,
                             "</b>",
@@ -77,8 +79,7 @@ m <- leaflet(df) %>%
                             "|",
                             "<a href='",
                             Link,
-                            "'>More info</a>"),
-             clusterOptions = markerClusterOptions()) %>%
+                            "'>More info</a>")) %>%
   addLayersControl(
     overlayGroups = ~Post,
     options = layersControlOptions(collapsed = FALSE)) %>%
