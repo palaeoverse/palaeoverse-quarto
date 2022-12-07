@@ -37,9 +37,9 @@
   {
     "objectID": "package.html",
     "href": "package.html",
-    "title": "Palaeoverse",
+    "title": "R Packages",
     "section": "",
-    "text": "The palaeoverse R package aims to provide a community software toolkit of generic functions for the palaeobiological community. The package does not provide implementations of statistical analyses, rather it provides auxiliary functions to help streamline analyses and improve code readability and reproducibility. Head over to the package website at XXX to find out more!"
+    "text": "Developed by palaeobiologists, for palaeobiologists\npalaeoverse provides functionality to support data preparation and exploration for palaeobiological analyses, improving code reproducibility and accessibility. The wider aim of palaeoverse is to bring the palaeobiological community together to establish agreed standards. The package includes functionality for data cleaning, binning (time and space), exploration, summarisation, and visualisation. Go to site…"
   },
   {
     "objectID": "about.html",
@@ -51,7 +51,7 @@
   {
     "objectID": "directory.html",
     "href": "directory.html",
-    "title": "Palaeoverse",
+    "title": "Palaeoverse Directory",
     "section": "",
     "text": "Welcome to the Palaeoverse Directory! This resource is provided to promote the communciation of upcoming conferences, workshops, and vacancies. It also provides a register of research labs and their research focus. We hope that this resource will foster networking and collaboration across the globe.\nIf you wish to register an upcoming conference, workshop, vacancy or your lab, please complete the submission form.\nPosts shared here do not imply endorsement from the Palaeoverse team and we can hold no responsibility for any interactions you make via this service. If you face any issues or have any concerns about current postings, please contact a member of the Palaeoverse team."
   }

@@ -1,13 +1,30 @@
 ---
+title: R Packages
+title-block-banner: true
 toc: false
 ---
+:::: {.columns}
 
-# Palaeoverse R Package {.center-h1}
+::: {.column width="20%"}
+<br>
+<br>
+[![](images/logo.png){fig-align="left" width="100%"}](https://github.com/palaeoverse-community/palaeoverse)
 
-##### Developed by palaeobiologists, for palaeobiologists {.center-h5}
-
-![](images/logo.png){fig-align="center" width=20%}
-
-::: justify
-The palaeoverse R package aims to provide a community software toolkit of generic functions for the palaeobiological community. The package does not provide implementations of statistical analyses, rather it provides auxiliary functions to help streamline analyses and improve code readability and reproducibility. Head over to the package website at XXX to find out more!
 :::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="75%"}
+::: justify
+### <a href="http://palaeoverse.org" style="text-decoration: none">**palaeoverse**</a>
+*Developed by palaeobiologists, for palaeobiologists*
+
+palaeoverse provides functionality to support data preparation and exploration for palaeobiological analyses, improving code reproducibility and accessibility. The wider aim of palaeoverse is to bring the palaeobiological community together to establish agreed standards. The package includes functionality for data cleaning, binning (time and space), exploration, summarisation, and visualisation. <a href="http://palaeoverse.org" style="text-decoration: none">Go to site...</a>
+
+:::
+:::
+
+::::
+

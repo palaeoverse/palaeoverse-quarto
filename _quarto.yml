@@ -11,7 +11,7 @@ website:
         text: Overview
       - about.qmd
       - href: package.qmd
-        text: R Package
+        text: R Packages
       - href: directory.qmd
         text: Directory
       - resources.qmd
@@ -21,6 +21,9 @@ format:
   html:
     theme:
       - cosmo
+    linkcolor: "#0D725A"
+    link-external-icon: false
+    link-external-newwindow: true
     css: styles.css
     toc: true
     toc-depth: 3
