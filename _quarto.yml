@@ -3,8 +3,8 @@ project:
 
 website:
   title: "Palaeoverse"
-  image: /images/logo.png
-  favicon: /images/logo.png
+  image: /images/palaeoverse-pkg.png
+  favicon: /images/palaeoverse-pkg.png
   navbar:
     left:
       - href: index.qmd
@@ -20,8 +20,7 @@ website:
 format:
   html:
     theme:
-      - cosmo
-    linkcolor: "#0D725A"
+      - pulse
     link-external-icon: false
     link-external-newwindow: true
     css: styles.css

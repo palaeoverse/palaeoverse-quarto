@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "community.html",
+    "href": "community.html",
+    "title": "Palaeoverse",
+    "section": "",
+    "text": "We host a community space for palaeobiologists using the Google Groups platform. This space provides an area to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting. Questions related to palaeoverse packages are also welcome. The group is unmoderated, but it is a space for all so as always be kind and respectful to others. Harrassment of individuals will result in removal from the group."
+  },
+  {
     "objectID": "form/index.html",
     "href": "form/index.html",
     "title": "Palaeoverse Directory Form",
@@ -39,7 +46,7 @@
     "href": "package.html",
     "title": "R Packages",
     "section": "",
-    "text": "Developed by palaeobiologists, for palaeobiologists\npalaeoverse provides functionality to support data preparation and exploration for palaeobiological analyses, improving code reproducibility and accessibility. The wider aim of palaeoverse is to bring the palaeobiological community together to establish agreed standards. The package includes functionality for data cleaning, binning (time and space), exploration, summarisation, and visualisation. Go to site…"
+    "text": "sepkoski\nsepkoski provides access to Sepkoski’s fossil marine animal genera compendium (Sepkoski, 2002). The aim of the package is to offer a light and easily-accessible solution to working with Sepkoski’s compendium to support teaching exercises. Go to site…"
   },
   {
     "objectID": "about.html",

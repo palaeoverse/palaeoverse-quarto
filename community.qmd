@@ -2,4 +2,20 @@
 toc: false
 ---
 
-# Community {.center-h1}
+# Community
+
+::: columns
+::: {.column width="20%"}
+[![](images/google-groups.png){fig-align="left" width="100%"}](https://groups.google.com/g/palaeoverse)
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="75%"}
+::: justify
+We host a community space for palaeobiologists using the <a href="https://groups.google.com/g/palaeoverse" style="text-decoration: none">**Google Groups**</a> platform. This space provides an area to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting. Questions related to <a href="./package.qmd" style="text-decoration: none">**palaeoverse packages**</a> are also welcome. The group is unmoderated, but it is a space for all so as always be kind and respectful to others. Harrassment of individuals will result in removal from the group.
+:::
+:::
+:::

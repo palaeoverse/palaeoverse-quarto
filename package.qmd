@@ -3,13 +3,10 @@ title: R Packages
 title-block-banner: true
 toc: false
 ---
-:::: {.columns}
 
+::: columns
 ::: {.column width="20%"}
-<br>
-<br>
-[![](images/logo.png){fig-align="left" width="100%"}](https://github.com/palaeoverse-community/palaeoverse)
-
+[![](images/palaeoverse-pkg.png){fig-align="left" width="100%"}](https://github.com/palaeoverse-community/palaeoverse)
 :::
 
 ::: {.column width="5%"}
@@ -19,12 +16,26 @@ toc: false
 ::: {.column width="75%"}
 ::: justify
 ### <a href="http://palaeoverse.org" style="text-decoration: none">**palaeoverse**</a>
-*Developed by palaeobiologists, for palaeobiologists*
 
-palaeoverse provides functionality to support data preparation and exploration for palaeobiological analyses, improving code reproducibility and accessibility. The wider aim of palaeoverse is to bring the palaeobiological community together to establish agreed standards. The package includes functionality for data cleaning, binning (time and space), exploration, summarisation, and visualisation. <a href="http://palaeoverse.org" style="text-decoration: none">Go to site...</a>
-
+palaeoverse provides functionality to support data preparation and exploration for palaeobiological analyses, improving code reproducibility and accessibility. The aim of palaeoverse is to bring the palaeobiological community together to establish agreed standards. <a href="http://palaeoverse.org" style="text-decoration: none">**Go to site...**</a>
 :::
 :::
+:::
 
-::::
+<br>
 
+::: columns
+::: {.column width="75%"}
+::: justify
+### <a href="http://sepkoski.palaeoverse.org" style="text-decoration: none">**sepkoski**</a>
+
+sepkoski provides access to Sepkoski’s fossil marine animal genera compendium (Sepkoski, 2002). The aim of the package is to offer a light and easily-accessible solution to working with Sepkoski’s compendium to support teaching exercises. <a href="http://sepkoski.palaeoverse.org" style="text-decoration: none">**Go to site...**</a>
+:::
+:::
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+::: {.column width="20%"}
+[![](images/sepkoski-pkg.png){fig-align="left" width="100%"}](https://sepkoski.palaeoverse.org)
+:::
+:::
