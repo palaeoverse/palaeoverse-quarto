@@ -1,5 +1,5 @@
 ---
+title: Resources
+title-block-banner: true
 toc: false
 ---
-
-# Resources {.center-h1}

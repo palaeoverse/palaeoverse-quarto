@@ -1,9 +1,5 @@
 ---
-title: "About"
+title: About
+title-block-banner: true
+toc: false
 ---
-
-About this site
-
-```{r}
-1 + 1
-```

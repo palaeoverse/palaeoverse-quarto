@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2022-12-08">
-<meta name="description" content="Online">
 
-<title>Palaeoverse - Introduction to Analytical Palaeobiology</title>
+<title>Palaeoverse - R Packages</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,23 +18,23 @@ ul.task-list{list-style: none;}
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../..//images/palaeoverse-pkg.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href=".//images/palaeoverse-pkg.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -58,16 +56,16 @@ ul.task-list{list-style: none;}
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="../../index.html">
+      <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Palaeoverse</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -76,22 +74,22 @@ ul.task-list{list-style: none;}
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html">Overview</a>
+    <a class="nav-link" href="./index.html">Overview</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html">About</a>
+    <a class="nav-link" href="./about.html">About</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../package.html">R Packages</a>
+    <a class="nav-link active" href="./package.html" aria-current="page">R Packages</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../directory.html">Directory</a>
+    <a class="nav-link" href="./directory.html">Directory</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../resources.html">Resources</a>
+    <a class="nav-link" href="./resources.html">Resources</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../community.html">Community</a>
+    <a class="nav-link" href="./community.html">Community</a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -100,51 +98,64 @@ ul.task-list{list-style: none;}
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">R Packages</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Introduction to Analytical Palaeobiology</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Workshop</div>
-  </div>
-  </div>
 
-<div>
-  <div class="description">
-    Online
-  </div>
+
+
+<div class="columns">
+<div class="column" style="width:20%;">
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><a href="https://github.com/palaeoverse-community/palaeoverse"><img src="images/palaeoverse-pkg.png" class="img-fluid figure-img" style="width:100.0%"></a></p>
+</figure>
 </div>
-
-
-<div class="quarto-title-meta">
-
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">December 8, 2022</p>
-    </div>
-  </div>
-    
-  </div>
-  
-
-</header>
-
-<p><strong>Contact</strong>: <a href="a.chiarenza15@gmail.com">Alessandro Chiarenza</a><br>
-<strong>Location</strong>: Online<br>
-<strong>Dates</strong>: 13<sup>th</sup> to 17<sup>th</sup> February 2023</p>
-<p><strong>Short description</strong>:</p>
-<p>This course will provide a complete guide to basic analytical techniques for examining macroevolutionary and biodiversity patterns using online databases (primarily The Paleobiology Database), from instruction on data collection, handling, and curation, to plotting and publishing results.</p>
-<p><a href="https://www.physalia-courses.org/courses-workshops/paleobiology-in-r/">Further information</a></p>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column" style="width:75%;">
+<section id="palaeoverse" class="level3 justify">
+<h3 class="anchored" data-anchor-id="palaeoverse"><a href="http://palaeoverse.org" style="text-decoration: none"><strong>palaeoverse</strong></a></h3>
+<p>palaeoverse provides functionality to support data preparation and exploration for palaeobiological analyses, improving code reproducibility and accessibility. The aim of palaeoverse is to bring the palaeobiological community together to establish agreed standards. <a href="http://palaeoverse.org" style="text-decoration: none"><strong>Go to site…</strong></a></p>
+</section>
+</div>
+</div>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:75%;">
+<section id="sepkoski" class="level3 justify">
+<h3 class="anchored" data-anchor-id="sepkoski"><a href="http://sepkoski.palaeoverse.org" style="text-decoration: none"><strong>sepkoski</strong></a></h3>
+<p>sepkoski provides access to Sepkoski’s fossil marine animal genera compendium (Sepkoski, 2002). The aim of the package is to offer a light and easily-accessible solution to working with Sepkoski’s compendium to support teaching exercises. <a href="http://sepkoski.palaeoverse.org" style="text-decoration: none"><strong>Go to site…</strong></a></p>
+</section>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column" style="width:20%;">
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><a href="https://sepkoski.palaeoverse.org"><img src="images/sepkoski-pkg.png" class="img-fluid figure-img" style="width:100.0%"></a></p>
+</figure>
+</div>
+</div>
+</div>
 
 
 

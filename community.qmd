@@ -1,8 +1,8 @@
 ---
+title: Community
+title-block-banner: true
 toc: false
 ---
-
-# Community
 
 ::: columns
 ::: {.column width="20%"}
