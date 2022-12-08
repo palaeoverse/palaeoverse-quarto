@@ -4,7 +4,21 @@
     "href": "community.html",
     "title": "Community",
     "section": "",
-    "text": "We host a community space for palaeobiologists using the Google Groups platform. This space provides an area to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting. Questions related to palaeoverse packages are also welcome. The group is unmoderated, but it is a space for all so as always be kind and respectful to others. Harrassment of individuals will result in removal from the group."
+    "text": "We host a community space for palaeobiologists using the Google Groups platform. This space provides an area to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting. Questions related to palaeoverse packages are also more than welcome. This space is unmoderated, but please be kind to others. We reserve the right to remove anyone harrasing individuals."
+  },
+  {
+    "objectID": "community.html#twitter",
+    "href": "community.html#twitter",
+    "title": "Community",
+    "section": "Twitter",
+    "text": "Twitter\n\n\n\nWe are active on Twitter, where we share updates and news on Palaeoverse, as well as resources for the Palaeobiology community. We are also more than happy to help circulate relevant news you wish to share with the community, just remember to tag @ThePalaeoverse and use the hashtag #palaeoverse."
+  },
+  {
+    "objectID": "community.html#events",
+    "href": "community.html#events",
+    "title": "Community",
+    "section": "Events",
+    "text": "Events"
   },
   {
     "objectID": "form/index.html",
@@ -21,10 +35,31 @@
     "text": "sepkoski\nsepkoski provides access to Sepkoski’s fossil marine animal genera compendium (Sepkoski, 2002). The aim of the package is to offer a light and easily-accessible solution to working with Sepkoski’s compendium to support teaching exercises. Go to site…"
   },
   {
+    "objectID": "events/index.html",
+    "href": "events/index.html",
+    "title": "Workshop/Hackathon",
+    "section": "",
+    "text": "News coming soon!!!"
+  },
+  {
     "objectID": "directory.html",
     "href": "directory.html",
     "title": "Palaeoverse Directory",
     "section": "",
     "text": "Welcome to the Palaeoverse Directory! This resource is provided to promote the communciation of upcoming conferences, workshops, and vacancies. It also provides a register of research labs and their research focus. We hope that this resource will foster networking and collaboration across the globe.\nIf you wish to register an upcoming conference, workshop, vacancy or your lab, please complete the submission form.\nPosts shared here do not imply endorsement from the Palaeoverse team and we can hold no responsibility for any interactions you make via this service. If you face any issues or have any concerns about current postings, please contact a member of the Palaeoverse team."
+  },
+  {
+    "objectID": "directory.html#map-view",
+    "href": "directory.html#map-view",
+    "title": "Palaeoverse Directory",
+    "section": "Map view",
+    "text": "Map view"
+  },
+  {
+    "objectID": "directory.html#table-view",
+    "href": "directory.html#table-view",
+    "title": "Palaeoverse Directory",
+    "section": "Table view",
+    "text": "Table view"
   }
 ]

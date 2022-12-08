@@ -29,12 +29,14 @@ palaeoverse provides functionality to support data preparation and exploration f
 ::: justify
 ### <a href="http://sepkoski.palaeoverse.org" style="text-decoration: none">**sepkoski**</a>
 
-sepkoski provides access to Sepkoski’s fossil marine animal genera compendium (Sepkoski, 2002). The aim of the package is to offer a light and easily-accessible solution to working with Sepkoski’s compendium to support teaching exercises. <a href="http://sepkoski.palaeoverse.org" style="text-decoration: none">**Go to site...**</a>
+sepkoski provides access to Sepkoski's fossil marine animal genera compendium (Sepkoski, 2002). The aim of the package is to offer a light and easily-accessible solution to working with Sepkoski's compendium to support teaching exercises. <a href="http://sepkoski.palaeoverse.org" style="text-decoration: none">**Go to site...**</a>
 :::
 :::
+
 ::: {.column width="5%"}
 <!-- empty column to create gap -->
 :::
+
 ::: {.column width="20%"}
 [![](images/sepkoski-pkg.png){fig-align="left" width="100%"}](https://sepkoski.palaeoverse.org)
 :::
