@@ -44,9 +44,9 @@
   {
     "objectID": "funding.html",
     "href": "funding.html",
-    "title": "Grant Track",
+    "title": "GrantTrack",
     "section": "",
-    "text": "Welcome to GrantTrack! To contribute to the database, please complete the following submission form. If you notice any issues with the database, please contact the Kilian Eichenseer or Lewis A. Jones."
+    "text": "An important note: we strive to make sure all the data here is up-to-date and accurate. However, please always check official information via funders’ websites. We hold no responsibility for missed deadlines."
   },
   {
     "objectID": "events/index.html",
@@ -60,7 +60,7 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "The palaeoverse package cheat sheet is designed to make your life easier when working with the package. It serves as a quick look-up guide on the functionality available, grouped by categories. From time to time, we will add additional cheat sheets for packages from the Palaeoverse development team, and update current ones as packages evolve."
+    "text": "The palaeoverse package cheat sheet is designed to make your life easier when working with the package. It serves as a quick look-up guide on the functionality available, grouped by relevant categories. From time to time, we will add additional cheat sheets for packages from the Palaeoverse development team, and update current ones as packages evolve."
   },
   {
     "objectID": "resources.html#granttrack",
