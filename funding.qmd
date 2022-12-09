@@ -5,7 +5,7 @@ toc: true
 page-layout: full
 ---
 
-Welcome to **GrantTrack**! To contribute to the database, please complete the following <a href="./form/grant.qmd" style="text-decoration: none" target="_blank">**submission form**</a>. If you notice any issues with the database, please contact the <a href="mailto:kilian.eichenseer@gmail.com" style="text-decoration: none" target="_blank">**Kilian Eichenseer**</a>.
+Welcome to **GrantTrack**! To contribute to the database, please complete the following <a href="./form/grant.qmd" style="text-decoration: none" target="_blank">**submission form**</a>. If you notice any issues with the database, please contact the <a href="mailto:kilian.eichenseer@gmail.com" style="text-decoration: none" target="_blank">**Kilian Eichenseer**</a> or <a href="mailto:LewisA.Jones@outlook.com" style="text-decoration: none" target="_blank">**Lewis A. Jones**</a>.
 
 ```{r}
 #| echo: false
