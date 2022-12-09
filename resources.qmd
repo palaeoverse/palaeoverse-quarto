@@ -1,5 +1,43 @@
 ---
 title: Resources
 title-block-banner: true
-toc: false
+toc: true
 ---
+
+## Cheat sheets
+
+::: columns
+::: {.column width="30%"}
+[![](./images/palaeoverse-cheatsheet.png)](./images/palaeoverse-cheatsheet.pdf)
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="65%"}
+::: justify
+The <a href="https://palaeoverse.org" style="text-decoration: none" target="_blank">**palaeoverse package**</a> cheat sheet is designed to make your life easier when working with the package. It serves as a quick look-up guide on the functionality available, grouped by categories. From time to time, we will add additional cheat sheets for packages from the Palaeoverse development team, and update current ones as packages evolve.
+:::
+:::
+:::
+
+## GrantTrack
+
+::: columns
+::: {.column width="75%"}
+::: justify
+<a href="./funding.qmd" style="text-decoration: none" target="_blank">**GrantTrack**</a> is an online community database of research funding schemes and grants for Earth Scientists. This framework is provided to support the community in easily keeping track of upcoming and available funding opportunities. To contribute to the database, please complete the following <a href="./form/grant.qmd" style="text-decoration: none" target="_blank">**submission form**</a>.
+:::
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="20%"}
+::: justify
+[![](./images/funding-pages.png)](./funding.qmd)
+:::
+:::
+:::

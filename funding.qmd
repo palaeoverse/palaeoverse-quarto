@@ -1,0 +1,32 @@
+---
+title: Grant Track
+title-block-banner: true
+toc: true
+page-layout: full
+---
+
+Welcome to **GrantTrack**! To contribute to the database, please complete the following <a href="./form/grant.qmd" style="text-decoration: none" target="_blank">**submission form**</a>. If you notice any issues with the database, please contact the <a href="mailto:kilian.eichenseer@gmail.com" style="text-decoration: none" target="_blank">**Kilian Eichenseer**</a>.
+
+```{r}
+#| echo: false
+#| warning: false
+# Load libraries
+library(googlesheets4)
+library(dplyr)
+library(DT)
+library(reactable)
+# Get sheet
+df <- read_sheet("https://docs.google.com/spreadsheets/d/18tnaJXHb0BN5pjWm_6dtMUjb-Oijva0HdbXZJpx6EFA/edit?usp=sharing")
+
+# Generate links
+df$Name <- paste0("<a href='",df$URL,"' target='_blank'>",df$Name,"</a>")
+# Drop URL
+df <- df[, -which(colnames(df) == "URL")]
+
+df %>%
+  DT::datatable(style = "bootstrap4", escape = FALSE, rownames = FALSE,
+options = list(
+  columnDefs = list(list(className = 'dt-justify', targets = "_all"))
+)) %>%
+  DT::formatStyle(columns = c(1:8), fontSize = '65%')
+```
