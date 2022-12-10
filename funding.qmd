@@ -26,9 +26,14 @@ df$Name <- paste0("<a href='",df$URL,"' target='_blank'>",df$Name,"</a>")
 df <- df[, -which(colnames(df) %in% c("Date", "URL"))]
 
 df %>%
-  DT::datatable(style = "bootstrap4", escape = FALSE, rownames = FALSE,
-options = list(
-  columnDefs = list(list(className = 'dt-justify', targets = "_all"))
+  DT::datatable(style = "bootstrap4", 
+                escape = FALSE, 
+                rownames = FALSE,
+                colnames = c("Name", "Funder", "Applicant",
+                             "Host", "Award", "Research costs",
+                             "Duration", "Deadline"),
+                options = list(
+                  columnDefs = list(list(className = 'dt-justify', targets = "_all"))
 )) %>%
   DT::formatStyle(columns = c(1:8), fontSize = '65%')
 ```
