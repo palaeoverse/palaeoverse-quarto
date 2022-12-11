@@ -1,0 +1,80 @@
+---
+title: Palaeoverse Directory Form
+title-block-banner: true
+toc: false
+---
+
+::: justify
+This service is provided to advertise research labs, vacancies, upcoming conferences, and workshops related to the field of palaeobiology. If you wish to make a posting, please complete the following form. **Please note that all information provided here will be published online and accessible to all.** We aim to update postings once a week.
+
+We reserve the right to refuse the posting of any inappropriate material or remove content where necessary. If you face any issues, please contact a member of the Palaeoverse team.
+:::
+
+------------------------------------------------------------------------
+
+<form method="POST" action="https://script.google.com/macros/s/AKfycbxZHGbj6kZtwZAFgiRyCVR4oatI5loyr2lfm9i9zVmlJz1Vkr73WRKSgz3rnhUjzKCMpA/exec">
+
+<p>**Contact name**</p>
+
+<input name="Name" type="name" placeholder="Contact name" required>\
+<br>
+
+<p>**Contact email**</p>
+
+<input name="Email" type="text" placeholder="Contact email" required>\
+<br>
+
+<p>**Type of posting (Lab, Conference, Workshop or Vacancy)**</p>
+
+<select name = "Post"> <option value = "Lab" selected>Lab</option> <option value = "Conference">Conference</option>\
+<option value = "Workshop">Workshop</option> <option value = "Vacancy">Vacancy</option> </select> <br>\
+
+<p>**Post title (e.g. name of lab, workshop or position)**</p>
+
+<input name="Title" type="text" placeholder="Post title" required>\
+<br>
+
+<p>**Post link (e.g. lab website)**</p>
+
+<input name="Link" type="text" placeholder="URL" required>\
+<br>
+
+<p>**Institution**</p>
+
+<input name="Institution" type="text" placeholder="Institution" required>\
+<br>
+
+<p>**Street address**</p>
+
+<input name="Street" type="text" placeholder="Street address" required>\
+<br>
+
+<p>**City**</p>
+
+<input name="City" type="text" placeholder="City" required>\
+<br>
+
+<p>**County, province, or state**</p>
+
+<input name="Province" type="text" placeholder="County, province or state" required>\
+<br>
+
+<p>**Country**</p>
+
+<input name="Country" type="text" placeholder="Country" required>\
+<br>
+
+<p>**Expiry date (e.g. registration or application deadline, for research labs you may use 2099)**</p>
+
+<input name="Expiry" type="date" required>\
+<br>
+
+<p>**Provide a short description of the posting (limited to 50--350 characters)**</p>
+
+```{=html}
+<textarea name="Description" rows="5" cols="50" placeholder="Enter description..." maxlength="350" minlength="50">Enter text...
+  </textarea>
+```
+<br> <button type="submit">Submit</button>
+
+</form>

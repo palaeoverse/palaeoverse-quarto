@@ -5,7 +5,7 @@ toc: true
 ---
 
 ::: justify
-Welcome to the Palaeoverse Directory! This resource is provided to promote the communciation of upcoming conferences, workshops, and vacancies. It also provides a register of research labs and their research focus. We hope that this resource will foster networking and collaboration across the globe.
+Welcome to the Palaeoverse Directory! This resource is provided to promote the communication of upcoming conferences, workshops, and vacancies. It also provides a register of research labs and their research focus. We hope that this resource will foster networking and collaboration across the globe.
 
 If you wish to register an upcoming conference, workshop, vacancy or your lab, please complete the <a href="./form/directory.qmd" style="text-decoration: none" target="_blank">**submission form**</a>.
 

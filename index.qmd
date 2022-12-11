@@ -4,3 +4,14 @@ subtitle: Bringing the Palaeobiology community together
 title-block-banner: true
 toc: false
 ---
+
+::: justify
+**Palaeoverse** is an initiative which aims to bring the palaeobiology community together to share resources, reach agreed standards, and improve reproducibility in palaeobiological research.
+
+We are currently focused on developing:
+
+- R Packages: community tools to help streamline analyses and improve code readability and reproducibility
+- Directory: An online community database of research labs, upcoming conferences, workshops, and vacancies around the world
+- GrantTrack: An online community database of research funding schemes and grants for palaeobiologists
+- Google Group: A community space for palaeobiologists to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting. 
+:::

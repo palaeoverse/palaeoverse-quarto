@@ -5,6 +5,7 @@ website:
   title: "Palaeoverse"
   image: /images/palaeoverse-pkg.png
   favicon: /images/palaeoverse-pkg.png
+  twitter-card: true
   navbar:
     left:
       - href: index.qmd

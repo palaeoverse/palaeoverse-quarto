@@ -21,6 +21,13 @@
     "text": "Events"
   },
   {
+    "objectID": "form/index.html",
+    "href": "form/index.html",
+    "title": "Palaeoverse Directory Form",
+    "section": "",
+    "text": "Contact name\n\n\n\n\nContact email\n\n\n\n\nType of posting (Lab, Conference, Workshop or Vacancy)\n\n Lab Conference\nWorkshop Vacancy  \n\n\nPost title (e.g. name of lab, workshop or position)\n\n\n\n\nPost link (e.g. lab website)\n\n\n\n\nInstitution\n\n\n\n\nStreet address\n\n\n\n\nCity\n\n\n\n\nCounty, province, or state\n\n\n\n\nCountry\n\n\n\n\nExpiry date (e.g. registration or application deadline, for research labs you may use 2099)\n\n\n\n\nProvide a short description of the posting (limited to 50–350 characters)\n\nEnter text...\n  \n Submit"
+  },
+  {
     "objectID": "form/grant.html",
     "href": "form/grant.html",
     "title": "GrantTrack Form",
@@ -40,6 +47,13 @@
     "title": "R Packages",
     "section": "",
     "text": "sepkoski\nsepkoski provides access to Sepkoski’s fossil marine animal genera compendium (Sepkoski, 2002). The aim of the package is to offer a light and easily-accessible solution to working with Sepkoski’s compendium to support teaching exercises. Go to site…"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the Palaeoverse",
+    "section": "",
+    "text": "Palaeoverse is an initiative which aims to bring the palaeobiology community together to share resources, reach agreed standards, and improve reproducibility in palaeobiological research.\nWe are currently focused on developing:\n\nR Packages: community tools to help streamline analyses and improve code readability and reproducibility\nDirectory: An online community database of research labs, upcoming conferences, workshops, and vacancies around the world\nGrantTrack: An online community database of research funding schemes and grants for palaeobiologists\nGoogle Group: A community space for palaeobiologists to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting."
   },
   {
     "objectID": "funding.html",
@@ -74,7 +88,7 @@
     "href": "directory.html",
     "title": "Palaeoverse Directory",
     "section": "",
-    "text": "Welcome to the Palaeoverse Directory! This resource is provided to promote the communciation of upcoming conferences, workshops, and vacancies. It also provides a register of research labs and their research focus. We hope that this resource will foster networking and collaboration across the globe.\nIf you wish to register an upcoming conference, workshop, vacancy or your lab, please complete the submission form.\nPosts shared here do not imply endorsement from the Palaeoverse team and we can hold no responsibility for any interactions you make via this service. If you face any issues or have any concerns about current postings, please contact a member of the Palaeoverse team."
+    "text": "Welcome to the Palaeoverse Directory! This resource is provided to promote the communication of upcoming conferences, workshops, and vacancies. It also provides a register of research labs and their research focus. We hope that this resource will foster networking and collaboration across the globe.\nIf you wish to register an upcoming conference, workshop, vacancy or your lab, please complete the submission form.\nPosts shared here do not imply endorsement from the Palaeoverse team and we can hold no responsibility for any interactions you make via this service. If you face any issues or have any concerns about current postings, please contact a member of the Palaeoverse team."
   },
   {
     "objectID": "directory.html#map-view",

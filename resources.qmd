@@ -35,7 +35,7 @@ The <a href="https://palaeoverse.org" style="text-decoration: none" target="_bla
 <!-- empty column to create gap -->
 :::
 
-::: {.column width="15%"}
-[![](./images/funding-pages.png)](./funding.qmd)
+::: {.column width="20%"}
+[![](./images/GrantTrack.png)](./funding.qmd)
 :::
 :::
