@@ -27,7 +27,7 @@ The <a href="https://palaeoverse.org" style="text-decoration: none" target="_bla
 ::: columns
 ::: {.column width="75%"}
 ::: justify
-<a href="./funding.qmd" style="text-decoration: none" target="_blank">**GrantTrack**</a> is an online community database of research funding schemes and grants for Earth Scientists. This framework is provided to support the community in easily keeping track of upcoming and available funding opportunities. To contribute to the database, please complete the following <a href="./form/grant.qmd" style="text-decoration: none" target="_blank">**submission form**</a>.
+<a href="./funding.qmd" style="text-decoration: none" target="_blank">**GrantTrack**</a> is an online community database of research funding schemes and grants for Palaeobiologists. This framework is provided to support the community in easily keeping track of upcoming and available funding opportunities. To contribute to the database, please complete the following <a href="./form/grant.qmd" style="text-decoration: none" target="_blank">**submission form**</a>.
 :::
 :::
 

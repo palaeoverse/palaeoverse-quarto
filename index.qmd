@@ -55,7 +55,7 @@ Online community database of research labs, upcoming conferences, workshops, and
 ::: {.column width="45%"}
 ## <a href="./funding.qmd" style="text-decoration: none" target="_blank">**GrantTrack**</a>
 
-Online community database of research funding schemes and grants for palaeobiologists.
+Online community database of research funding schemes and grants for Palaeobiologists.
 :::
 :::
 
