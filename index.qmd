@@ -1,17 +1,80 @@
 ---
-title: Welcome to the Palaeoverse
-subtitle: Bringing the Palaeobiology community together
+title: Welcome to Palaeoverse
+subtitle: A Resource Hub for Palaeobiologists
 title-block-banner: true
 toc: false
 ---
 
 ::: justify
-**Palaeoverse** is an initiative which aims to bring the palaeobiology community together to share resources, reach agreed standards, and improve reproducibility in palaeobiological research.
+<p style="font-size:1.25em">**Palaeoverse** is an initiative which aims to bring the palaeobiology community together to share resources, reach agreed standards, and improve reproducibility in palaeobiological research.</p>
+:::
 
-We are currently focused on developing:
+<br>
 
-- R Packages: community tools to help streamline analyses and improve code readability and reproducibility
-- Directory: An online community database of research labs, upcoming conferences, workshops, and vacancies around the world
-- GrantTrack: An online community database of research funding schemes and grants for palaeobiologists
-- Google Group: A community space for palaeobiologists to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting. 
+::: columns
+::: {.column width="20%"}
+[![](images/palaeoverse-pkg.png){fig-align="right" width="100%"}](https://github.com/palaeoverse-community/palaeoverse)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="20%"}
+[![](images/sepkoski-pkg.png){fig-align="left" width="100%"}](https://sepkoski.palaeoverse.org)
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="50%"}
+::: justify
+## <a href="./package.qmd" style="text-decoration: none" target="_blank">**R Packages**</a>
+
+Tools for the community to help streamline analyses and improve code readability and reproducibility.
+:::
+:::
+:::
+
+<br>
+
+::: columns
+::: {.column width="45%"}
+::: justify
+## <a href="./directory.qmd" style="text-decoration: none" target="_blank">**Directory**</a>
+
+Online community database of research labs, upcoming conferences, workshops, and vacancies around the world.
+:::
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="45%"}
+## <a href="./funding.qmd" style="text-decoration: none" target="_blank">**GrantTrack**</a>
+
+Online community database of research funding schemes and grants for palaeobiologists.
+:::
+:::
+
+<br>
+
+::: columns
+::: {.column width="70%"}
+::: justify
+## <a href="./community.qmd" style="text-decoration: none" target="_blank">**Google Group**</a>
+
+A community space for palaeobiologists to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting.
+:::
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="25%"}
+[![](images/google-groups.png){fig-align="left" width="100%"}](https://groups.google.com/g/palaeoverse)
+:::
 :::

@@ -5,7 +5,17 @@ website:
   title: "Palaeoverse"
   image: /images/palaeoverse-pkg.png
   favicon: /images/palaeoverse-pkg.png
-  twitter-card: true
+  twitter-card:
+    creator: "@LewisAlanJones"
+    site: "@ThePalaeoverse"
+  open-graph: true
+  page-footer: 
+    left: "Copyright 2022, Lewis A. Jones" 
+    right: 
+      - icon: github
+        href: https://github.com/palaeoverse-community
+      - icon: twitter 
+        href: https://twitter.com/ThePalaeoverse
   navbar:
     left:
       - href: index.qmd

@@ -51,9 +51,37 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to the Palaeoverse",
+    "title": "Welcome to Palaeoverse",
     "section": "",
-    "text": "Palaeoverse is an initiative which aims to bring the palaeobiology community together to share resources, reach agreed standards, and improve reproducibility in palaeobiological research.\nWe are currently focused on developing:\n\nR Packages: community tools to help streamline analyses and improve code readability and reproducibility\nDirectory: An online community database of research labs, upcoming conferences, workshops, and vacancies around the world\nGrantTrack: An online community database of research funding schemes and grants for palaeobiologists\nGoogle Group: A community space for palaeobiologists to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting."
+    "text": "Palaeoverse is an initiative which aims to bring the palaeobiology community together to share resources, reach agreed standards, and improve reproducibility in palaeobiological research."
+  },
+  {
+    "objectID": "index.html#r-packages",
+    "href": "index.html#r-packages",
+    "title": "Welcome to Palaeoverse",
+    "section": "R Packages",
+    "text": "R Packages\nTools for the community to help streamline analyses and improve code readability and reproducibility."
+  },
+  {
+    "objectID": "index.html#directory",
+    "href": "index.html#directory",
+    "title": "Welcome to Palaeoverse",
+    "section": "Directory",
+    "text": "Directory\nOnline community database of research labs, upcoming conferences, workshops, and vacancies around the world."
+  },
+  {
+    "objectID": "index.html#granttrack",
+    "href": "index.html#granttrack",
+    "title": "Welcome to Palaeoverse",
+    "section": "GrantTrack",
+    "text": "GrantTrack\nOnline community database of research funding schemes and grants for palaeobiologists."
+  },
+  {
+    "objectID": "index.html#google-group",
+    "href": "index.html#google-group",
+    "title": "Welcome to Palaeoverse",
+    "section": "Google Group",
+    "text": "Google Group\nA community space for palaeobiologists to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting."
   },
   {
     "objectID": "funding.html",
