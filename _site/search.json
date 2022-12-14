@@ -32,7 +32,7 @@
     "href": "form/grant.html",
     "title": "GrantTrack Form",
     "section": "",
-    "text": "Name of the grant\n\n\n\n\nFunding body\n\n\n\n\nApplicant nationality eligibility (e.g. EU-citizens only)\n\n\n\n\nHost country\n\n\n\n\nGrant link\n\n\n\n\nAward\n\n\n\n\nResearch cost allowance\n\n\n\n\nDuration\n\n\n\n\nApplication deadline\n\n\n\n\nSubmit"
+    "text": "Name of the grant\n\n\n\n\nFunding body\n\n\n\n\nApplicant nationality eligibility (e.g. EU-citizens only)\n\n\n\n\nHost country\n\n\n\n\nCareer stage eligibility\n\n\n\n\nGrant link\n\n\n\n\nAward\n\n\n\n\nResearch cost allowance\n\n\n\n\nDuration\n\n\n\n\nApplication deadline\n\n\n\n\nSubmit"
   },
   {
     "objectID": "form/directory.html",
@@ -53,14 +53,7 @@
     "href": "index.html",
     "title": "Welcome to Palaeoverse",
     "section": "",
-    "text": "Palaeoverse is an initiative which aims to bring the palaeobiology community together to share resources, reach agreed standards, and improve reproducibility in palaeobiological research."
-  },
-  {
-    "objectID": "index.html#r-packages",
-    "href": "index.html#r-packages",
-    "title": "Welcome to Palaeoverse",
-    "section": "R Packages",
-    "text": "R Packages\nTools for the community to help streamline analyses and improve code readability and reproducibility."
+    "text": "Tools for the community to help streamline analyses and improve code readability and reproducibility."
   },
   {
     "objectID": "index.html#directory",
@@ -84,6 +77,13 @@
     "text": "Google Group\nA community space for palaeobiologists to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting."
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About us",
+    "section": "",
+    "text": "Our team\n\n\n\n\n\nLewis Jones\nUniversidade de Vigo\n\n\n\n\n\n\nWill Gearty\nAmerican Museum of Natural History\n\n\n\n\n\n\nBethany Allen\nETH Zürich\n\n\n\n\n\n\nChristopher Dean\nUniversity College London\n\n\n\n\n\n\n\nSofía Galván\nUniversidade de Vigo\n\n\n\n\n\n\nPedro Godoy\nUniversity of São Paulo\n\n\n\n\n\n\nMiranta Kouvari\nUniversity College London\n\n\n\n\n\n\nCecily Nicholl\nUniversity College London\n\n\n\n\n\n\n\nKilian Eichenseer\nUniversity of Durham\n\n\n\n\n\n\nAlessandro Chiarenza\nUniversidade de Vigo\n\n\n\n\n\n\nErin Dillon\nSmithsonian Tropical Research Institute\n\n\n\n\n\n\nLucas Buffan\nÉcole Normale Supérieure de Lyon"
+  },
+  {
     "objectID": "funding.html",
     "href": "funding.html",
     "title": "GrantTrack",
@@ -102,7 +102,7 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "The palaeoverse package cheat sheet is designed to make your life easier when working with the package. It serves as a quick look-up guide on the functionality available, grouped by relevant categories. From time to time, we will add additional cheat sheets for packages from the Palaeoverse development team, and update current ones as packages evolve."
+    "text": "The palaeoverse package cheat sheet is designed to make your life easier when working with the palaeoverse package. It serves as a quick look-up guide on the functionality available, grouped by relevant categories. From time to time, we will add additional cheat sheets for packages from the Palaeoverse development team, and update current ones as packages evolve."
   },
   {
     "objectID": "resources.html#granttrack",

@@ -5,11 +5,10 @@ toc: false
 ---
 
 ::: justify
-This service is provided to contribute to the **GrantTrack** community database of research funding schemes and grants for Earth Scientists. If you wish to make an entry, please complete the following form. **Please note that all information provided here will be published online and accessible to all.** We aim to update entries once a week.
+This service is provided to contribute to the **GrantTrack** community database of research funding schemes and grants for Palaeobiologists. If you wish to make an entry, please complete the following form. **Please note that all information provided here will be published online and accessible to all.** We aim to update entries once a week.
 
 We reserve the right to refuse the entries of any inappropriate material or remove content where necessary. If you face any issues, please contact <a href="mailto:kilian.eichenseer@gmail.com" style="text-decoration: none" target="_blank">**Kilian Eichenseer**</a> or <a href="mailto:LewisA.Jones@outlook.com" style="text-decoration: none" target="_blank">**Lewis A. Jones**</a>.
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -33,6 +32,11 @@ We reserve the right to refuse the entries of any inappropriate material or remo
 <p>**Host country**</p>
 
 <input name="Host" type="text" placeholder="Host country" required>\
+<br>
+
+<p>**Career stage eligibility**</p>
+
+<input name="Career" type="text" placeholder="Career stage" required>\
 <br>
 
 <p>**Grant link**</p>
@@ -60,7 +64,9 @@ We reserve the right to refuse the entries of any inappropriate material or remo
 <input name="Deadline" type="text" placeholder="Application deadline" required>\
 <br>
 
-<button type="submit">Submit</button>
+<button type="submit">
+
+Submit
+</button>
 
 </form>
-

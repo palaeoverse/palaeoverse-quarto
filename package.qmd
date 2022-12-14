@@ -17,7 +17,7 @@ toc: false
 ::: justify
 ### <a href="http://palaeoverse.org" style="text-decoration: none">**palaeoverse**</a>
 
-palaeoverse provides functionality to support data preparation and exploration for palaeobiological analyses, improving code reproducibility and accessibility. The aim of palaeoverse is to bring the palaeobiological community together to establish agreed standards. <a href="http://palaeoverse.org" style="text-decoration: none">**Go to site...**</a>
+palaeoverse provides functionality to support data preparation and exploration for palaeobiological analyses, improving code reproducibility and accessibility. The aim of the palaeoverse R package is to bring the palaeobiological community together to establish agreed standards. <a href="http://palaeoverse.org" style="text-decoration: none">**Go to site...**</a>
 :::
 :::
 :::

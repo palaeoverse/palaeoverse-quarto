@@ -7,7 +7,7 @@ page-layout: full
 
 Welcome to **GrantTrack**! To contribute to the database, please complete the following <a href="./form/grant.qmd" style="text-decoration: none" target="_blank">**submission form**</a>. If you notice any issues with the database, please contact <a href="mailto:kilian.eichenseer@gmail.com" style="text-decoration: none" target="_blank">**Kilian Eichenseer**</a> or <a href="mailto:LewisA.Jones@outlook.com" style="text-decoration: none" target="_blank">**Lewis A. Jones**</a>.
 
-**An important note:** we strive to make sure all the data here is up-to-date and accurate. However, please always check official information via funders' websites. We hold no responsibility for missed deadlines. 
+**An important note:** we strive to make sure all the data here is up-to-date and accurate. However, please always check official information via funders' websites. We hold no responsibility for missed deadlines.
 
 ```{r}
 #| echo: false
@@ -30,10 +30,10 @@ df %>%
                 escape = FALSE, 
                 rownames = FALSE,
                 colnames = c("Name", "Funder", "Applicant",
-                             "Host", "Award", "Research costs",
+                             "Host", "Career stage", "Award", "Research costs",
                              "Duration", "Deadline"),
                 options = list(
                   columnDefs = list(list(className = 'dt-justify', targets = "_all"))
 )) %>%
-  DT::formatStyle(columns = c(1:8), fontSize = '65%')
+  DT::formatStyle(columns = c(1:9), fontSize = '65%')
 ```

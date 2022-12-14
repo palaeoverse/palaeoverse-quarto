@@ -32,7 +32,7 @@ We host a community space for palaeobiologists using the <a href="https://groups
 ::: columns
 ::: {.column width="75%"}
 ::: justify
-We are active on <a href="https://twitter.com/ThePalaeoverse" style="text-decoration: none">**Twitter**</a>, where we share updates and news on Palaeoverse, as well as resources for the Palaeobiology community. We are also more than happy to help circulate relevant news you wish to share with the community, just remember to tag <a href="https://twitter.com/ThePalaeoverse" style="text-decoration: none">@ThePalaeoverse</a> and use the hashtag <a href="https://twitter.com/search?q=palaeoverse&src=typed_query" style="text-decoration: none">**#palaeoverse**</a>.
+We are active on <a href="https://twitter.com/ThePalaeoverse" style="text-decoration: none">**Twitter**</a>, where we share updates and news on Palaeoverse, as well as resources for the Palaeobiology community. We are also more than happy to help circulate relevant news you wish to share with the community, just remember to tag <a href="https://twitter.com/ThePalaeoverse" style="text-decoration: none">**@ThePalaeoverse**</a> and use the hashtag <a href="https://twitter.com/search?q=palaeoverse&src=typed_query" style="text-decoration: none">**#palaeoverse**</a>.
 :::
 :::
 
