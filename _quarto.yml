@@ -27,6 +27,7 @@ website:
         text: Directory
       - resources.qmd
       - community.qmd
+      - news.qmd
 
 format:
   html:

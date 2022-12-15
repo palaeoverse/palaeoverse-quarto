@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Palaeoverse - Resources</title>
+<title>Palaeoverse - News</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,6 +26,8 @@ ul.task-list{list-style: none;}
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href=".//images/palaeoverse-pkg.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -54,12 +56,42 @@ ul.task-list{list-style: none;}
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Palaeoverse - Resources">
+<meta property="og:title" content="Palaeoverse - News">
 <meta property="og:site-name" content="Palaeoverse">
-<meta name="twitter:title" content="Palaeoverse - Resources">
+<meta name="twitter:title" content="Palaeoverse - News">
 <meta name="twitter:creator" content="@LewisAlanJones">
 <meta name="twitter:card" content="summary">
 </head>
@@ -91,13 +123,13 @@ ul.task-list{list-style: none;}
     <a class="nav-link" href="./directory.html">Directory</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./resources.html" aria-current="page">Resources</a>
+    <a class="nav-link" href="./resources.html">Resources</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./community.html">Community</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html">News</a>
+    <a class="nav-link active" href="./news.html" aria-current="page">News</a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -109,7 +141,7 @@ ul.task-list{list-style: none;}
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Resources</h1>
+      <h1 class="title">News</h1>
                       </div>
   </div>
     
@@ -125,14 +157,7 @@ ul.task-list{list-style: none;}
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#cheat-sheets" id="toc-cheat-sheets" class="nav-link active" data-scroll-target="#cheat-sheets">Cheat sheets</a></li>
-  <li><a href="#granttrack" id="toc-granttrack" class="nav-link" data-scroll-target="#granttrack">GrantTrack</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -140,46 +165,39 @@ ul.task-list{list-style: none;}
 
 
 
-<section id="cheat-sheets" class="level2">
-<h2 class="anchored" data-anchor-id="cheat-sheets">Cheat sheets</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./images/palaeoverse-cheatsheet.pdf"><img src="./images/palaeoverse-cheatsheet.png" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
-</div><div class="column" style="width:5%;">
-<!-- empty column to create gap -->
-</div><div class="column" style="width:65%;">
-<div class="justify">
-<p>The <a href="https://palaeoverse.org" style="text-decoration: none" target="_blank"><strong>palaeoverse package</strong></a> cheat sheet is designed to make your life easier when working with the palaeoverse package. It serves as a quick look-up guide on the functionality available, grouped by relevant categories. From time to time, we will add additional cheat sheets for packages from the Palaeoverse development team, and update current ones as packages evolve.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="granttrack" class="level2">
-<h2 class="anchored" data-anchor-id="granttrack">GrantTrack</h2>
-<div class="columns">
-<div class="column" style="width:75%;">
-<div class="justify">
-<p><a href="./funding.html" style="text-decoration: none" target="_blank"><strong>GrantTrack</strong></a> is an online community database of research funding schemes and grants for Palaeobiologists. This framework is provided to support the community in easily keeping track of upcoming and available funding opportunities. To contribute to the database, please complete the following <a href="./form/grant.html" style="text-decoration: none" target="_blank"><strong>submission form</strong></a>.</p>
-</div>
-</div><div class="column" style="width:5%;">
-<!-- empty column to create gap -->
-</div><div class="column" style="width:20%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./funding.html"><img src="./images/GrantTrack.png" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
-</div>
-</div>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1671058800000" data-listing-file-modified-sort="1671096306552" data-listing-reading-time-sort="0.015">
+<div class="body">
+<a href="./news/20221215-website.html">
+<h3 class="no-anchor listing-title">
+Website launch!
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+To be updated
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./news/20221215-website.html">
+<div class="listing-date">
+Dec 15, 2022
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

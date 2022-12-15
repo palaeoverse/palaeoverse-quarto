@@ -4,5 +4,11 @@
     "items": [
       "/events/index.html"
     ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/news/20221215-website.html"
+    ]
   }
 ]

@@ -1,0 +1,9 @@
+---
+title: News
+title-block-banner: true
+toc: true
+listing:
+  contents: news
+  type: default
+---
+
