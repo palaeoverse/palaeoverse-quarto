@@ -3,21 +3,25 @@ project:
 
 website:
   title: "Palaeoverse"
-  image: /images/palaeoverse-pkg.png
-  favicon: /images/palaeoverse-pkg.png
+  image: "/images/palaeoverse-pkg.png"
+  favicon: "/images/palaeoverse-pkg.png"
   twitter-card:
     creator: "@LewisAlanJones"
     site: "@ThePalaeoverse"
+  repo-url: https://github.com/palaeoverse-community/palaeoverse-quarto
+  repo-actions: [edit, issue]
   open-graph: true
   page-footer: 
-    left: "Get involved with Palaeoverse"
+    left: |
+      Get involved with Palaeoverse! [![](/images/palaeoverse-pkg.png){fig-alt="Palaeoverse" width=35px}](./about.qmd#contribute)
     right: 
       - icon: github
         href: https://github.com/palaeoverse-community
       - icon: twitter 
         href: https://twitter.com/ThePalaeoverse
   navbar:
-    left:
+    logo: "/images/palaeoverse-pkg.png"
+    left: 
       - href: index.qmd
         text: Overview
       - about.qmd

@@ -1,0 +1,51 @@
+---
+title: Become a Palaeoverse Reviewer
+title-block-banner: true
+toc: false
+---
+
+::: justify
+Our ultimate hope for Palaeoverse is community involvement. One important way you can contribute to Palaeoverse is by volunteering to review code, documentation and/or resources. If you are interested in registering as an official reviewer for Palaeoverse, please complete the following form. We will periodically run training workshops on how to review code via GitHub.
+
+If you face any issues with completing this form, please contact <a href="mailto:LewisA.Jones@outlook.com" style="text-decoration: none" target="_blank">**Lewis A. Jones**</a> or <a href="mailto:willgearty@gmail.com" style="text-decoration: none" target="_blank">**William Gearty**</a>.
+:::
+
+------------------------------------------------------------------------
+
+<form name="reviewer" method="POST" data-netlify="true" onSubmit="submit">
+
+<p>**Name**</p>
+
+<input name="Name" type="text" placeholder="Your name..." required>\
+<br>
+
+<p>**Email address**</p>
+
+<input name="Email" type="text" placeholder="Email address..." required>\
+<br>
+
+<p>**What is your field of expertise?**</p>
+
+<input name="Expertise" type="text" placeholder="Expertise..." required>\
+<br>
+
+<p>**What are you willing to review?**</p>
+
+<input name="Review" type="text" placeholder="Code, documentation..." required>\
+<br>
+
+<p>**Do you have familiarity with reviewing code?**</p>
+
+<input name="Code" type="text" placeholder="Code review..." required>\
+<br>
+
+<p>**What is your familiarity with GitHub?**</p>
+
+<input name="Github" type="text" placeholder="GitHub experience..." required>\
+<br>
+
+<button type="submit">Submit</button>
+
+</form>
+
+

@@ -28,6 +28,10 @@
   text-align: center !important
 }
 
+.huge {
+  font-size: 22px;
+}
+
 .largest {
   font-size: 18px;
 }

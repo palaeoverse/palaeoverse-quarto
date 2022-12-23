@@ -35,6 +35,13 @@
     "text": "Name of the grant\n\n\n\n\nFunding body\n\n\n\n\nApplicant nationality eligibility (e.g. EU-citizens only)\n\n\n\n\nHost country\n\n\n\n\nCareer stage eligibility\n\n\n\n\nGrant link\n\n\n\n\nAward\n\n\n\n\nResearch cost allowance\n\n\n\n\nDuration\n\n\n\n\nApplication deadline\n\n\n\n\nSubmit"
   },
   {
+    "objectID": "form/reviewer.html",
+    "href": "form/reviewer.html",
+    "title": "Become a Palaeoverse Reviewer",
+    "section": "",
+    "text": "Name\n\n\n\n\nEmail address\n\n\n\n\nWhat is your field of expertise?\n\n\n\n\nWhat are you willing to review?\n\n\n\n\nDo you have familiarity with reviewing code?\n\n\n\n\nWhat is your familiarity with GitHub?\n\n\n\n\nSubmit"
+  },
+  {
     "objectID": "form/directory.html",
     "href": "form/directory.html",
     "title": "Palaeoverse Directory Form",
@@ -56,39 +63,11 @@
     "text": "sepkoski\nsepkoski provides access to Sepkoski’s fossil marine animal genera compendium (Sepkoski, 2002). The aim of the package is to offer a light and easily-accessible solution to working with Sepkoski’s compendium to support teaching exercises. Go to site…"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to Palaeoverse",
-    "section": "",
-    "text": "Tools for the community to help streamline analyses and improve code readability and reproducibility."
-  },
-  {
-    "objectID": "index.html#directory",
-    "href": "index.html#directory",
-    "title": "Welcome to Palaeoverse",
-    "section": "Directory",
-    "text": "Directory\nOnline community database of research labs, upcoming conferences, workshops, and vacancies around the world."
-  },
-  {
-    "objectID": "index.html#granttrack",
-    "href": "index.html#granttrack",
-    "title": "Welcome to Palaeoverse",
-    "section": "GrantTrack",
-    "text": "GrantTrack\nOnline community database of research funding schemes and grants for Palaeobiologists."
-  },
-  {
-    "objectID": "index.html#google-group",
-    "href": "index.html#google-group",
-    "title": "Welcome to Palaeoverse",
-    "section": "Google Group",
-    "text": "Google Group\nA community space for palaeobiologists to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About us",
     "section": "",
-    "text": "Our team\n\n\n\n\n\nLewis Jones\nUniversidade de Vigo\n\n\n\n\n\n\nWill Gearty\nAmerican Museum of Natural History\n\n\n\n\n\n\nBethany Allen\nETH Zürich\n\n\n\n\n\n\nChristopher Dean\nUniversity College London\n\n\n\n\n\n\n\nSofía Galván\nUniversidade de Vigo\n\n\n\n\n\n\nPedro Godoy\nUniversity of São Paulo\n\n\n\n\n\n\nMiranta Kouvari\nUniversity College London\n\n\n\n\n\n\nCecily Nicholl\nUniversity College London\n\n\n\n\n\n\n\nKilian Eichenseer\nUniversity of Durham\n\n\n\n\n\n\nAlessandro Chiarenza\nUniversidade de Vigo\n\n\n\n\n\n\nErin Dillon\nSmithsonian Tropical Research Institute\n\n\n\n\n\n\nLucas Buffan\nÉcole Normale Supérieure de Lyon\n\n\n\n\n\nGet involved\nWe welcome both code and non-code contributions to Palaeoverse. You can contribute in the following ways:\n\nContribute to functionality available in our R Packages\nBecome a Palaeoverse Reviewer - review code, documentation and resources\nContribute to our community databases such as Directory and GrantTrack\nBe active in Palaeoverse community spaces such as Google Group"
+    "text": "Our team\n\n\n\n\n\nLewis Jones\nUniversidade de Vigo\n\n\n\n\n\n\nWill Gearty\nAmerican Museum of Natural History\n\n\n\n\n\n\nBethany Allen\nETH Zürich\n\n\n\n\n\n\nChristopher Dean\nUniversity College London\n\n\n\n\n\n\n\nSofía Galván\nUniversidade de Vigo\n\n\n\n\n\n\nPedro Godoy\nUniversity of São Paulo\n\n\n\n\n\n\nMiranta Kouvari\nUniversity College London\n\n\n\n\n\n\nCecily Nicholl\nUniversity College London\n\n\n\n\n\n\n\nKilian Eichenseer\nUniversity of Durham\n\n\n\n\n\n\nAlessandro Chiarenza\nUniversidade de Vigo\n\n\n\n\n\n\nErin Dillon\nSmithsonian Tropical Research Institute\n\n\n\n\n\n\nLucas Buffan\nÉcole Normale Supérieure de Lyon\n\n\n\n\n\nGet involved\nWe welcome both code and non-code contributions to Palaeoverse. You can contribute in the following ways:\n\nContribute to functionality available in our R Packages\nBecome a Palaeoverse Reviewer - review code, documentation, and resources\nContribute to our community databases such as the Palaeoverse Directory and GrantTrack\nBe active in Palaeoverse community spaces such as the Google Group"
   },
   {
     "objectID": "news/20221215-website.html",
