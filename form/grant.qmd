@@ -64,10 +64,6 @@ We reserve the right to refuse the entries of any inappropriate material or remo
 <input name="Deadline" type="text" placeholder="Application deadline" required>\
 <br>
 
-<button type="submit">
-
-Submit
-
-</button>
+<button type="submit">Submit</button>
 
 </form>
