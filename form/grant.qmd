@@ -67,6 +67,7 @@ We reserve the right to refuse the entries of any inappropriate material or remo
 <button type="submit">
 
 Submit
+
 </button>
 
 </form>
