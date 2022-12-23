@@ -12,7 +12,7 @@ We reserve the right to refuse the entries of any inappropriate material or remo
 
 ------------------------------------------------------------------------
 
-<form method="POST" action="https://script.google.com/macros/s/AKfycbzMAEzqi1FStfZiOLWEzcTHObK9vNGdF3WclVmz8uaz76JWQrE_eIQmyVPd21bdeRlU/exec">
+<form name="grant" method="POST" data-netlify="true" onSubmit="submit">
 
 <p>**Name of the grant**</p>
 

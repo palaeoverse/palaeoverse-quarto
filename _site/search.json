@@ -1,108 +1,17 @@
 [
   {
-    "objectID": "community.html",
-    "href": "community.html",
-    "title": "Community",
-    "section": "",
-    "text": "We host a community space for palaeobiologists using the Google Groups platform. This space provides an area to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting. Questions related to palaeoverse packages are also more than welcome. This space is unmoderated, but please be kind to others. We reserve the right to remove anyone harrasing individuals."
-  },
-  {
-    "objectID": "community.html#twitter",
-    "href": "community.html#twitter",
-    "title": "Community",
-    "section": "Twitter",
-    "text": "Twitter\n\n\n\nWe are active on Twitter, where we share updates and news on Palaeoverse, as well as resources for the Palaeobiology community. We are also more than happy to help circulate relevant news you wish to share with the community, just remember to tag @ThePalaeoverse and use the hashtag #palaeoverse."
-  },
-  {
-    "objectID": "community.html#events",
-    "href": "community.html#events",
-    "title": "Community",
-    "section": "Events",
-    "text": "Events"
-  },
-  {
-    "objectID": "form/index.html",
-    "href": "form/index.html",
-    "title": "Palaeoverse Directory Form",
-    "section": "",
-    "text": "Contact name\n\n\n\n\nContact email\n\n\n\n\nType of posting (Lab, Conference, Workshop or Vacancy)\n\n Lab Conference\nWorkshop Vacancy  \n\n\nPost title (e.g. name of lab, workshop or position)\n\n\n\n\nPost link (e.g. lab website)\n\n\n\n\nInstitution\n\n\n\n\nStreet address\n\n\n\n\nCity\n\n\n\n\nCounty, province, or state\n\n\n\n\nCountry\n\n\n\n\nExpiry date (e.g. registration or application deadline, for research labs you may use 2099)\n\n\n\n\nProvide a short description of the posting (limited to 50–350 characters)\n\nEnter text...\n  \n Submit"
-  },
-  {
     "objectID": "form/grant.html",
     "href": "form/grant.html",
     "title": "GrantTrack Form",
     "section": "",
-    "text": "Name of the grant\n\n\n\n\nFunding body\n\n\n\n\nApplicant nationality eligibility (e.g. EU-citizens only)\n\n\n\n\nHost country\n\n\n\n\nCareer stage eligibility\n\n\n\n\nGrant link\n\n\n\n\nAward\n\n\n\n\nResearch cost allowance\n\n\n\n\nDuration\n\n\n\n\nApplication deadline\n\n\n\n\nSubmit"
-  },
-  {
-    "objectID": "form/directory.html",
-    "href": "form/directory.html",
-    "title": "Palaeoverse Directory Form",
-    "section": "",
-    "text": "Contact name\n\n\n\n\nContact email\n\n\n\n\nType of posting (Lab, Conference, Workshop or Vacancy)\n\n Lab Conference\nWorkshop Vacancy  \n\n\nPost title (e.g. name of lab, workshop or position)\n\n\n\n\nPost link (e.g. lab website)\n\n\n\n\nInstitution\n\n\n\n\nStreet address\n\n\n\n\nCity\n\n\n\n\nCounty, province, or state\n\n\n\n\nCountry\n\n\n\n\nExpiry date (e.g. registration or application deadline, for research labs you may use 2099)\n\n\n\n\nProvide a short description of the posting (limited to 50–350 characters)\n\nEnter text...\n  \n Submit"
-  },
-  {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "News",
-    "section": "",
-    "text": "Dec 15, 2022\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "package.html",
-    "href": "package.html",
-    "title": "R Packages",
-    "section": "",
-    "text": "sepkoski\nsepkoski provides access to Sepkoski’s fossil marine animal genera compendium (Sepkoski, 2002). The aim of the package is to offer a light and easily-accessible solution to working with Sepkoski’s compendium to support teaching exercises. Go to site…"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to Palaeoverse",
-    "section": "",
-    "text": "Tools for the community to help streamline analyses and improve code readability and reproducibility."
-  },
-  {
-    "objectID": "index.html#directory",
-    "href": "index.html#directory",
-    "title": "Welcome to Palaeoverse",
-    "section": "Directory",
-    "text": "Directory\nOnline community database of research labs, upcoming conferences, workshops, and vacancies around the world."
-  },
-  {
-    "objectID": "index.html#granttrack",
-    "href": "index.html#granttrack",
-    "title": "Welcome to Palaeoverse",
-    "section": "GrantTrack",
-    "text": "GrantTrack\nOnline community database of research funding schemes and grants for Palaeobiologists."
-  },
-  {
-    "objectID": "index.html#google-group",
-    "href": "index.html#google-group",
-    "title": "Welcome to Palaeoverse",
-    "section": "Google Group",
-    "text": "Google Group\nA community space for palaeobiologists to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About us",
-    "section": "",
-    "text": "Our team\n\n\n\n\n\nLewis Jones\nUniversidade de Vigo\n\n\n\n\n\n\nWill Gearty\nAmerican Museum of Natural History\n\n\n\n\n\n\nBethany Allen\nETH Zürich\n\n\n\n\n\n\nChristopher Dean\nUniversity College London\n\n\n\n\n\n\n\nSofía Galván\nUniversidade de Vigo\n\n\n\n\n\n\nPedro Godoy\nUniversity of São Paulo\n\n\n\n\n\n\nMiranta Kouvari\nUniversity College London\n\n\n\n\n\n\nCecily Nicholl\nUniversity College London\n\n\n\n\n\n\n\nKilian Eichenseer\nUniversity of Durham\n\n\n\n\n\n\nAlessandro Chiarenza\nUniversidade de Vigo\n\n\n\n\n\n\nErin Dillon\nSmithsonian Tropical Research Institute\n\n\n\n\n\n\nLucas Buffan\nÉcole Normale Supérieure de Lyon"
-  },
-  {
-    "objectID": "news/20221215-website.html",
-    "href": "news/20221215-website.html",
-    "title": "Website launch!",
-    "section": "",
-    "text": "To be updated"
+    "text": "This service is provided to contribute to the GrantTrack community database of research funding schemes and grants for Palaeobiologists. If you wish to make an entry, please complete the following form. Please note that all information provided here will be published online and accessible to all. We aim to update entries once a week.\nWe reserve the right to refuse the entries of any inappropriate material or remove content where necessary. If you face any issues, please contact Kilian Eichenseer or Lewis A. Jones.\n\n\n\n\nName of the grant\n\n\n\n\nFunding body\n\n\n\n\nApplicant nationality eligibility (e.g. EU-citizens only)\n\n\n\n\nHost country\n\n\n\n\nCareer stage eligibility\n\n\n\n\nGrant link\n\n\n\n\nAward\n\n\n\n\nResearch cost allowance\n\n\n\n\nDuration\n\n\n\n\nApplication deadline\n\n\n\n\nSubmit"
   },
   {
     "objectID": "funding.html",
     "href": "funding.html",
     "title": "GrantTrack",
     "section": "",
-    "text": "An important note: we strive to make sure all the data here is up-to-date and accurate. However, please always check official information via funders’ websites. We hold no responsibility for missed deadlines."
+    "text": "Welcome to GrantTrack! To contribute to the database, please complete the following submission form. If you notice any issues with the database, please contact Kilian Eichenseer or Lewis A. Jones.\nAn important note: we strive to make sure all the data here is up-to-date and accurate. However, please always check official information via funders’ websites. We hold no responsibility for missed deadlines."
   },
   {
     "objectID": "events/index.html",
@@ -145,5 +54,26 @@
     "title": "Palaeoverse Directory",
     "section": "Table view",
     "text": "Table view"
+  },
+  {
+    "objectID": "community.html",
+    "href": "community.html",
+    "title": "Community",
+    "section": "",
+    "text": "We host a community space for palaeobiologists using the Google Groups platform. This space provides an area to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting. Questions related to palaeoverse packages are also more than welcome. This space is unmoderated, but please be kind to others. We reserve the right to remove anyone harrasing individuals."
+  },
+  {
+    "objectID": "community.html#twitter",
+    "href": "community.html#twitter",
+    "title": "Community",
+    "section": "Twitter",
+    "text": "Twitter\n\n\n\nWe are active on Twitter, where we share updates and news on Palaeoverse, as well as resources for the Palaeobiology community. We are also more than happy to help circulate relevant news you wish to share with the community, just remember to tag @ThePalaeoverse and use the hashtag #palaeoverse."
+  },
+  {
+    "objectID": "community.html#events",
+    "href": "community.html#events",
+    "title": "Community",
+    "section": "Events",
+    "text": "Events"
   }
 ]

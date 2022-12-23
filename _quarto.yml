@@ -10,7 +10,7 @@ website:
     site: "@ThePalaeoverse"
   open-graph: true
   page-footer: 
-    left: "Copyright 2022, Lewis A. Jones" 
+    left: "Get involved with Palaeoverse"
     right: 
       - icon: github
         href: https://github.com/palaeoverse-community
