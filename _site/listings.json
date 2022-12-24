@@ -2,13 +2,14 @@
   {
     "listing": "/community.html",
     "items": [
-      "/events/index.html"
+      "/events/workshop-hackathon.html"
     ]
   },
   {
     "listing": "/news.html",
     "items": [
-      "/news/20221215-website.html"
+      "/news/20221215-website.html",
+      "/news/20230101-workshop-hackathon.html"
     ]
   }
 ]

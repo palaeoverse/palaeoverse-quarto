@@ -1,4 +1,5 @@
 ---
+pagetitle: Resources
 title: Resources
 title-block-banner: true
 toc: true

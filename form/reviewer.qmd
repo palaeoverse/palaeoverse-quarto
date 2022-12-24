@@ -1,4 +1,5 @@
 ---
+pagetitle: Reviewer
 title: Become a Palaeoverse Reviewer
 title-block-banner: true
 toc: false
@@ -39,7 +40,7 @@ If you face any issues with completing this form, please contact <a href="mailto
 <input name="Code" type="text" placeholder="Code review..." required>\
 <br>
 
-<p>**What is your familiarity with GitHub?**</p>
+<p>**Are you familiar with using GitHub?**</p>
 
 <input name="Github" type="text" placeholder="GitHub experience..." required>\
 <br>
@@ -47,5 +48,3 @@ If you face any issues with completing this form, please contact <a href="mailto
 <button type="submit">Submit</button>
 
 </form>
-
-

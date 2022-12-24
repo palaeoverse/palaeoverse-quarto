@@ -1,4 +1,5 @@
 ---
+pagetitle: Software
 title: R Packages
 title-block-banner: true
 toc: false

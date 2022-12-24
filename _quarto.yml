@@ -13,13 +13,19 @@ website:
   open-graph: true
   page-footer: 
     left: |
-      Get involved with Palaeoverse! [![](/images/palaeoverse-pkg.png){fig-alt="Palaeoverse" width=35px}](./about.qmd#contribute)
+      Get involved with Palaeoverse [![](/images/palaeoverse-pkg.png){fig-alt="Palaeoverse" width=30px}](./about.qmd#contribute)
+    center: 
+      - href: goals.qmd
+        text: About Palaeoverse
+      - href: conduct.qmd
+        text: Code of Conduct
     right: 
       - icon: github
         href: https://github.com/palaeoverse-community
       - icon: twitter 
         href: https://twitter.com/ThePalaeoverse
   navbar:
+    background: "#1c9099"
     logo: "/images/palaeoverse-pkg.png"
     left: 
       - href: index.qmd
@@ -32,16 +38,25 @@ website:
       - resources.qmd
       - community.qmd
       - news.qmd
+    right:
+      - icon: twitter
+        href: https://twitter.com/ThePalaeoverse
+        aria-label: Palaeoverse Twitter
+      - icon: github
+        href: https://github.com/palaeoverse-community/palaeoverse-quarto
+        aria-label: Palaeoverse GitHub
 
 format:
   html:
     theme:
-      - pulse
+      light: flatly
+      dark: darkly
+    mainfont: "Gill Sans"
+    linkcolor: "#1c9099"
     link-external-icon: false
     link-external-newwindow: true
     css: styles.css
     toc: true
     toc-depth: 3
 
-editor: visual
-
+editor: source

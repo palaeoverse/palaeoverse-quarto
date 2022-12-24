@@ -1,4 +1,7 @@
-/* css styles */
+.download-text {
+  font-size: 1.1em;
+  font-weight: 500;  
+}
 
 .center-h1 h1 {
   text-align: center;

@@ -1,4 +1,5 @@
 ---
+pagetitle: Directory
 title: Palaeoverse Directory
 title-block-banner: true
 toc: true

@@ -1,4 +1,5 @@
 ---
+pagetitle: About
 title: About us
 subtitle: |
   We encourage more open, reproducible and collaborative research in Palaeobiology. To do so, we provide tools and resources--developed alongside the community--that help to promote this culture.

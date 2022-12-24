@@ -4,7 +4,7 @@
     "href": "community.html",
     "title": "Community",
     "section": "",
-    "text": "We host a community space for palaeobiologists using the Google Groups platform. This space provides an area to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting. Questions related to palaeoverse packages are also more than welcome. This space is unmoderated, but please be kind to others. We reserve the right to remove anyone harrasing individuals."
+    "text": "We host a community space for palaeobiologists using the Google Groups platform. This space provides an area to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting. Questions related to Palaeoverse packages are also more than welcome. This space is unmoderated, but please be kind to others. We reserve the right to remove anyone harrasing individuals."
   },
   {
     "objectID": "community.html#twitter",
@@ -21,13 +21,6 @@
     "text": "Events"
   },
   {
-    "objectID": "form/index.html",
-    "href": "form/index.html",
-    "title": "Palaeoverse Directory Form",
-    "section": "",
-    "text": "Contact name\n\n\n\n\nContact email\n\n\n\n\nType of posting (Lab, Conference, Workshop or Vacancy)\n\n Lab Conference\nWorkshop Vacancy  \n\n\nPost title (e.g. name of lab, workshop or position)\n\n\n\n\nPost link (e.g. lab website)\n\n\n\n\nInstitution\n\n\n\n\nStreet address\n\n\n\n\nCity\n\n\n\n\nCounty, province, or state\n\n\n\n\nCountry\n\n\n\n\nExpiry date (e.g. registration or application deadline, for research labs you may use 2099)\n\n\n\n\nProvide a short description of the posting (limited to 50–350 characters)\n\nEnter text...\n  \n Submit"
-  },
-  {
     "objectID": "form/grant.html",
     "href": "form/grant.html",
     "title": "GrantTrack Form",
@@ -39,7 +32,7 @@
     "href": "form/reviewer.html",
     "title": "Become a Palaeoverse Reviewer",
     "section": "",
-    "text": "Name\n\n\n\n\nEmail address\n\n\n\n\nWhat is your field of expertise?\n\n\n\n\nWhat are you willing to review?\n\n\n\n\nDo you have familiarity with reviewing code?\n\n\n\n\nWhat is your familiarity with GitHub?\n\n\n\n\nSubmit"
+    "text": "Name\n\n\n\n\nEmail address\n\n\n\n\nWhat is your field of expertise?\n\n\n\n\nWhat are you willing to review?\n\n\n\n\nDo you have familiarity with reviewing code?\n\n\n\n\nAre you familiar with using GitHub?\n\n\n\n\nSubmit"
   },
   {
     "objectID": "form/directory.html",
@@ -53,7 +46,14 @@
     "href": "news.html",
     "title": "News",
     "section": "",
-    "text": "Dec 23, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Dec 24, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDec 24, 2022\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "goals.html",
+    "href": "goals.html",
+    "title": "About Palaeoverse",
+    "section": "",
+    "text": "Project\n\n\nContribute\n\n\nPull Requests"
   },
   {
     "objectID": "package.html",
@@ -61,6 +61,13 @@
     "title": "R Packages",
     "section": "",
     "text": "sepkoski\nsepkoski provides access to Sepkoski’s fossil marine animal genera compendium (Sepkoski, 2002). The aim of the package is to offer a light and easily-accessible solution to working with Sepkoski’s compendium to support teaching exercises. Go to site…"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Palaeoverse",
+    "section": "",
+    "text": "A Resource Hub for Palaeobiologists\nPalaeoverse is an initiative which aims to bring the palaeobiology community together to share resources, reach agreed standards, and improve reproducibility in palaeobiological research."
   },
   {
     "objectID": "about.html",
@@ -77,6 +84,13 @@
     "text": "To be updated"
   },
   {
+    "objectID": "news/20230101-workshop-hackathon.html",
+    "href": "news/20230101-workshop-hackathon.html",
+    "title": "Workshop/hackathon",
+    "section": "",
+    "text": "To be updated"
+  },
+  {
     "objectID": "funding.html",
     "href": "funding.html",
     "title": "GrantTrack",
@@ -84,8 +98,8 @@
     "text": "An important note: we strive to make sure all the data here is up-to-date and accurate. However, please always check official information via funders’ websites. We hold no responsibility for missed deadlines."
   },
   {
-    "objectID": "events/index.html",
-    "href": "events/index.html",
+    "objectID": "events/workshop-hackathon.html",
+    "href": "events/workshop-hackathon.html",
     "title": "Workshop/Hackathon",
     "section": "",
     "text": "News coming soon!!!"
@@ -103,6 +117,55 @@
     "title": "Resources",
     "section": "GrantTrack",
     "text": "GrantTrack\n\n\n\nGrantTrack is an online community database of research funding schemes and grants for Palaeobiologists. This framework is provided to support the community in easily keeping track of upcoming and available funding opportunities. To contribute to the database, please complete the following submission form."
+  },
+  {
+    "objectID": "conduct.html",
+    "href": "conduct.html",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "As with any community project, society, or meeting we feel it is important to established some expectations of behaviour in the Palaeoverse community.\nWe as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community."
+  },
+  {
+    "objectID": "conduct.html#our-standards",
+    "href": "conduct.html#our-standards",
+    "title": "Code of Conduct",
+    "section": "Our Standards",
+    "text": "Our Standards\n\nExamples of behavior that contributes to a positive environment for our community include:\n\nDemonstrating empathy and kindness toward other people\nBeing respectful of differing opinions, viewpoints, and experiences\nGiving and gracefully accepting constructive feedback\nAccepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\nFocusing on what is best not just for us as individuals, but for the overall community\n\nExamples of unacceptable behavior include:\n\nThe use of sexualized language or imagery, and sexual attention or advances of any kind\nTrolling, insulting or derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or email address, without their explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting"
+  },
+  {
+    "objectID": "conduct.html#enforcement-responsibilities",
+    "href": "conduct.html#enforcement-responsibilities",
+    "title": "Code of Conduct",
+    "section": "Enforcement Responsibilities",
+    "text": "Enforcement Responsibilities\n\nCommunity leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate."
+  },
+  {
+    "objectID": "conduct.html#scope",
+    "href": "conduct.html#scope",
+    "title": "Code of Conduct",
+    "section": "Scope",
+    "text": "Scope\n\nThis Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event."
+  },
+  {
+    "objectID": "conduct.html#enforcement",
+    "href": "conduct.html#enforcement",
+    "title": "Code of Conduct",
+    "section": "Enforcement",
+    "text": "Enforcement\n\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement: Pedro L. Godoy and Bethany Allen. All complaints will be reviewed and investigated promptly and fairly.\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident."
+  },
+  {
+    "objectID": "conduct.html#enforcement-guidelines",
+    "href": "conduct.html#enforcement-guidelines",
+    "title": "Code of Conduct",
+    "section": "Enforcement Guidelines",
+    "text": "Enforcement Guidelines\n\nCommunity leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n\n1. Correction\nCommunity Impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\nConsequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n\n\n2. Warning\nCommunity Impact: A violation through a single incident or series of actions.\nConsequence: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n\n\n3. Temporary Ban\nCommunity Impact: A serious violation of community standards, including sustained inappropriate behavior.\nConsequence: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n\n\n4. Permanent Ban\nCommunity Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.\nConsequence: A permanent ban from any sort of public interaction within the community."
+  },
+  {
+    "objectID": "conduct.html#attribution",
+    "href": "conduct.html#attribution",
+    "title": "Code of Conduct",
+    "section": "Attribution",
+    "text": "Attribution\n\nThis Code of Conduct is adapted from the Contributor Covenant.\nCommunity Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder."
   },
   {
     "objectID": "directory.html",
