@@ -15,7 +15,7 @@ website:
     left: |
       Get involved with Palaeoverse [![](/images/palaeoverse-pkg.png){fig-alt="Palaeoverse" width=30px}](./about.qmd#contribute)
     center: 
-      - href: goals.qmd
+      - href: about.qmd
         text: About Palaeoverse
       - href: conduct.qmd
         text: Code of Conduct

@@ -7,7 +7,11 @@ toc: false
 # Welcome to Palaeoverse {.center-h1}
 
 ::: center
+
 **A Resource Hub for Palaeobiologists**
 
 Palaeoverse is an initiative which aims to bring the palaeobiology community together to share resources, reach agreed standards, and improve reproducibility in palaeobiological research.
+
+[![](images/twitter.png){fig-align="center" width="5%"}](https://twitter.com/ThePalaeoverse)
+
 :::
