@@ -1,7 +1,0 @@
----
-title: Workshop/hackathon
-date: today
----
-
-To be updated
-
