@@ -14,4 +14,5 @@ Palaeoverse is an initiative which aims to bring the palaeobiology community tog
 
 [![](images/twitter.png){fig-align="center" width="5%"}](https://twitter.com/ThePalaeoverse)
 
+![](images/palaeoverse-pkg.png){fig-align="center" width="30%"}
 :::
