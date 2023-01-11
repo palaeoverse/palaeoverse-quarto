@@ -13,7 +13,7 @@ toc: true
 
 ::: columns
 ::: {.column width="21%"}
-[![](images/palaeoverse-pkg.png){fig-align="right" width="100%"}](https://github.com/palaeoverse-community/palaeoverse)
+[![](images/palaeoverse-pkg.png){fig-align="right" width="100%"}](https://palaeoverse.palaeoverse.org/)
 :::
 
 ::: {.column width="3%"}
