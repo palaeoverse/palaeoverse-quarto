@@ -52,7 +52,6 @@ format:
     theme:
       light: flatly
       dark: darkly
-    mainfont: "Gill Sans"
     linkcolor: "#1c9099"
     link-external-icon: false
     link-external-newwindow: true
