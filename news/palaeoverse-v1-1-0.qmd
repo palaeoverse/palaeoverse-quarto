@@ -1,0 +1,32 @@
+---
+title: "New release: palaeoverse v.1.1.0"
+date: 2023-01-13
+---
+
+**The new version of palaeoverse (v.1.1.0) is now live on CRAN!**
+
+Since v.1.0.0, we have made several updates to the package and minor bug fixes. A summary of these changes are provided below. We would also like to remind you that we welcome [contributions](https://palaeoverse.palaeoverse.org) to the palaeoverse package. The next major release (v.1.2.0) is scheduled for the 1^st^ April 2023. If you are considering submitting a pull request for this release, please allow plenty of time for the review process (~4 weeks).
+
+# Updates
+
+* Added package-level documentation function
+* bin_time now accepts user-defined probability function
+* lat_bins now accepts user-defined latitudinal range
+* bin_lat now has functionality for handling boundary occurrences
+* tax_unique now supports arbitrary higher taxonomic levels
+* time_bins now supports user input dataframes
+* tax_unique now supports returning the unique names appended to the input dataframe
+
+# Minor bug fixes
+
+* Updated palaeorotate reconstruction files to use an hexagonal equal-area grid
+* Added error handling for when GPlates and Zenodo is offline
+* Added default value for the round argument in palaeorotate
+* Resolved issue with chunk processing in palaeorotate
+* Fixed the behavior of time_bins(scale = "GTS2012")
+* Fixed tests when suggested packages were not installed
+* Removed dependence of tests on divDyn and deeptime
+* Fixed tax_range_time example
+* Fixed look_up issue when handling pre-Cambrian occurrences
+* tax_unique now retains homonyms from different higher taxonomic groups
+* Fixed axis_geo for phylogenies

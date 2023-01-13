@@ -46,7 +46,7 @@
     "href": "news.html",
     "title": "News",
     "section": "",
-    "text": "Jan 9, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Jan 13, 2023\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan 9, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "goals.html",
@@ -75,6 +75,13 @@
     "title": "About us",
     "section": "",
     "text": "Our team\n\n\n\n\n\nLewis Jones\nUniversidade de Vigo\n\n\n\n\n\n\nWill Gearty\nAmerican Museum of Natural History\n\n\n\n\n\n\nBethany Allen\nETH Zürich\n\n\n\n\n\n\nChristopher Dean\nUniversity College London\n\n\n\n\n\n\n\nSofía Galván\nUniversidade de Vigo\n\n\n\n\n\n\nPedro Godoy\nUniversity of São Paulo\n\n\n\n\n\n\nMiranta Kouvari\nUniversity College London\n\n\n\n\n\n\nCecily Nicholl\nUniversity College London\n\n\n\n\n\n\n\nKilian Eichenseer\nUniversity of Durham\n\n\n\n\n\n\nAlessandro Chiarenza\nUniversidade de Vigo\n\n\n\n\n\n\nErin Dillon\nSmithsonian Tropical Research Institute\n\n\n\n\n\n\nLucas Buffan\nÉcole Normale Supérieure de Lyon\n\n\n\n\n\nGet involved\nWe welcome both code and non-code contributions to Palaeoverse. You can contribute in the following ways:\n\nContribute to functionality available in our R Packages\nBecome a Palaeoverse Reviewer - review code, documentation, and resources\nContribute to our community databases such as the Palaeoverse Directory and GrantTrack\nBe active in Palaeoverse community spaces such as the Google Group"
+  },
+  {
+    "objectID": "news/palaeoverse-v1-1-0.html",
+    "href": "news/palaeoverse-v1-1-0.html",
+    "title": "New release: palaeoverse v.1.1.0",
+    "section": "",
+    "text": "Since v.1.0.0, we have made several updates to the package and minor bug fixes. A summary of these changes are provided below. We would also like to remind you that we welcome contributions to the palaeoverse package. The next major release (v.1.2.0) is scheduled for the 1st April 2023. If you are considering submitting a pull request for this release, please allow plenty of time for the review process (~4 weeks).\n\nUpdates\n\nAdded package-level documentation function\nbin_time now accepts user-defined probability function\nlat_bins now accepts user-defined latitudinal range\nbin_lat now has functionality for handling boundary occurrences\ntax_unique now supports arbitrary higher taxonomic levels\ntime_bins now supports user input dataframes\ntax_unique now supports returning the unique names appended to the input dataframe\n\n\n\nMinor bug fixes\n\nUpdated palaeorotate reconstruction files to use an hexagonal equal-area grid\nAdded error handling for when GPlates and Zenodo is offline\nAdded default value for the round argument in palaeorotate\nResolved issue with chunk processing in palaeorotate\nFixed the behavior of time_bins(scale = “GTS2012”)\nFixed tests when suggested packages were not installed\nRemoved dependence of tests on divDyn and deeptime\nFixed tax_range_time example\nFixed look_up issue when handling pre-Cambrian occurrences\ntax_unique now retains homonyms from different higher taxonomic groups\nFixed axis_geo for phylogenies"
   },
   {
     "objectID": "news/workshop-hackathon.html",
