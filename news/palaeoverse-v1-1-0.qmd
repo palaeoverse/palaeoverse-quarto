@@ -5,7 +5,7 @@ date: 2023-01-13
 
 **The new version of palaeoverse (v.1.1.0) is now live on CRAN!**
 
-Since v.1.0.0, we have made several updates to the package and minor bug fixes. A summary of these changes are provided below. We would also like to remind you that we welcome [contributions](https://palaeoverse.palaeoverse.org) to the palaeoverse package. The next major release (v.1.2.0) is scheduled for the 1^st^ April 2023. If you are considering submitting a pull request for this release, please allow plenty of time for the review process (~4 weeks).
+Since v.1.0.0, we have made several updates to the package and minor bug fixes. A summary of these changes are provided below. We would also like to remind you that we welcome [contributions](https://palaeoverse.palaeoverse.org) to the palaeoverse package. The next release (v.1.2.0) is scheduled for the 1^st^ April 2023. If you are considering submitting a pull request for this release, please allow plenty of time for the review process (~4 weeks).
 
 # Updates
 

@@ -32,7 +32,7 @@ df <- df %>% filter(as.Date(Expiry) > Sys.Date())
 address <- data.frame(name = df$Title,
                       addr = paste(df$Street, df$City, df$Province, df$Country, sep = ", "))
 coordinates <- address %>%
-  geocode(addr)
+  geocode(addr, method = "osm")
 df <- bind_cols(df, coordinates)
 
 icons <- awesomeIconList(
