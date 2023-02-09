@@ -1,6 +1,6 @@
 ---
 title: "Workshop and Hackathon"
-date: 2023-01-13
+date: 2023-09-7
 ---
 # R for Palaeobiologists: Workshop and Hackathon
 
