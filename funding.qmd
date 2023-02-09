@@ -36,5 +36,5 @@ df %>%
                 options = list(
                   columnDefs = list(list(className = 'dt-justify', targets = "_all"))
 )) %>%
-  DT::formatStyle(columns = c(1:9), fontSize = '65%')
+  DT::formatStyle(columns = c(1:10), fontSize = '65%')
 ```
