@@ -3,7 +3,6 @@ pagetitle: Funding
 title: GrantTrack
 title-block-banner: true
 toc: true
-page-layout: full
 ---
 
 Welcome to **GrantTrack**! To contribute to the database, please complete the following <a href="./form/grant.qmd" style="text-decoration: none" target="_blank">**submission form**</a>. If you notice any issues with the database, please contact <a href="mailto:kilian.eichenseer@gmail.com" style="text-decoration: none" target="_blank">**Kilian Eichenseer**</a> or <a href="mailto:LewisA.Jones@outlook.com" style="text-decoration: none" target="_blank">**Lewis A. Jones**</a>.
@@ -27,7 +26,7 @@ df$Name <- paste0("<a href='",df$URL,"' target='_blank'>",df$Name,"</a>")
 df <- df[, -which(colnames(df) %in% c("Date", "URL"))]
 
 df %>%
-  DT::datatable(style = "auto", 
+  DT::datatable(style = "bootstrap4", 
                 escape = FALSE, 
                 rownames = FALSE,
                 colnames = c("Name", "Funder", "Applicant",
