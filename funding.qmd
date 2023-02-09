@@ -27,7 +27,7 @@ df$Name <- paste0("<a href='",df$URL,"' target='_blank'>",df$Name,"</a>")
 df <- df[, -which(colnames(df) %in% c("Date", "URL"))]
 
 df %>%
-  DT::datatable(style = "bootstrap4", 
+  DT::datatable(style = "auto", 
                 escape = FALSE, 
                 rownames = FALSE,
                 colnames = c("Name", "Funder", "Applicant",
