@@ -32,9 +32,8 @@ df %>%
                 rownames = FALSE,
                 colnames = c("Name", "Funder", "Applicant",
                              "Host", "Career stage", "Award", "Research costs",
-                             "Duration", "Deadline"),
-                options = list(
-                  columnDefs = list(list(className = 'dt-justify', targets = "_all"))
+                             "Duration", "Deadline"), options = list(
+  columnDefs = list(list(className = 'dt-justify', targets = "_all"))
 )) %>%
-  DT::formatStyle(columns = c(1:10), fontSize = '65%')
+  DT::formatStyle(columns = c(1:9), fontSize = '65%')
 ```
