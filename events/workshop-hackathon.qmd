@@ -1,6 +1,5 @@
 ---
 title: "R for Palaeobiologists: Workshop and Hackathon"
-date: 2023-09-7
 toc: false
 ---
 
