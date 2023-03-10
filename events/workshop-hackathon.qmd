@@ -2,6 +2,7 @@
 title: "R for Palaeobiologists: Workshop and Hackathon"
 toc: false
 ---
+Registration now open! 
 
 ![](./images/banner.png)
 
