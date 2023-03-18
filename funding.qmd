@@ -2,18 +2,20 @@
 pagetitle: Funding
 title: GrantTrack
 title-block-banner: true
-toc: true
 page-layout: full
 ---
 
-::: {.column-body-outset}
+::: justify
 
-Welcome to **GrantTrack**! To contribute to the database, please complete the following <a href="./form/grant.qmd" style="text-decoration: none" target="_blank">**submission form**</a>. If you notice any issues with the database, please contact <a href="mailto:kilian.eichenseer@gmail.com" style="text-decoration: none" target="_blank">**Kilian Eichenseer**</a> or <a href="mailto:LewisA.Jones@outlook.com" style="text-decoration: none" target="_blank">**Lewis A. Jones**</a>.
+Welcome to **Grant Track**! Grant Track is an online community database of research funding schemes and grants for Palaeobiologists. This framework is provided to support the community in easily keeping track of upcoming and available funding opportunities. To contribute to the database, please complete the following <a href="./form/grant.qmd" style="text-decoration: none" target="_blank">**submission form**</a>. If you notice any issues with the database, please contact <a href="mailto:kilian.eichenseer@gmail.com" style="text-decoration: none" target="_blank">**Kilian Eichenseer**</a> or <a href="mailto:LewisA.Jones@outlook.com" style="text-decoration: none" target="_blank">**Lewis A. Jones**</a>.
 
 **An important note:** we strive to make sure all the data here is up-to-date and accurate. However, please always check official information via funders' websites. We hold no responsibility for missed deadlines.
 
+:::
+
 ```{r}
 #| echo: false
+#| column: screen
 #| warning: false
 # Load libraries
 library(googlesheets4)
@@ -35,9 +37,8 @@ df %>%
                 colnames = c("Name", "Funder", "Applicant",
                              "Host", "Career stage", "Award", "Research costs",
                              "Duration", "Deadline"), options = list(
-  columnDefs = list(list(className = 'dt-justify', targets = "_all"))
+  pageLength = 30, 
+  columnDefs = list(list(className = 'dt-nowrap', targets = "_all"))
 )) %>%
   DT::formatStyle(columns = c(1:10), fontSize = '65%')
 ```
-
-:::

@@ -36,7 +36,8 @@ website:
         text: R Packages
       - href: directory.qmd
         text: Directory
-      - resources.qmd
+      - href: funding.qmd
+        text: Grant Track
       - community.qmd
       - news.qmd
     right:

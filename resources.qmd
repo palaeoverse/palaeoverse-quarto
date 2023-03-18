@@ -1,8 +1,8 @@
 ---
-pagetitle: Resources
-title: Resources
+pagetitle: Cheat sheets
+title: Cheat sheets
 title-block-banner: true
-toc: true
+toc: false
 ---
 
 ## Cheat sheets
@@ -18,8 +18,24 @@ toc: true
 
 ::: {.column width="65%"}
 ::: justify
-The <a href="https://palaeoverse.palaeoverse.org/" style="text-decoration: none" target="_blank">**palaeoverse package**</a> cheat sheet is designed to make your life easier when working with the palaeoverse package. It serves as a quick look-up guide on the functionality available, grouped by relevant categories. From time to time, we will add additional cheat sheets for packages from the Palaeoverse development team, and update current ones as packages evolve.
+The <a href="https://palaeoverse.palaeoverse.org/" style="text-decoration: none" target="_blank">**palaeoverse package**</a> cheat sheet is designed to make your life easier when working with the palaeoverse package. It serves as a quick look-up guide on the functionality available, grouped by relevant categories.
 :::
+:::
+:::
+
+::: columns
+::: {.column width="65%"}
+::: justify
+The <a href="https://palaeoverse.palaeoverse.org/" style="text-decoration: none" target="_blank">**palaeoverse package**</a> cheat sheet is designed to make your life easier when working with the palaeoverse package. It serves as a quick look-up guide on the functionality available, grouped by relevant categories.
+:::
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+[![](./images/rphylopic-cheatsheet.png)](./images/rphylopic-cheatsheet.pdf)
 :::
 :::
 
