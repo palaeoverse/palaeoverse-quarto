@@ -138,7 +138,7 @@ df <- data.frame(Type = df$Post,
 df %>%
   DT::datatable(style = "bootstrap4", escape = FALSE, rownames = FALSE,
 options = list(
-  columnDefs = list(list(className = 'dt-nowrap', targets = 1:5))
+  columnDefs = list(list(className = 'dt-left', targets = "_all"))
 )) %>%
   DT::formatStyle(columns = c(1:6), fontSize = '65%')
 ```
