@@ -62,7 +62,7 @@ split.df <- split(df, df$Post)
 l <- leaflet() %>% 
   setView(lng = 0,
           lat = 0,
-          zoom = 1) %>% 
+          zoom = 2) %>% 
   addProviderTiles(providers$CartoDB.Positron,
                    options = providerTileOptions(minZoom = 1, maxZoom = 20))
 
