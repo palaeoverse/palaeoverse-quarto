@@ -5,7 +5,7 @@ title-block-banner: true
 toc: true
 ---
 
-::: justify
+::: {.justify}
 Welcome to the Palaeoverse Directory! This resource is provided to promote the communication of upcoming conferences, workshops, and vacancies. It also provides a register of research labs and their research focus. We hope that this resource will foster networking and collaboration across the globe.
 
 If you wish to register an upcoming conference, workshop, vacancy or your lab, please complete the <a href="./form/directory.qmd" style="text-decoration: none" target="_blank">**submission form**</a>.
@@ -13,11 +13,11 @@ If you wish to register an upcoming conference, workshop, vacancy or your lab, p
 Posts shared here do not imply endorsement from the Palaeoverse team and we can hold no responsibility for any interactions you make via this service. If you face any issues or have any concerns about current postings, please contact a member of the Palaeoverse team.
 :::
 
-# Map view
+# Map view {.column-page}
 
 ```{r}
 #| echo: false
-#| column: screen
+#| column: page
 #| warning: false
 # Load libraries
 library(leaflet)
@@ -107,11 +107,11 @@ l %>%
 
 <br>
 
-# Table view
+# Table view {.column-page}
 
 ```{r}
 #| echo: false
-#| column: screen
+#| column: page
 #| warning: false
 # Load libraries
 library(googlesheets4)
@@ -140,6 +140,7 @@ df <- data.frame(Type = df$Post,
 df %>%
   DT::datatable(style = "bootstrap4", escape = FALSE, rownames = FALSE,
 options = list(
+  pageLength = 30, 
   columnDefs = list(list(className = 'dt-left', targets = "_all"))
 )) %>%
   DT::formatStyle(columns = c(1:6), fontSize = '65%')
