@@ -1,6 +1,6 @@
 ---
 pagetitle: Funding
-title: GrantTrack
+title: Grant Track
 title-block-banner: true
 page-layout: full
 ---
