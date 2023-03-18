@@ -16,7 +16,7 @@ toc: false
 
 ::: {.column width="75%"}
 ::: justify
-### <a href="https://palaeoverse.palaeoverse.org/" style="text-decoration: none">**palaeoverse**</a> [![DOI](https://img.shields.io/badge/DOI-10.31223%2FX5Z94Q-blue)](https://doi.org/10.31223/X5Z94Q) [![CRAN status](https://www.r-pkg.org/badges/version/palaeoverse)](https://CRAN.R-project.org/package=palaeoverse) [![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/palaeoverse)](https://cran.r-project.org/package=palaeoverse)
+### <a href="https://palaeoverse.palaeoverse.org/" style="text-decoration: none">**palaeoverse**</a> 
 
 palaeoverse provides functionality to support data preparation and exploration for palaeobiological analyses, improving code reproducibility and accessibility. The aim of the palaeoverse R package is to bring the palaeobiological community together to establish agreed standards. <a href="http://palaeoverse.palaeoverse.org" style="text-decoration: none">**Go to site...**</a>
 
@@ -29,7 +29,7 @@ palaeoverse provides functionality to support data preparation and exploration f
 ::: columns
 ::: {.column width="75%"}
 ::: justify
-### <a href="http://rphylopic.palaeoverse.org" style="text-decoration: none">**rphylopic**</a> [![CRAN status](https://www.r-pkg.org/badges/version/rphylopic)](https://CRAN.R-project.org/package=rphylopic) [![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/rphylopic)](https://cran.r-project.org/package=rphylopic)
+### <a href="http://rphylopic.palaeoverse.org" style="text-decoration: none">**rphylopic**</a>
 
 rphylopic allows users to add silhouettes of organisms from the PhyloPic website to plots generated in base R and ggplot2. rphylopic was originally developed and maintained by <a href="https://scottchamberlain.info" style="text-decoration: none">Scott Chamberlain</a>. From ver. 1.0.0, the package is now developed and maintained by the Palaeoverse team. <a href="http://rphylopic.palaeoverse.org" style="text-decoration: none">**Go to site...**</a>
 
@@ -58,7 +58,7 @@ rphylopic allows users to add silhouettes of organisms from the PhyloPic website
 
 ::: {.column width="75%"}
 ::: justify
-### <a href="http://sepkoski.palaeoverse.org" style="text-decoration: none">**sepkoski**</a> [![DOI](https://zenodo.org/badge/564230284.svg)](https://zenodo.org/badge/latestdoi/564230284) [![CRAN status](https://www.r-pkg.org/badges/version/sepkoski)](https://CRAN.R-project.org/package=rphylopic) [![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/sepkoski)](https://cran.r-project.org/package=sepkoski)
+### <a href="http://sepkoski.palaeoverse.org" style="text-decoration: none">**sepkoski**</a>
 
 sepkoski provides access to Sepkoski's fossil marine animal genera compendium (Sepkoski, 2002). The aim of the package is to offer a light and easily-accessible solution to working with Sepkoski's compendium to support teaching exercises. <a href="http://sepkoski.palaeoverse.org" style="text-decoration: none">**Go to site...**</a>
 
