@@ -46,7 +46,7 @@
     "href": "news.html",
     "title": "News",
     "section": "",
-    "text": "Jan 13, 2023\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan 9, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "ver. 1.0.0 available on CRAN\n\n\n\n\n\n\nMar 21, 2023\n\n\nWilliam Gearty\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan 13, 2023\n\n\nLewis A. Jones\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan 9, 2023\n\n\nLewis A. Jones\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\nLewis A. Jones\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "goals.html",
@@ -89,6 +89,13 @@
     "title": "New release: palaeoverse v.1.1.0",
     "section": "",
     "text": "Since v.1.0.0, we have made several updates to the package and minor bug fixes. A summary of these changes are provided below. We would also like to remind you that we welcome contributions to the palaeoverse package. The next release (v.1.2.0) is scheduled for the 1st April 2023. If you are considering submitting a pull request for this release, please allow plenty of time for the review process (~4 weeks).\n\nUpdates\n\nAdded package-level documentation function\nbin_time now accepts user-defined probability function\nlat_bins now accepts user-defined latitudinal range\nbin_lat now has functionality for handling boundary occurrences\ntax_unique now supports arbitrary higher taxonomic levels\ntime_bins now supports user input dataframes\ntax_unique now supports returning the unique names appended to the input dataframe\n\n\n\nMinor bug fixes\n\nUpdated palaeorotate reconstruction files to use an hexagonal equal-area grid\nAdded error handling for when GPlates and Zenodo is offline\nAdded default value for the round argument in palaeorotate\nResolved issue with chunk processing in palaeorotate\nFixed the behavior of time_bins(scale = “GTS2012”)\nFixed tests when suggested packages were not installed\nRemoved dependence of tests on divDyn and deeptime\nFixed tax_range_time example\nFixed look_up issue when handling pre-Cambrian occurrences\ntax_unique now retains homonyms from different higher taxonomic groups\nFixed axis_geo for phylogenies"
+  },
+  {
+    "objectID": "news/rphylopic.html",
+    "href": "news/rphylopic.html",
+    "title": "rphylopic is now maintained by the Palaeoverse!",
+    "section": "",
+    "text": "rphylopic version 1.0.0 now available\nAs part of our new maintenance of the package, we updated the existing functions to work with the new API and also reworked nearly all of the core functionality of fetching and plotting silhouettes. These changes have now been released on CRAN as version 1.0.0:\n\nget_uuid: this function enables users to get uuid(s) associated with a taxonomic name (new function)\nget_phylopic: this function enables users to get the PhyloPic silhouette associated with a specific uuid (replaces image_get)\npick_phylopic: this function enables users to pick specific PhyloPic silhouettes when multiple are available for a given taxonomic name (new function)\nadd_phylopic_base: this function retains it’s core functionality and is used to add a silhouette to a base R plot (updated from add_phylopic_base)\nadd_phylopic: this function retains it’s core functionality and is used to add a silhouette to a ggplot2 (updated from add_phylopic)\nget_attribution: this function enables users to get the attribution data associated with a specific uuid (new function)\nsave_phylopic: this function enables users to save PhyloPic silhouettes using various formats (replaces save_png)"
   },
   {
     "objectID": "news/workshop-hackathon.html",

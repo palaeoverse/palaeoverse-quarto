@@ -6,10 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Lewis A. Jones">
-<meta name="dcterms.date" content="2023-01-01">
+<meta name="author" content="William Gearty">
+<meta name="dcterms.date" content="2023-03-21">
+<meta name="description" content="ver. 1.0.0 available on CRAN">
 
-<title>Palaeoverse - Website launch!</title>
+<title>Palaeoverse - rphylopic is now maintained by the Palaeoverse!</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -60,18 +61,16 @@ ul.task-list{list-style: none;}
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Palaeoverse - Website launch!">
-<meta property="og:description" content="We are pleased to announce the launch of the Palaeoverse website! Please feel free to take a look around and make the most of the resources available.">
-<meta property="og:image" content="images/palaeoverse-pkg.png">
+<meta property="og:title" content="Palaeoverse - rphylopic is now maintained by the Palaeoverse!">
+<meta property="og:description" content="ver. 1.0.0 available on CRAN">
 <meta property="og:site-name" content="Palaeoverse">
-<meta name="twitter:title" content="Palaeoverse - Website launch!">
-<meta name="twitter:description" content="We are pleased to announce the launch of the Palaeoverse website! Please feel free to take a look around and make the most of the resources available.">
-<meta name="twitter:image" content="images/palaeoverse-pkg.png">
+<meta name="twitter:title" content="Palaeoverse - rphylopic is now maintained by the Palaeoverse!">
+<meta name="twitter:description" content="ver. 1.0.0 available on CRAN">
 <meta name="twitter:creator" content="@LewisAlanJones">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -132,17 +131,20 @@ ul.task-list{list-style: none;}
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Website launch!</h1>
+<h1 class="title"><code>rphylopic</code> is now maintained by the Palaeoverse!</h1>
 </div>
 
+<div>
+  <div class="description">
+    ver. 1.0.0 available on CRAN
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -150,14 +152,14 @@ ul.task-list{list-style: none;}
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Lewis A. Jones </p>
+             <p>William Gearty </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 1, 2023</p>
+      <p class="date">March 21, 2023</p>
     </div>
   </div>
     
@@ -166,9 +168,26 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<p>We are pleased to announce the launch of the Palaeoverse website! Please feel free to take a look around and make the most of the resources available. If you notice any issues, please get in touch and let us know!</p>
+<section id="rphylopic-under-new-management" class="level1">
+<h1><code>rphylopic</code> under new management</h1>
+<p>The <a href="http://rphylopic.palaeoverse.org/">rphylopic package</a> allows users to add silhouettes of organisms from the <a href="http://phylopic.org/">PhyloPic website</a> to plots generated in base R and ggplot2. Back in June 2022, the PhyloPic service released a new (dramatically different) version of their API. As of this past February, the old API had been discontinued, resulting in the rphylopic package becoming <a href="https://github.com/palaeoverse-community/rphylopic/issues/23">effectively defunct</a>. Fortunately, Palaeoverse quickly expressed interest in helping getting the package back on its feet, and it has now been transferred to the Palaeoverse community for future maintenance! William Gearty is the new maintainer and Lewis Jones has been helping to get the package back to working order.</p>
+<p><img src="../images/rphylopic-pkg.png" class="img-fluid" style="width:5cm"></p>
+</section>
+<section id="rphylopic-version-1.0.0-now-available" class="level1">
+<h1><code>rphylopic</code> version 1.0.0 now available</h1>
+<p>As part of our new maintenance of the package, we updated the existing functions to work with the new API and also reworked nearly all of the core functionality of fetching and plotting silhouettes. These changes have now been released on CRAN as version 1.0.0:</p>
+<ul>
+<li>get_uuid: this function enables users to get uuid(s) associated with a taxonomic name (new function)</li>
+<li>get_phylopic: this function enables users to get the PhyloPic silhouette associated with a specific uuid (replaces image_get)</li>
+<li>pick_phylopic: this function enables users to pick specific PhyloPic silhouettes when multiple are available for a given taxonomic name (new function)</li>
+<li>add_phylopic_base: this function retains it’s core functionality and is used to add a silhouette to a base R plot (updated from add_phylopic_base)</li>
+<li>add_phylopic: this function retains it’s core functionality and is used to add a silhouette to a ggplot2 (updated from add_phylopic)</li>
+<li>get_attribution: this function enables users to get the attribution data associated with a specific uuid (new function)</li>
+<li>save_phylopic: this function enables users to save PhyloPic silhouettes using various formats (replaces save_png)</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -1,6 +1,8 @@
 ---
 title: "New release: palaeoverse v.1.1.0"
 date: 2023-01-13
+author: Lewis A. Jones
+image: images/palaeoverse-pkg.png
 ---
 
 **The new version of palaeoverse (v.1.1.0) is now live on CRAN!**

@@ -1,0 +1,24 @@
+---
+title: "`rphylopic` is now maintained by the Palaeoverse!"
+date: 2023-03-21
+toc: false
+author: William Gearty
+description: "ver. 1.0.0 available on CRAN"
+---
+
+# `rphylopic` under new management
+
+The [rphylopic package](http://rphylopic.palaeoverse.org/) allows users to add silhouettes of organisms from the [PhyloPic website](http://phylopic.org/) to plots generated in base R and ggplot2. Back in June 2022, the PhyloPic service released a new (dramatically different) version of their API. As of this past February, the old API had been discontinued, resulting in the rphylopic package becoming [effectively defunct](https://github.com/palaeoverse-community/rphylopic/issues/23). Fortunately, Palaeoverse quickly expressed interest in helping getting the package back on its feet, and it has now been transferred to the Palaeoverse community for future maintenance! William Gearty is the new maintainer and Lewis Jones has been helping to get the package back to working order.
+
+![](../images/rphylopic-pkg.png){width=5cm}
+
+# `rphylopic` version 1.0.0 now available
+As part of our new maintenance of the package, we updated the existing functions to work with the new API and also reworked nearly all of the core functionality of fetching and plotting silhouettes. These changes have now been released on CRAN as version 1.0.0:
+
+* get_uuid: this function enables users to get uuid(s) associated with a taxonomic name (new function)
+* get_phylopic: this function enables users to get the PhyloPic silhouette associated with a specific uuid (replaces image_get)
+* pick_phylopic: this function enables users to pick specific PhyloPic silhouettes when multiple are available for a given taxonomic name (new function)
+* add_phylopic_base: this function retains it's core functionality and is used to add a silhouette to a base R plot (updated from add_phylopic_base)
+* add_phylopic: this function retains it's core functionality and is used to add a silhouette to a ggplot2 (updated from add_phylopic)
+* get_attribution: this function enables users to get the attribution data associated with a specific uuid (new function)
+* save_phylopic: this function enables users to save PhyloPic silhouettes using various formats (replaces save_png)

@@ -6,5 +6,5 @@ toc: true
 listing:
   contents: news
   type: default 
-  sort: asc
+  sort: date desc
 ---

@@ -1,6 +1,8 @@
 ---
 title: Website launch!
 date: 2023-01-01
+author: Lewis A. Jones
+image: images/palaeoverse-pkg.png
 ---
 
 We are pleased to announce the launch of the Palaeoverse website! Please feel free to take a look around and make the most of the resources available. If you notice any issues, please get in touch and let us know!
