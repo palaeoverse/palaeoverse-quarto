@@ -7,6 +7,7 @@ website:
   favicon: "/images/palaeoverse-pkg.png"
   twitter-card:
     creator: "@LewisAlanJones"
+    card-style: summary_large_image
     site: "@ThePalaeoverse"
     image: "https://palaeoverse.org/images/palaeoverse-pkg.png"
   repo-url: https://github.com/palaeoverse-community/palaeoverse-quarto
