@@ -8,9 +8,11 @@ website:
   twitter-card:
     creator: "@LewisAlanJones"
     site: "@ThePalaeoverse"
+    image: "/images/palaeoverse-pkg.png"
   repo-url: https://github.com/palaeoverse-community/palaeoverse-quarto
   repo-actions: [edit, issue]
-  open-graph: true
+  open-graph:
+    image: "/images/palaeoverse-pkg.png"
   page-footer: 
     left: |
       Get involved with Palaeoverse [![](/images/palaeoverse-pkg.png){fig-alt="Palaeoverse" width=30px}](./about.qmd#contribute)
