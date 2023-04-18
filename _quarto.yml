@@ -8,11 +8,11 @@ website:
   twitter-card:
     creator: "@LewisAlanJones"
     site: "@ThePalaeoverse"
-    image: "/images/palaeoverse-pkg.png"
+    image: "https://palaeoverse.org/images/palaeoverse-pkg.png"
   repo-url: https://github.com/palaeoverse-community/palaeoverse-quarto
   repo-actions: [edit, issue]
   open-graph:
-    image: "/images/palaeoverse-pkg.png"
+    image: "https://palaeoverse.org/images/palaeoverse-pkg.png"
   page-footer: 
     left: |
       Get involved with Palaeoverse [![](/images/palaeoverse-pkg.png){fig-alt="Palaeoverse" width=30px}](./about.qmd#contribute)
@@ -61,5 +61,3 @@ format:
     css: styles.css
     toc: true
     toc-depth: 3
-
-editor: source
