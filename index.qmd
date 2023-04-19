@@ -1,6 +1,9 @@
 ---
 pagetitle: Welcome
 title-block-banner: false
+image: "/images/palaeoverse-pkg.png"
+open-graph: true
+twitter-card: true
 toc: false
 ---
 
