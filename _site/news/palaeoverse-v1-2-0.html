@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Lewis A. Jones">
+<meta name="dcterms.date" content="2023-04-19">
 
-<title>News</title>
+<title>Palaeoverse - New release: palaeoverse v.1.2.0</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -18,26 +20,24 @@ ul.task-list{list-style: none;}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href=".//images/palaeoverse-pkg.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="..//images/palaeoverse-pkg.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -57,43 +57,21 @@ ul.task-list{list-style: none;}
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="News">
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Palaeoverse - New release: palaeoverse v.1.2.0">
+<meta property="og:description" content="palaeoverse v.1.2.0 is now live on CRAN!">
+<meta property="og:image" content="https://palaeoverse.org/news/images/palaeoverse-pkg.png">
 <meta property="og:site-name" content="Palaeoverse">
-<meta name="twitter:title" content="News">
-<meta name="twitter:card" content="summary">
+<meta property="og:image:height" content="1062">
+<meta property="og:image:width" content="920">
+<meta name="twitter:title" content="Palaeoverse - New release: palaeoverse v.1.2.0">
+<meta name="twitter:description" content="palaeoverse v.1.2.0 is now live on CRAN!">
+<meta name="twitter:image" content="https://palaeoverse.org/news/images/palaeoverse-pkg.png">
+<meta name="twitter:image-height" content="1062">
+<meta name="twitter:image-width" content="920">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -102,8 +80,8 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
-    <img src="./images/palaeoverse-pkg.png" alt="">
+      <a class="navbar-brand" href="../index.html">
+    <img src="../images/palaeoverse-pkg.png" alt="">
     <span class="navbar-title">Palaeoverse</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -112,25 +90,25 @@ ul.task-list{list-style: none;}
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">Overview</a>
+    <a class="nav-link" href="../index.html">Overview</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">About us</a>
+    <a class="nav-link" href="../about.html">About us</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./package.html">R Packages</a>
+    <a class="nav-link" href="../package.html">R Packages</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./directory.html">Directory</a>
+    <a class="nav-link" href="../directory.html">Directory</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./funding.html">Grant Track</a>
+    <a class="nav-link" href="../funding.html">Grant Track</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./community.html">Community</a>
+    <a class="nav-link" href="../community.html">Community</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./news.html" aria-current="page">News</a>
+    <a class="nav-link" href="../news.html">News</a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -154,184 +132,70 @@ ul.task-list{list-style: none;}
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">News</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#changelog" id="toc-changelog" class="nav-link active" data-scroll-target="#changelog">Changelog</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/palaeoverse-community/palaeoverse-quarto/edit/main/news/palaeoverse-v1-2-0.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/palaeoverse-community/palaeoverse-quarto/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">New release: palaeoverse v.1.2.0</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Lewis A. Jones </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 19, 2023</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<p>palaeoverse v.1.2.0 is now live on CRAN!</p>
+<p>Since v.1.1.0, we have made several updates to the package and minor bug fixes. A summary of these changes are provided below. We would also like to remind you that we welcome <a href="https://palaeoverse.palaeoverse.org">contributions</a> to the palaeoverse package. The next release (v.1.3.0) is scheduled for the 1<sup>st</sup> July 2023. If you are considering submitting a pull request for this release, please allow plenty of time for the review process (~4 weeks).</p>
+<section id="changelog" class="level1">
+<h1>Changelog</h1>
+<ul>
+<li>time_bins updated to enable users to call geological time scales from Macrostrat</li>
+<li>Fixed minor documentation error in tax_range_time</li>
+<li>Fixed unnecessary column output in palaeorotate (#78)</li>
+<li>Fixed binding issues with the “point” method in palaeorotate for some specific datasets (#78)</li>
+<li>Removed deeptime dependency</li>
+<li>Updated font colors in GTS2012 and GTS2020 based on background luminance</li>
+<li>Fixed multi-model call in palaeorotate for the “point” method which did not return all requested model coordinates (#82)</li>
+<li>Fixed an erroneous entry in interval_key (#84)</li>
+<li>Added two tutorial vignettes (#31)</li>
+<li>Fixed a tax_range_space bug for custom column names</li>
+</ul>
 
 
+</section>
 
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1681855200000" data-listing-file-modified-sort="1681894183235" data-listing-reading-time-sort="0.835">
-<div class="thumbnail">
-<p><a href="./news/palaeoverse-v1-2-0.html"> <img src="./news/images/palaeoverse-pkg.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./news/palaeoverse-v1-2-0.html">
-<h3 class="no-anchor listing-title">
-New release: palaeoverse v.1.2.0
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-palaeoverse v.1.2.0 is now live on CRAN!
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./news/palaeoverse-v1-2-0.html">
-<div class="listing-date">
-Apr 19, 2023
-</div>
-<div class="listing-author">
-Lewis A. Jones
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1679353200000" data-listing-file-modified-sort="1679349238068" data-listing-reading-time-sort="1.395">
-<div class="thumbnail">
-<p><a href="./news/rphylopic.html"> <img src="./images/rphylopic-pkg.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./news/rphylopic.html">
-<h3 class="no-anchor listing-title">
-<code>rphylopic</code> is now maintained by the Palaeoverse!
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>ver. 1.0.0 available on CRAN</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./news/rphylopic.html">
-<div class="listing-date">
-Mar 21, 2023
-</div>
-<div class="listing-author">
-William Gearty
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1673564400000" data-listing-file-modified-sort="1679349136010" data-listing-reading-time-sort="1.07">
-<div class="thumbnail">
-<p><a href="./news/palaeoverse-v1-1-0.html"> <img src="./news/images/palaeoverse-pkg.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./news/palaeoverse-v1-1-0.html">
-<h3 class="no-anchor listing-title">
-New release: palaeoverse v.1.1.0
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<strong>The new version of palaeoverse (v.1.1.0) is now live on CRAN!</strong>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./news/palaeoverse-v1-1-0.html">
-<div class="listing-date">
-Jan 13, 2023
-</div>
-<div class="listing-author">
-Lewis A. Jones
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1673218800000" data-listing-file-modified-sort="1679349032745" data-listing-reading-time-sort="0.995">
-<div class="thumbnail">
-<p><a href="./news/workshop-hackathon.html"> <img src="./images/palass-logo.jpg" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./news/workshop-hackathon.html">
-<h3 class="no-anchor listing-title">
-Workshop and Hackathon
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-We are pleased to share that The Palaeontological Association has decided to fund our upcoming event “R for Palaeobiologists: Workshop and Hackathon” via the Grant-in-Aid scheme (PA-GA202203).
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./news/workshop-hackathon.html">
-<div class="listing-date">
-Jan 9, 2023
-</div>
-<div class="listing-author">
-Lewis A. Jones
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1672527600000" data-listing-file-modified-sort="1679349165729" data-listing-reading-time-sort="0.2">
-<div class="thumbnail">
-<p><a href="./news/website-launch.html"> <img src="./news/images/palaeoverse-pkg.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./news/website-launch.html">
-<h3 class="no-anchor listing-title">
-Website launch!
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-We are pleased to announce the launch of the Palaeoverse website! Please feel free to take a look around and make the most of the resources available. If you notice any issues, please get in touch and let us know!
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./news/website-launch.html">
-<div class="listing-date">
-Jan 1, 2023
-</div>
-<div class="listing-author">
-Lewis A. Jones
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -549,14 +413,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Get involved with Palaeoverse <a href="./about.html#contribute"><img src="./images/palaeoverse-pkg.png" class="img-fluid" alt="Palaeoverse" width="30"></a></div>   
+    <div class="nav-footer-left">Get involved with Palaeoverse <a href="./about.qmd#contribute"><img src="../images/palaeoverse-pkg.png" class="img-fluid" alt="Palaeoverse" width="30"></a></div>   
       <div class="nav-footer-center">
         <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./about.html">About Palaeoverse</a>
+    <a class="nav-link" href="../about.html">About Palaeoverse</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="./conduct.html">Code of Conduct</a>
+    <a class="nav-link" href="../conduct.html">Code of Conduct</a>
   </li>  
 </ul>
       </div>

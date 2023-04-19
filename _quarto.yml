@@ -2,19 +2,14 @@ project:
   type: website
 
 website:
-  site-url: "https://palaeoverse.org"
+  site-url: https://palaeoverse.org
   title: "Palaeoverse"
   image: "/images/palaeoverse-pkg.png"
   favicon: "/images/palaeoverse-pkg.png"
-  twitter-card:
-    creator: "@LewisAlanJones"
-    card-style: summary_large_image
-    site: "@ThePalaeoverse"
-    image: "https://palaeoverse.org/images/palaeoverse-pkg.png"
+  open-graph: true
+  twitter-card: true
   repo-url: https://github.com/palaeoverse-community/palaeoverse-quarto
   repo-actions: [edit, issue]
-  open-graph:
-    image: "https://palaeoverse.org/images/palaeoverse-pkg.png"
   page-footer: 
     left: |
       Get involved with Palaeoverse [![](/images/palaeoverse-pkg.png){fig-alt="Palaeoverse" width=30px}](./about.qmd#contribute)
