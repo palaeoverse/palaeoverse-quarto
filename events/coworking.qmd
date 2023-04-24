@@ -1,6 +1,6 @@
 ---
 title: "Welcome to Coworking with Palaeoverse!"
-image: "images/coworking.png"
+image: "images/coworking.jpeg"
 description: "Want to know more about Palaeoverse?"
 toc: false
 ---
