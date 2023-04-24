@@ -1,0 +1,12 @@
+---
+title: "Welcome to Coworking with Palaeoverse!"
+image: "images/coworking.png"
+description: "Want to know more about Palaeoverse?"
+toc: false
+---
+
+Want to know more about Palaeoverse, how you can get involved, or use packages like [palaeoverse](http://palaeoverse.palaeoverse.org) and [rphylopic](http://rphylopic.palaeoverse.org)? Our online coworking sessions serve as a friendly space to chat and get help with using packages developed and maintained by Palaeoverse.
+
+This event is open to all. However, we ask that you follow our [Code of Conduct](https://palaeoverse.org/conduct.html) to ensure a friendly, safe, and respectful space for everyone.
+
+[See event details](https://www.addevent.com/event/kF16862294)

@@ -2,6 +2,7 @@
   {
     "listing": "/community.html",
     "items": [
+      "/events/coworking.html",
       "/events/workshop-hackathon.html"
     ]
   },
