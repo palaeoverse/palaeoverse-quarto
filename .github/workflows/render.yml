@@ -1,7 +1,9 @@
-name: GitHub Actions Render (netlify deploy)
 on:
   schedule:
     - cron: '0 0 * * *'
+    branches: main
+
+name: Render and Publish
 
 jobs:
   build-deploy:
@@ -26,7 +28,9 @@ jobs:
       
       # add software dependencies here
 
-      - name: Render
+      - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: deployment
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
