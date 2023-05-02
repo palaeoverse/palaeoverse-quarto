@@ -3,8 +3,6 @@ on:
   schedule:
     - cron: '0 0 * * *'
 
-name: Render
-
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
