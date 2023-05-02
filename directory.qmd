@@ -23,18 +23,11 @@ Posts shared here do not imply endorsement from the Palaeoverse team and we can 
 library(leaflet)
 library(leaflet.extras)
 library(dplyr)
-library(tidygeocoder)
 library(googlesheets4)
 # Get sheet
 df <- read_sheet("https://docs.google.com/spreadsheets/d/1escqpJM_Ljt5h5claM0xV5e9IEWBv6rNMIsuQsnUXYY/edit?usp=sharing")
 # Filter old data
 df <- df %>% filter(as.Date(Expiry) > Sys.Date())
-# Get addresses
-address <- data.frame(name = df$Title,
-                      addr = paste(df$Street, df$City, df$Province, df$Country, sep = ", "))
-coordinates <- address %>%
-  geocode(addr, method = "osm")
-df <- bind_cols(df, coordinates)
 
 icons <- awesomeIconList(
   Lab = makeAwesomeIcon(icon = "group",
@@ -61,7 +54,7 @@ split.df <- split(df, df$Post)
 
 l <- leaflet() %>% 
   setView(lng = 0,
-          lat = 0,
+          lat = 15,
           zoom = 2) %>% 
   addProviderTiles(providers$CartoDB.Positron,
                    options = providerTileOptions(minZoom = 1, maxZoom = 20))
