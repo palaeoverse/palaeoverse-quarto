@@ -27,9 +27,9 @@ jobs:
       
       # add software dependencies here
 
-      - name: Publish to GitHub Pages (and render)
+      - name: Publish to Netlify
         uses: quarto-dev/quarto-actions/publish@v2
         with:
-          target: main
+          target: nl-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
