@@ -42,9 +42,9 @@ jobs:
           # version: 0.9.600
       
   # Single deploy job since we're just deploying
-  - name: Publish to Github Pages
-    uses: quarto-dev/quarto-actions/publish@v2
-    with:
-      target: gh-pages
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
+      - name: Publish to Github Pages
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
