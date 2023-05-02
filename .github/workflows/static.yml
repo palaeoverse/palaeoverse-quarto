@@ -33,8 +33,7 @@ jobs:
 
       - name: Install packages (needed for Rmd)
         run: Rscript -e 'install.packages(c("rmarkdown", "knitr", "googlesheets4", 
-        "httr", "curl", "googledrive", "gargle",
-        "dplyr", "leaflet", "leaflet.extras"))
+        "httr", "curl", "googledrive", "gargle", "dplyr", "leaflet", "leaflet.extras"))
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
