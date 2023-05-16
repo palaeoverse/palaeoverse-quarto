@@ -9,7 +9,6 @@ website:
   open-graph: true
   twitter-card: true
   repo-url: https://github.com/palaeoverse-community/palaeoverse-quarto
-  repo-actions: [edit, issue]
   page-footer: 
     left: |
       Get involved with Palaeoverse [![](/images/palaeoverse-pkg.png){fig-alt="Palaeoverse" width=30px}](./about.qmd#contribute)
