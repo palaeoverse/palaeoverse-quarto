@@ -11,7 +11,7 @@ website:
   repo-url: https://github.com/palaeoverse-community/palaeoverse-quarto
   page-footer: 
     left: |
-      Get involved with Palaeoverse [![](/images/palaeoverse-pkg.png){fig-alt="Palaeoverse" width=30px}](./about.qmd#contribute)
+      [Get involved with Palaeoverse](./contribute.qmd)  [![](/images/palaeoverse-pkg.png){fig-alt="Palaeoverse" width=30px}](./contribute.qmd)
     center: 
       - href: about.qmd
         text: About Palaeoverse
@@ -37,6 +37,8 @@ website:
       - href: funding.qmd
         text: Grant Track
       - community.qmd
+      - href: contribute.qmd
+        text: Contribute
       - news.qmd
     right:
       - icon: twitter

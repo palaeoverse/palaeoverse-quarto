@@ -49,6 +49,13 @@
     "text": "This service is provided to advertise research labs, vacancies, upcoming conferences, and workshops related to the field of palaeobiology. If you wish to make a posting, please complete the following form. Please note that all information provided here will be published online and accessible to all. We aim to update postings once a week.\nWe reserve the right to refuse the posting of any inappropriate material or remove content where necessary. If you face any issues, please contact a member of the Palaeoverse team.\n\n\n\n\nContact name\n\n\n\n\nContact email\n\n\n\n\nType of posting (Lab, Conference, Workshop or Vacancy)\n\n Lab Conference\nWorkshop Vacancy  \n\n\nPost title (e.g. name of lab, workshop or position)\n\n\n\n\nPost link (e.g. lab website)\n\n\n\n\nInstitution\n\n\n\n\nStreet address\n\n\n\n\nCity\n\n\n\n\nCounty, province, or state\n\n\n\n\nCountry\n\n\n\n\nExpiry date (e.g. registration or application deadline, for research labs you may use 2099)\n\n\n\n\nProvide a short description of the posting (limited to 50–350 characters)\n\nEnter text...\n  \n Submit"
   },
   {
+    "objectID": "contribute.html",
+    "href": "contribute.html",
+    "title": "Want to get involved?",
+    "section": "",
+    "text": "We welcome both code and non-code contributions to Palaeoverse. You can contribute in the following ways:\n\nContribute to functionality available in our R Packages\nBecome a Palaeoverse Reviewer - review code, documentation, and resources\nContribute to our community databases such as the Palaeoverse Directory and Grant Track\nBe active in Palaeoverse community spaces such as the Google Group"
+  },
+  {
     "objectID": "news.html",
     "href": "news.html",
     "title": "News",
