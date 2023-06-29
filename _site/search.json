@@ -1,5 +1,89 @@
 [
   {
+    "objectID": "directory.html",
+    "href": "directory.html",
+    "title": "Palaeoverse Directory",
+    "section": "",
+    "text": "Welcome to the Palaeoverse Directory! This resource is provided to promote the communication of upcoming conferences, workshops, and vacancies. It also provides a register of research labs and their research focus. We hope that this resource will foster networking and collaboration across the globe.\nIf you wish to register an upcoming conference, workshop, vacancy or your lab, please complete the submission form.\nPosts shared here do not imply endorsement from the Palaeoverse team and we can hold no responsibility for any interactions you make via this service. If you face any issues or have any concerns about current postings, please contact a member of the Palaeoverse team.\n\n\nMap view\n\n\n\n\n\n\n\n\n\nTable view"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Cheat sheets",
+    "section": "",
+    "text": "The palaeoverse package cheat sheet is designed to make your life easier when working with the palaeoverse package. It serves as a quick look-up guide on the functionality available, grouped by relevant categories.\n\n\n\n\n\n\nThe palaeoverse package cheat sheet is designed to make your life easier when working with the palaeoverse package. It serves as a quick look-up guide on the functionality available, grouped by relevant categories."
+  },
+  {
+    "objectID": "resources.html#cheat-sheets",
+    "href": "resources.html#cheat-sheets",
+    "title": "Cheat sheets",
+    "section": "",
+    "text": "The palaeoverse package cheat sheet is designed to make your life easier when working with the palaeoverse package. It serves as a quick look-up guide on the functionality available, grouped by relevant categories.\n\n\n\n\n\n\nThe palaeoverse package cheat sheet is designed to make your life easier when working with the palaeoverse package. It serves as a quick look-up guide on the functionality available, grouped by relevant categories."
+  },
+  {
+    "objectID": "resources.html#granttrack",
+    "href": "resources.html#granttrack",
+    "title": "Cheat sheets",
+    "section": "GrantTrack",
+    "text": "GrantTrack\n\n\n\nGrantTrack is an online community database of research funding schemes and grants for Palaeobiologists. This framework is provided to support the community in easily keeping track of upcoming and available funding opportunities. To contribute to the database, please complete the following submission form."
+  },
+  {
+    "objectID": "events/coworking.html",
+    "href": "events/coworking.html",
+    "title": "Welcome to Coworking with Palaeoverse!",
+    "section": "",
+    "text": "Want to know more about Palaeoverse, how you can get involved, or use packages like palaeoverse and rphylopic? Our online coworking sessions serve as a friendly space to chat and get help with using packages developed and maintained by Palaeoverse.\nThis event is open to all. However, we ask that you follow our Code of Conduct to ensure a friendly, safe, and respectful space for everyone.\nSee event details"
+  },
+  {
+    "objectID": "news/website-launch.html",
+    "href": "news/website-launch.html",
+    "title": "Website launch!",
+    "section": "",
+    "text": "We are pleased to announce the launch of the Palaeoverse website! Please feel free to take a look around and make the most of the resources available. If you notice any issues, please get in touch and let us know!"
+  },
+  {
+    "objectID": "news/rphylopic.html",
+    "href": "news/rphylopic.html",
+    "title": "rphylopic is now maintained by the Palaeoverse!",
+    "section": "",
+    "text": "rphylopic under new management\nThe rphylopic package allows users to add silhouettes of organisms from the PhyloPic website to plots generated in base R and ggplot2. Back in June 2022, the PhyloPic service released a new (dramatically different) version of their API. As of this past February, the old API had been discontinued, resulting in the rphylopic package becoming effectively defunct. Fortunately, Palaeoverse quickly expressed interest in helping getting the package back on its feet, and it has now been transferred to the Palaeoverse community for future maintenance! William Gearty is the new maintainer and Lewis Jones has been helping to get the package back to working order.\n\n\n\nrphylopic version 1.0.0 now available\nAs part of our new maintenance of the package, we updated the existing functions to work with the new API and also reworked nearly all of the core functionality of fetching and plotting silhouettes. These changes have now been released on CRAN as version 1.0.0:\n\nget_uuid: this function enables users to get uuid(s) associated with a taxonomic name (new function)\nget_phylopic: this function enables users to get the PhyloPic silhouette associated with a specific uuid (replaces image_get)\npick_phylopic: this function enables users to pick specific PhyloPic silhouettes when multiple are available for a given taxonomic name (new function)\nadd_phylopic_base: this function retains it’s core functionality and is used to add a silhouette to a base R plot (updated from add_phylopic_base)\nadd_phylopic: this function retains it’s core functionality and is used to add a silhouette to a ggplot2 (updated from add_phylopic)\nget_attribution: this function enables users to get the attribution data associated with a specific uuid (new function)\nsave_phylopic: this function enables users to save PhyloPic silhouettes using various formats (replaces save_png)"
+  },
+  {
+    "objectID": "news/palaeoverse-v1-2-0.html",
+    "href": "news/palaeoverse-v1-2-0.html",
+    "title": "New release: palaeoverse v.1.2.0",
+    "section": "",
+    "text": "palaeoverse v.1.2.0 is now live on CRAN!\nSince v.1.1.0, we have made several updates to the package and minor bug fixes. A summary of these changes are provided below. We would also like to remind you that we welcome contributions to the palaeoverse package. The next release (v.1.3.0) is scheduled for the 1st July 2023. If you are considering submitting a pull request for this release, please allow plenty of time for the review process (~4 weeks).\n\nChangelog\n\ntime_bins updated to enable users to call geological time scales from Macrostrat\nFixed minor documentation error in tax_range_time\nFixed unnecessary column output in palaeorotate (#78)\nFixed binding issues with the “point” method in palaeorotate for some specific datasets (#78)\nRemoved deeptime dependency\nUpdated font colors in GTS2012 and GTS2020 based on background luminance\nFixed multi-model call in palaeorotate for the “point” method which did not return all requested model coordinates (#82)\nFixed an erroneous entry in interval_key (#84)\nAdded two tutorial vignettes (#31)\nFixed a tax_range_space bug for custom column names"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Palaeoverse",
+    "section": "",
+    "text": "Welcome to Palaeoverse\n\nA Resource Hub for Palaeobiologists\nPalaeoverse is an initiative which aims to bring the palaeobiology community together to share resources, reach agreed standards, and improve reproducibility in palaeobiological research."
+  },
+  {
+    "objectID": "goals.html",
+    "href": "goals.html",
+    "title": "About Palaeoverse",
+    "section": "",
+    "text": "Goals\n\n\nProject\n\n\nContribute\n\n\nPull Requests"
+  },
+  {
+    "objectID": "contribute.html",
+    "href": "contribute.html",
+    "title": "Want to get involved?",
+    "section": "",
+    "text": "We welcome both code and non-code contributions to Palaeoverse. You can contribute in the following ways:\n\nContribute to functionality available in our R Packages\nBecome a Palaeoverse Reviewer - review code, documentation, and resources\nContribute to our community databases such as the Palaeoverse Directory and Grant Track\nBe active in Palaeoverse community spaces such as the Google Group"
+  },
+  {
+    "objectID": "form/reviewer.html",
+    "href": "form/reviewer.html",
+    "title": "Become a Palaeoverse Reviewer",
+    "section": "",
+    "text": "Our ultimate hope for Palaeoverse is community involvement. One important way you can contribute to Palaeoverse is by volunteering to review code, documentation and/or resources. If you are interested in registering as an official reviewer for Palaeoverse, please complete the following form. We will periodically run training workshops on how to review code via GitHub.\nIf you face any issues with completing this form, please contact Lewis A. Jones or William Gearty.\n\n\n\n\nName\n\n\n\n\nEmail address\n\n\n\n\nWhat is your field of expertise?\n\n\n\n\nWhat are you willing to review?\n\n\n\n\nDo you have familiarity with reviewing code?\n\n\n\n\nAre you familiar with using GitHub?\n\n\n\n\nSubmit"
+  },
+  {
     "objectID": "community.html",
     "href": "community.html",
     "title": "Community",
@@ -35,13 +119,6 @@
     "text": "This service is provided to contribute to the GrantTrack community database of research funding schemes and grants for Palaeobiologists. If you wish to make an entry, please complete the following form. Please note that all information provided here will be published online and accessible to all. We aim to update entries once a week.\nWe reserve the right to refuse the entries of any inappropriate material or remove content where necessary. If you face any issues, please contact Kilian Eichenseer or Lewis A. Jones.\n\n\n\n\nName of the grant\n\n\n\n\nFunding body\n\n\n\n\nApplicant nationality eligibility (e.g. EU-citizens only)\n\n\n\n\nHost country\n\n\n\n\nCareer stage eligibility\n\n\n\n\nGrant link\n\n\n\n\nAward\n\n\n\n\nResearch cost allowance\n\n\n\n\nDuration\n\n\n\n\nApplication deadline\n\n\n\n\nSubmit"
   },
   {
-    "objectID": "form/reviewer.html",
-    "href": "form/reviewer.html",
-    "title": "Become a Palaeoverse Reviewer",
-    "section": "",
-    "text": "Our ultimate hope for Palaeoverse is community involvement. One important way you can contribute to Palaeoverse is by volunteering to review code, documentation and/or resources. If you are interested in registering as an official reviewer for Palaeoverse, please complete the following form. We will periodically run training workshops on how to review code via GitHub.\nIf you face any issues with completing this form, please contact Lewis A. Jones or William Gearty.\n\n\n\n\nName\n\n\n\n\nEmail address\n\n\n\n\nWhat is your field of expertise?\n\n\n\n\nWhat are you willing to review?\n\n\n\n\nDo you have familiarity with reviewing code?\n\n\n\n\nAre you familiar with using GitHub?\n\n\n\n\nSubmit"
-  },
-  {
     "objectID": "form/directory.html",
     "href": "form/directory.html",
     "title": "Palaeoverse Directory Form",
@@ -49,25 +126,11 @@
     "text": "This service is provided to advertise research labs, vacancies, upcoming conferences, and workshops related to the field of palaeobiology. If you wish to make a posting, please complete the following form. Please note that all information provided here will be published online and accessible to all. We aim to update postings once a week.\nWe reserve the right to refuse the posting of any inappropriate material or remove content where necessary. If you face any issues, please contact a member of the Palaeoverse team.\n\n\n\n\nContact name\n\n\n\n\nContact email\n\n\n\n\nType of posting (Lab, Conference, Workshop or Vacancy)\n\n Lab Conference\nWorkshop Vacancy  \n\n\nPost title (e.g. name of lab, workshop or position)\n\n\n\n\nPost link (e.g. lab website)\n\n\n\n\nInstitution\n\n\n\n\nStreet address\n\n\n\n\nCity\n\n\n\n\nCounty, province, or state\n\n\n\n\nCountry\n\n\n\n\nExpiry date (e.g. registration or application deadline, for research labs you may use 2099)\n\n\n\n\nProvide a short description of the posting (limited to 50–350 characters)\n\nEnter text...\n  \n Submit"
   },
   {
-    "objectID": "contribute.html",
-    "href": "contribute.html",
-    "title": "Want to get involved?",
-    "section": "",
-    "text": "We welcome both code and non-code contributions to Palaeoverse. You can contribute in the following ways:\n\nContribute to functionality available in our R Packages\nBecome a Palaeoverse Reviewer - review code, documentation, and resources\nContribute to our community databases such as the Palaeoverse Directory and Grant Track\nBe active in Palaeoverse community spaces such as the Google Group"
-  },
-  {
     "objectID": "news.html",
     "href": "news.html",
     "title": "News",
     "section": "",
     "text": "New release: palaeoverse v.1.2.0\n\n\n\n\n\n\n\n\n\n\n\n\nApr 19, 2023\n\n\nLewis A. Jones\n\n\n\n\n\n\n  \n\n\n\n\nrphylopic is now maintained by the Palaeoverse!\n\n\n\n\n\nver. 1.0.0 available on CRAN\n\n\n\n\n\n\nMar 21, 2023\n\n\nWilliam Gearty\n\n\n\n\n\n\n  \n\n\n\n\nNew release: palaeoverse v.1.1.0\n\n\n\n\n\n\n\n\n\n\n\n\nJan 13, 2023\n\n\nLewis A. Jones\n\n\n\n\n\n\n  \n\n\n\n\nWorkshop and Hackathon\n\n\n\n\n\n\n\n\n\n\n\n\nJan 9, 2023\n\n\nLewis A. Jones\n\n\n\n\n\n\n  \n\n\n\n\nWebsite launch!\n\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\nLewis A. Jones\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "goals.html",
-    "href": "goals.html",
-    "title": "About Palaeoverse",
-    "section": "",
-    "text": "Goals\n\n\nProject\n\n\nContribute\n\n\nPull Requests"
   },
   {
     "objectID": "package.html",
@@ -89,13 +152,6 @@
     "title": "R Packages",
     "section": "Cheat sheets",
     "text": "Cheat sheets"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to Palaeoverse",
-    "section": "",
-    "text": "Welcome to Palaeoverse\n\nA Resource Hub for Palaeobiologists\nPalaeoverse is an initiative which aims to bring the palaeobiology community together to share resources, reach agreed standards, and improve reproducibility in palaeobiological research."
   },
   {
     "objectID": "about.html",
@@ -133,25 +189,11 @@
     "text": "We build informal community spaces for palaeobiologists to share ideas and resources, advertise opportunities, and network with colleagues. See more…"
   },
   {
-    "objectID": "news/palaeoverse-v1-2-0.html",
-    "href": "news/palaeoverse-v1-2-0.html",
-    "title": "New release: palaeoverse v.1.2.0",
-    "section": "",
-    "text": "palaeoverse v.1.2.0 is now live on CRAN!\nSince v.1.1.0, we have made several updates to the package and minor bug fixes. A summary of these changes are provided below. We would also like to remind you that we welcome contributions to the palaeoverse package. The next release (v.1.3.0) is scheduled for the 1st July 2023. If you are considering submitting a pull request for this release, please allow plenty of time for the review process (~4 weeks).\n\nChangelog\n\ntime_bins updated to enable users to call geological time scales from Macrostrat\nFixed minor documentation error in tax_range_time\nFixed unnecessary column output in palaeorotate (#78)\nFixed binding issues with the “point” method in palaeorotate for some specific datasets (#78)\nRemoved deeptime dependency\nUpdated font colors in GTS2012 and GTS2020 based on background luminance\nFixed multi-model call in palaeorotate for the “point” method which did not return all requested model coordinates (#82)\nFixed an erroneous entry in interval_key (#84)\nAdded two tutorial vignettes (#31)\nFixed a tax_range_space bug for custom column names"
-  },
-  {
     "objectID": "news/palaeoverse-v1-1-0.html",
     "href": "news/palaeoverse-v1-1-0.html",
     "title": "New release: palaeoverse v.1.1.0",
     "section": "",
     "text": "The new version of palaeoverse (v.1.1.0) is now live on CRAN!\nSince v.1.0.0, we have made several updates to the package and minor bug fixes. A summary of these changes are provided below. We would also like to remind you that we welcome contributions to the palaeoverse package. The next release (v.1.2.0) is scheduled for the 1st April 2023. If you are considering submitting a pull request for this release, please allow plenty of time for the review process (~4 weeks).\n\nUpdates\n\nAdded package-level documentation function\nbin_time now accepts user-defined probability function\nlat_bins now accepts user-defined latitudinal range\nbin_lat now has functionality for handling boundary occurrences\ntax_unique now supports arbitrary higher taxonomic levels\ntime_bins now supports user input dataframes\ntax_unique now supports returning the unique names appended to the input dataframe\n\n\n\nMinor bug fixes\n\nUpdated palaeorotate reconstruction files to use an hexagonal equal-area grid\nAdded error handling for when GPlates and Zenodo is offline\nAdded default value for the round argument in palaeorotate\nResolved issue with chunk processing in palaeorotate\nFixed the behavior of time_bins(scale = “GTS2012”)\nFixed tests when suggested packages were not installed\nRemoved dependence of tests on divDyn and deeptime\nFixed tax_range_time example\nFixed look_up issue when handling pre-Cambrian occurrences\ntax_unique now retains homonyms from different higher taxonomic groups\nFixed axis_geo for phylogenies"
-  },
-  {
-    "objectID": "news/rphylopic.html",
-    "href": "news/rphylopic.html",
-    "title": "rphylopic is now maintained by the Palaeoverse!",
-    "section": "",
-    "text": "rphylopic under new management\nThe rphylopic package allows users to add silhouettes of organisms from the PhyloPic website to plots generated in base R and ggplot2. Back in June 2022, the PhyloPic service released a new (dramatically different) version of their API. As of this past February, the old API had been discontinued, resulting in the rphylopic package becoming effectively defunct. Fortunately, Palaeoverse quickly expressed interest in helping getting the package back on its feet, and it has now been transferred to the Palaeoverse community for future maintenance! William Gearty is the new maintainer and Lewis Jones has been helping to get the package back to working order.\n\n\n\nrphylopic version 1.0.0 now available\nAs part of our new maintenance of the package, we updated the existing functions to work with the new API and also reworked nearly all of the core functionality of fetching and plotting silhouettes. These changes have now been released on CRAN as version 1.0.0:\n\nget_uuid: this function enables users to get uuid(s) associated with a taxonomic name (new function)\nget_phylopic: this function enables users to get the PhyloPic silhouette associated with a specific uuid (replaces image_get)\npick_phylopic: this function enables users to pick specific PhyloPic silhouettes when multiple are available for a given taxonomic name (new function)\nadd_phylopic_base: this function retains it’s core functionality and is used to add a silhouette to a base R plot (updated from add_phylopic_base)\nadd_phylopic: this function retains it’s core functionality and is used to add a silhouette to a ggplot2 (updated from add_phylopic)\nget_attribution: this function enables users to get the attribution data associated with a specific uuid (new function)\nsave_phylopic: this function enables users to save PhyloPic silhouettes using various formats (replaces save_png)"
   },
   {
     "objectID": "news/workshop-hackathon.html",
@@ -161,13 +203,6 @@
     "text": "R for Palaeobiologists: Workshop and Hackathon\nWe are pleased to share that The Palaeontological Association has decided to fund our upcoming event “R for Palaeobiologists: Workshop and Hackathon” via the Grant-in-Aid scheme (PA-GA202203).\n\n\n\n\n\nBelow we provide some initial details of the event, with more details to follow over the coming months.\nLocation: University College London\nDate: 7–8th September 2023\n\nR is one of the most popular languages in the world of Data Science and has been widely adopted by the palaeobiology community to clean, analyse and plot data. General familiarity with R allows users to expand the potential of their research and automate routine tasks. Importantly, it allows researchers to improve the reproducibility of their research and document their analyses. The workshop component of this event will provide an introduction to databases (e.g. Paleobiology Database), building workflows in R (e.g. data cleaning), developing functions, and the versatility R has to offer. The hackathon component of this event will provide the opportunity for researchers to work together in small focus groups to develop workflows, functions and novel tools to address challenges in palaeobiology. This event will provide a great opportunity for attendees to work with different researchers and gain experience working collaboratively in R to generate reproducible research."
   },
   {
-    "objectID": "news/website-launch.html",
-    "href": "news/website-launch.html",
-    "title": "Website launch!",
-    "section": "",
-    "text": "We are pleased to announce the launch of the Palaeoverse website! Please feel free to take a look around and make the most of the resources available. If you notice any issues, please get in touch and let us know!"
-  },
-  {
     "objectID": "funding.html",
     "href": "funding.html",
     "title": "Grant Track",
@@ -175,39 +210,11 @@
     "text": "Welcome to Grant Track! Grant Track is an online community database of research funding schemes and grants for Palaeobiologists. This framework is provided to support the community in easily keeping track of upcoming and available funding opportunities. To contribute to the database, please complete the following submission form. If you notice any issues with the database, please contact Kilian Eichenseer or Lewis A. Jones.\nAn important note: we strive to make sure all the data here is up-to-date and accurate. However, please always check official information via funders’ websites. We hold no responsibility for missed deadlines."
   },
   {
-    "objectID": "events/coworking.html",
-    "href": "events/coworking.html",
-    "title": "Welcome to Coworking with Palaeoverse!",
-    "section": "",
-    "text": "Want to know more about Palaeoverse, how you can get involved, or use packages like palaeoverse and rphylopic? Our online coworking sessions serve as a friendly space to chat and get help with using packages developed and maintained by Palaeoverse.\nThis event is open to all. However, we ask that you follow our Code of Conduct to ensure a friendly, safe, and respectful space for everyone.\nSee event details"
-  },
-  {
     "objectID": "events/workshop-hackathon.html",
     "href": "events/workshop-hackathon.html",
     "title": "R for Palaeobiologists: Workshop and Hackathon",
     "section": "",
     "text": "Registration now open!\n\n\nLoading…"
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Cheat sheets",
-    "section": "",
-    "text": "The palaeoverse package cheat sheet is designed to make your life easier when working with the palaeoverse package. It serves as a quick look-up guide on the functionality available, grouped by relevant categories.\n\n\n\n\n\n\nThe palaeoverse package cheat sheet is designed to make your life easier when working with the palaeoverse package. It serves as a quick look-up guide on the functionality available, grouped by relevant categories."
-  },
-  {
-    "objectID": "resources.html#cheat-sheets",
-    "href": "resources.html#cheat-sheets",
-    "title": "Cheat sheets",
-    "section": "",
-    "text": "The palaeoverse package cheat sheet is designed to make your life easier when working with the palaeoverse package. It serves as a quick look-up guide on the functionality available, grouped by relevant categories.\n\n\n\n\n\n\nThe palaeoverse package cheat sheet is designed to make your life easier when working with the palaeoverse package. It serves as a quick look-up guide on the functionality available, grouped by relevant categories."
-  },
-  {
-    "objectID": "resources.html#granttrack",
-    "href": "resources.html#granttrack",
-    "title": "Cheat sheets",
-    "section": "GrantTrack",
-    "text": "GrantTrack\n\n\n\nGrantTrack is an online community database of research funding schemes and grants for Palaeobiologists. This framework is provided to support the community in easily keeping track of upcoming and available funding opportunities. To contribute to the database, please complete the following submission form."
   },
   {
     "objectID": "conduct.html",
@@ -264,12 +271,5 @@
     "title": "Code of Conduct",
     "section": "Attribution",
     "text": "Attribution\n\nThis Code of Conduct is adapted from the Contributor Covenant.\nCommunity Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder."
-  },
-  {
-    "objectID": "directory.html",
-    "href": "directory.html",
-    "title": "Palaeoverse Directory",
-    "section": "",
-    "text": "Welcome to the Palaeoverse Directory! This resource is provided to promote the communication of upcoming conferences, workshops, and vacancies. It also provides a register of research labs and their research focus. We hope that this resource will foster networking and collaboration across the globe.\nIf you wish to register an upcoming conference, workshop, vacancy or your lab, please complete the submission form.\nPosts shared here do not imply endorsement from the Palaeoverse team and we can hold no responsibility for any interactions you make via this service. If you face any issues or have any concerns about current postings, please contact a member of the Palaeoverse team.\n\n\nMap view\n\n\n\n\n\n\n\n\n\nTable view"
   }
 ]
