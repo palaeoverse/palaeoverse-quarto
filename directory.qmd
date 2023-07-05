@@ -79,10 +79,7 @@ names(split.df) %>%
                               "<a href='",
                               Link,
                               "'>More info</a>"),
-                 group = df,
-                 clusterOptions = markerClusterOptions(removeOutsideVisibleBounds = F),
-                 labelOptions = labelOptions(noHide = F,
-                                             direction = 'auto'))
+                 group = df)
   })
 
 l %>%
