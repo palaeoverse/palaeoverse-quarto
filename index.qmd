@@ -117,7 +117,7 @@ It can be a lot to take in when trying to get familiar with a new R package. We 
 
 ### [Directory](directory.qmd)
 
-[Directory](directory.qmd) is a resource to promote the communication of upcoming con-ferences, workshops, and vacancies. It also provides a register of research labs and their research focus. We hope that this resource will foster networking and collaboration across the globe.
+[Directory](directory.qmd) is a resource to promote the communication of upcoming conferences, workshops, and vacancies. It also provides a register of research labs and their research focus. We hope that this resource will foster networking and collaboration across the globe.
 
 :::
 
@@ -155,7 +155,7 @@ It can be a lot to take in when trying to get familiar with a new R package. We 
 ::: columns
 
 ::: {.column width="85%" .justify}
-We host a community space for palaeobiologists using the <a href="https://groups.google.com/g/palaeoverse" style="text-decoration: none">**Google Groups**</a> platform. This space provides an area to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting. Questions related to **Palaeoverse packages** are also more than welcome. This space is unmoderated, but please be kind to others. We reserve the right to remove anyone harrasing individuals.
+We host a community space for palaeobiologists using the <a href="https://groups.google.com/g/palaeoverse" style="text-decoration: none">**Google Groups**</a> platform. This space provides an area to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting. Questions related to Palaeoverse packages are also more than welcome.
 :::
 
 ::: {.column width="5%"}
@@ -173,7 +173,7 @@ We host a community space for palaeobiologists using the <a href="https://groups
 ::: columns
 ::: {.column width="85%"}
 ::: justify
-We are active on <a href="https://twitter.com/ThePalaeoverse" style="text-decoration: none">**Twitter/X**</a>, where we share updates and news on Palaeoverse, as well as resources for the Palaeobiology community. We are also more than happy to help circulate relevant news you wish to share with the community, just remember to tag <a href="https://twitter.com/ThePalaeoverse" style="text-decoration: none">**@ThePalaeoverse**</a> and use the hashtag <a href="https://twitter.com/search?q=palaeoverse&src=typed_query" style="text-decoration: none">**#palaeoverse**</a>.
+We are active on <a href="https://twitter.com/ThePalaeoverse" style="text-decoration: none">**Twitter/X**</a>, where we share updates and news on Palaeoverse, as well as resources for the palaeobiology community. We are also more than happy to help circulate relevant news you wish to share with the community, just remember to tag <a href="https://twitter.com/ThePalaeoverse" style="text-decoration: none">**@ThePalaeoverse**</a> and use the hashtag <a href="https://twitter.com/search?q=palaeoverse&src=typed_query" style="text-decoration: none">**#palaeoverse**</a>.
 :::
 :::
 
@@ -215,7 +215,7 @@ We welcome both code and non-code contributions. You can contribute in the follo
 ::: {.column width="20%" .colour-box}
 
 ### R packages 👩🏽‍💻 
-Contribute to functionality available in Palaeoverse <a id="contribute" href="https://github.com/palaeoverse-community" style="text-decoration: none" target="_blank">**R Packages**</a>.  
+Contribute to functionality available in Palaeoverse <a id="contribute" href="https://github.com/palaeoverse" style="text-decoration: none" target="_blank">**R Packages**</a>.  
 
 :::
 
@@ -273,10 +273,10 @@ Be active in Palaeoverse community spaces such as the <a href="https://groups.go
 
 :::
 
-::: {.g-col-8}
+::: {.g-col-8 .justify}
 # About us
 
-We are an international group of Early Career Researchers with the aim of encouraging more open, reproducible and collaborative research in Palaeobiology. To do so, we provide tools and resources--developed alongside the community--that help to promote this culture. 
+We are an international group of Early Career Researchers with the aim of encouraging more open, reproducible and collaborative research in palaeobiology. To do so, we provide tools and resources--developed alongside the community--that help to promote this culture. 
 
 ## Core team
 
