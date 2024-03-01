@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome</title>
+<title>Welcome to Palaeoverse</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -35,12 +69,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -64,12 +96,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Welcome">
+<meta property="og:title" content="Welcome to Palaeoverse">
 <meta property="og:image" content="https://palaeoverse.org/images/palaeoverse-pkg.png">
 <meta property="og:site-name" content="Palaeoverse">
 <meta property="og:image:height" content="1062">
 <meta property="og:image:width" content="920">
-<meta name="twitter:title" content="Welcome">
+<meta name="twitter:title" content="Welcome to Palaeoverse">
 <meta name="twitter:image" content="https://palaeoverse.org/images/palaeoverse-pkg.png">
 <meta name="twitter:image-height" content="1062">
 <meta name="twitter:image-width" content="920">
@@ -95,18 +127,22 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
- <span class="menu-text">Overview</span></a>
+ <span class="menu-text">🏠</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About us</span></a>
+    <a class="nav-link" href="./index.html#about-us" rel="" target="">
+ <span class="menu-text">About Us</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./package.html" rel="" target="">
+    <a class="nav-link" href="./index.html#our-toolkits" rel="" target="">
  <span class="menu-text">R Packages</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#our-resources" rel="" target="">
+ <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./directory.html" rel="" target="">
@@ -117,68 +153,367 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Grant Track</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./community.html" rel="" target="">
+    <a class="nav-link" href="./index.html#community-spaces" rel="" target="">
  <span class="menu-text">Community</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contribute.html" rel="" target="">
+    <a class="nav-link" href="./index.html#get-involved" rel="" target="">
  <span class="menu-text">Contribute</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html" rel="" target="">
- <span class="menu-text">News</span></a>
+    <a class="nav-link" href="./lectures.html" rel="" target="">
+ <span class="menu-text">Lecture Series</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/ThePalaeoverse" rel="" target=""><i class="bi bi-twitter" role="img" aria-label="Palaeoverse Twitter">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/palaeoverse-community/palaeoverse-quarto" rel="" target=""><i class="bi bi-github" role="img" aria-label="Palaeoverse GitHub">
+    <a class="nav-link" href="https://github.com/palaeoverse/palaeoverse-quarto" rel="" target=""><i class="bi bi-github" role="img" aria-label="Palaeoverse GitHub">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
 <!-- main -->
-<main class="content" id="quarto-document-content">
 
 
 
-<section id="welcome-to-palaeoverse" class="level1 center-h1">
-<h1 class="center-h1">Welcome to Palaeoverse</h1>
-<div class="center">
-<p><strong>A Resource Hub for Palaeobiologists</strong></p>
+<div class="grid white-background">
+<div class="g-col-2">
+
+</div>
+<section id="welcome-to-palaeoverse" class="level1 g-col-8 center">
+<h1>Welcome to Palaeoverse</h1>
+<div class="huge">
+<p><strong>A resource hub and community space for Palaeobiologists</strong></p>
+</div>
+<div class="justify">
 <p>Palaeoverse is an initiative which aims to bring the palaeobiology community together to share resources, reach agreed standards, and improve reproducibility in palaeobiological research.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://twitter.com/ThePalaeoverse"><img src="images/twitter.png" class="img-fluid figure-img" style="width:5.0%"></a></p>
-</figure>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/palaeoverse-pkg.png" class="img-fluid figure-img" style="width:30.0%"></p>
-</figure>
-</div>
-</div>
-
-
+<div class="column colour-boxhighlight" style="width:30%;">
+<section id="lecture-series" class="level5">
+<h5 data-anchor-id="lecture-series"><a href="./lectures.html">🚨<strong>LECTURE SERIES</strong>🚨</a></h5>
 </section>
+</div>
+</section>
+<div class="g-col-2">
 
-</main> <!-- /main -->
+</div>
+</div>
+<p><img src="images/banner.png" class="img-fluid"></p>
+<div class="grid white-background">
+<div class="g-col-2">
+
+</div>
+<section id="our-toolkits" class="level1 g-col-8">
+<h1>Our toolkits</h1>
+<p><a href="https://palaeoverse.palaeoverse.org"><strong>palaeoverse</strong></a> provides functionality to support data preparation and exploration for palaeobiological analyses, improving code reproducibility and accessibility. The aim of the palaeoverse R package is to bring the palaeobiological community together to establish agreed standards. <br> <a href="https://zenodo.org/badge/latestdoi/468929230"><img src="https://zenodo.org/badge/468929230.svg" alt="Zenodo"></a> <a href="https://cran.r-project.org/package=palaeoverse"><img src="https://cranlogs.r-pkg.org/badges/grand-total/palaeoverse" alt="CRAN downloads"></a> <a href="https://CRAN.R-project.org/package=palaeoverse"><img src="https://www.r-pkg.org/badges/version/palaeoverse" alt="CRAN status"></a></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"palaeoverse"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><a href="https://rphylopic.palaeoverse.org"><strong>rphylopic</strong></a> allows users to add silhouettes of organisms from the PhyloPic website to plots generated in base R and ggplot2. rphylopic was originally developed and maintained by <a href="https://scottchamberlain.info" style="text-decoration: none">Scott Chamberlain</a>. From ver. 1.0.0, the package is now developed and maintained by the Palaeoverse team. <br> <a href="https://doi.org/10.5281/zenodo.10093317"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10093317.svg" alt="DOI"></a> <a href="https://cran.r-project.org/package=rphylopic"><img src="https://cranlogs.r-pkg.org/badges/grand-total/rphylopic" alt="CRAN downloads"></a> <a href="https://CRAN.R-project.org/package=rphylopic"><img src="https://www.r-pkg.org/badges/version/rphylopic" alt="CRAN status"></a></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"rphylopic"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><a href="https://sepkoski.palaeoverse.org"><strong>sepkoski</strong></a> provides access to Sepkoski’s fossil marine animal genera compendium (Sepkoski, 2002). The aim of the package is to offer a light and easily-accessible solution to working with Sepkoski’s compendium to support teaching exercises. <br> <a href="https://zenodo.org/badge/latestdoi/564230284"><img src="https://zenodo.org/badge/564230284.svg" alt="Zenodo"></a> <a href="https://cran.r-project.org/package=sepkoski"><img src="https://cranlogs.r-pkg.org/badges/grand-total/sepkoski" alt="CRAN downloads"></a> <a href="https://CRAN.R-project.org/package=sepkoski"><img src="https://www.r-pkg.org/badges/version/sepkoski" alt="CRAN status"></a></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"sepkoski"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><br></p>
+</section>
+<div class="g-col-2">
+
+</div>
+</div>
+<div class="grid blue-background">
+<div class="g-col-2">
+
+</div>
+<section id="our-resources" class="level1 g-col-8 center">
+<h1>Our resources</h1>
+<div class="columns">
+<div class="column colour-box" style="width:30%;">
+<section id="cheat-sheets" class="level3">
+<h3 data-anchor-id="cheat-sheets">Cheat sheets</h3>
+<p>It can be a lot to take in when trying to get familiar with a new R package. We provide cheat sheets for our packages to help get you started.<br>
+<a href="./images/palaeoverse-cheatsheet.pdf"><img src="images/palaeoverse-pkg.png" class="img-fluid" style="width:18.0%"></a> <a href="./images/rphylopic-cheatsheet.pdf"><img src="images/rphylopic-pkg.png" class="img-fluid" style="width:18.0%"></a></p>
+</section>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column colour-box" style="width:30%;">
+<section id="directory" class="level3">
+<h3 data-anchor-id="directory"><a href="./directory.html">Directory</a></h3>
+<p><a href="./directory.html">Directory</a> is a resource to promote the communication of upcoming con-ferences, workshops, and vacancies. It also provides a register of research labs and their research focus. We hope that this resource will foster networking and collaboration across the globe.</p>
+</section>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column colour-box" style="width:30%;">
+<section id="grant-track" class="level3">
+<h3 data-anchor-id="grant-track"><a href="./funding.html">Grant Track</a></h3>
+<p><a href="./funding.html">Grant Track</a> is an online community database of research funding schemes and grants for Palaeobiologists. This framework is provided to support the community in easily keeping track of available funding opportunities. The database is continuously growing so visit once in a while!</p>
+</section>
+</div><p><br></p>
+</div>
+</section>
+</div>
+<div class="grid white-background">
+<div class="g-col-2">
+
+</div>
+<section id="community-spaces" class="level1 g-col-8">
+<h1>Community spaces</h1>
+<section id="google-group" class="level3">
+<h3 data-anchor-id="google-group">Google group</h3>
+<div class="columns">
+<div class="column justify" style="width:85%;">
+<p>We host a community space for palaeobiologists using the <a href="https://groups.google.com/g/palaeoverse" style="text-decoration: none"><strong>Google Groups</strong></a> platform. This space provides an area to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting. Questions related to <strong>Palaeoverse packages</strong> are also more than welcome. This space is unmoderated, but please be kind to others. We reserve the right to remove anyone harrasing individuals.</p>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column" style="width:10%;">
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><a href="https://groups.google.com/g/palaeoverse"><img src="images/google-groups.png" class="img-fluid figure-img" style="width:60.0%"></a></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="twitter" class="level3">
+<h3 data-anchor-id="twitter">Twitter</h3>
+<div class="columns">
+<div class="column" style="width:85%;">
+<div class="justify">
+<p>We are active on <a href="https://twitter.com/ThePalaeoverse" style="text-decoration: none"><strong>Twitter/X</strong></a>, where we share updates and news on Palaeoverse, as well as resources for the Palaeobiology community. We are also more than happy to help circulate relevant news you wish to share with the community, just remember to tag <a href="https://twitter.com/ThePalaeoverse" style="text-decoration: none"><strong><span class="citation" data-cites="ThePalaeoverse">@ThePalaeoverse</span></strong></a> and use the hashtag <a href="https://twitter.com/search?q=palaeoverse&amp;src=typed_query" style="text-decoration: none"><strong>#palaeoverse</strong></a>.</p>
+</div>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column" style="width:10%;">
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><a href="https://twitter.com/ThePalaeoverse"><img src="images/twitter.png" class="img-fluid figure-img" style="width:60.0%"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<p><br></p>
+</section>
+</section>
+<div class="g-col-2">
+
+</div>
+</div>
+<div class="grid blue-background">
+<div class="g-col-2">
+
+</div>
+<section id="get-involved" class="level1 g-col-8 center">
+<h1>Get involved</h1>
+<div class="huge">
+<p>We welcome both code and non-code contributions. You can contribute in the following ways:</p>
+</div>
+<div class="columns">
+<div class="column colour-box" style="width:20%;">
+<section id="r-packages" class="level3">
+<h3 data-anchor-id="r-packages">R packages 👩🏽‍💻</h3>
+<p>Contribute to functionality available in Palaeoverse <a id="contribute" href="https://github.com/palaeoverse-community" style="text-decoration: none" target="_blank"><strong>R Packages</strong></a>.</p>
+</section>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column colour-box" style="width:20%;">
+<section id="review" class="level3">
+<h3 data-anchor-id="review">Review 🔍</h3>
+<p>Become a <a href="./form/reviewer.html" style="text-decoration: none" target="_blank"><strong>Palaeoverse Reviewer</strong></a> - Review code, documentation, and resources.</p>
+</section>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column colour-box" style="width:20%;">
+<section id="data" class="level3">
+<h3 data-anchor-id="data">Data 🗃</h3>
+<p>Contribute to Palaeoverse databases such as the <a href="./directory.html" style="text-decoration: none" target="_blank"><strong>Directory</strong></a> and <a href="./funding.html" style="text-decoration: none" target="_blank"><strong>Grant Track</strong>.</a></p>
+</section>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column colour-box" style="width:20%;">
+<section id="community" class="level3">
+<h3 data-anchor-id="community">Community 💬</h3>
+<p>Be active in Palaeoverse community spaces such as the <a href="https://groups.google.com/g/palaeoverse" style="text-decoration: none" target="_blank"><strong>Google Group</strong></a>.</p>
+</section>
+</div><p><br></p>
+</div>
+</section>
+<div class="g-col-2">
+
+</div>
+</div>
+<div class="grid white-background">
+<div class="g-col-2">
+
+</div>
+<section id="about-us" class="level1 g-col-8">
+<h1>About us</h1>
+<p>We are an international group of Early Career Researchers with the aim of encouraging more open, reproducible and collaborative research in Palaeobiology. To do so, we provide tools and resources–developed alongside the community–that help to promote this culture.</p>
+<section id="core-team" class="level2">
+<h2 data-anchor-id="core-team">Core team</h2>
+<div class="columns">
+<div class="column" style="width:20%;">
+<p><img src="./images/profiles/Lewis.JPG" class="img-fluid" style="width:100.0%"></p>
+<div class="center large">
+<p><strong>Lewis Jones</strong><br>
+Universidade de Vigo</p>
+</div>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column" style="width:20%;">
+<p><img src="./images/profiles/Will.jpeg" class="img-fluid" style="width:100.0%"></p>
+<div class="center large">
+<p><strong>William Gearty</strong><br>
+American Museum of Natural History</p>
+</div>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column" style="width:20%;">
+<p><img src="./images/profiles/Bethany.jpeg" class="img-fluid" style="width:100.0%"></p>
+<div class="center large">
+<p><strong>Bethany Allen</strong><br>
+ETH Zürich</p>
+</div>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column" style="width:20%;">
+<p><img src="./images/profiles/Chris.jpeg" class="img-fluid" style="width:100.0%"></p>
+<div class="center large">
+<p><strong>Christopher Dean</strong><br>
+University College London</p>
+</div>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:20%;">
+<p><img src="./images/profiles/Sofia.jpeg" class="img-fluid" style="width:100.0%"></p>
+<div class="center large">
+<p><strong>Sofía Galván</strong><br>
+Universidade de Vigo</p>
+</div>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column" style="width:20%;">
+<p><img src="./images/profiles/Pedro.jpeg" class="img-fluid" style="width:100.0%"></p>
+<div class="center large">
+<p><strong>Pedro Godoy</strong><br>
+University of São Paulo</p>
+</div>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column" style="width:20%;">
+<p><img src="./images/profiles/Miranta.jpeg" class="img-fluid" style="width:100.0%"></p>
+<div class="center large">
+<p><strong>Miranta Kouvari</strong><br>
+University College London</p>
+</div>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column" style="width:20%;">
+<p><img src="./images/profiles/Cecily.png" class="img-fluid" style="width:100.0%"></p>
+<div class="center large">
+<p><strong>Cecily Nicholl</strong><br>
+University College London</p>
+</div>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:20%;">
+<p><img src="./images/profiles/Kilian.jpeg" class="img-fluid" style="width:100.0%"></p>
+<div class="center large">
+<p><strong>Kilian Eichenseer</strong><br>
+University of Durham</p>
+</div>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column" style="width:20%;">
+<p><img src="./images/profiles/Alessandro.jpg" class="img-fluid" style="width:100.0%"></p>
+<div class="center large">
+<p><strong>Alessandro Chiarenza</strong><br>
+Universidade de Vigo</p>
+</div>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column" style="width:20%;">
+<p><img src="./images/profiles/Erin.png" class="img-fluid" style="width:100.0%"></p>
+<div class="center large">
+<p><strong>Erin Dillon</strong><br>
+Smithsonian Tropical Research Institute</p>
+</div>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column" style="width:20%;">
+<p><img src="./images/profiles/Lucas.jpeg" class="img-fluid" style="width:100.0%"></p>
+<div class="center large">
+<p><strong>Lucas Buffan</strong><br>
+École Normale Supérieure de Lyon</p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<div class="g-col-2">
+
+</div>
+</div>
+<div class="footer-text">
+<div class="footer-container blue-background">
+<div class="footer-block">
+<div class="grid">
+<div class="g-col-12 g-col-md-2">
+
+</div>
+<section id="about-us-1" class="level3 g-col-12 g-col-md-3">
+<h3 data-anchor-id="about-us-1">About us</h3>
+<p><a href="./index.html">Our aims</a><br>
+<a href="./index.html#about-us">Our team</a><br>
+<a href="mailto:LewisA.Jones@outlook.com">Contact us</a></p>
+</section>
+<div class="g-col-12 g-col-md-3">
+<section id="contribute" class="level3">
+<h3 data-anchor-id="contribute">Contribute</h3>
+<p><a href="https://palaeoverse.palaeoverse.org/articles/structure-and-standards.html">Guidelines</a><br>
+</p>
+</section>
+<section id="cheat-sheets-1" class="level3">
+<h3 data-anchor-id="cheat-sheets-1">Cheat sheets</h3>
+<p><a href="images/palaeoverse-cheatsheet.pdf">palaeoverse</a><br>
+<a href="images/rphylopic-cheatsheet.pdf">rphylopic</a></p>
+</section>
+</div>
+<section id="follow-us" class="level3 g-col-12 g-col-md-3">
+<h3 data-anchor-id="follow-us">Follow us</h3>
+<p><a href="https://github.com/palaeoverse">GitHub</a><br>
+<a href="https://twitter.com/ThePalaeoverse">Twitter/X</a><br>
+<a href="https://www.youtube.com/channel/UCTzcJ84EF08PZX6VfNDf0Hg">YouTube</a><br>
+<a href="https://groups.google.com/g/palaeoverse">Google Group</a><br>
+</p>
+</section>
+<div class="g-col-12 g-col-md-2">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -199,121 +534,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
-      }
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
-        }
-      }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
-        } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
-      return false;
-    }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  let localAlternateSentinel = 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -544,12 +764,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left"><a href="./contribute.html">Get involved with Palaeoverse</a> <a href="./contribute.html"><img src="./images/palaeoverse-pkg.png" class="img-fluid" alt="Palaeoverse" width="30"></a></div>   
+    <div class="nav-footer-left"><a href="./index.html#get-involved">Get involved with Palaeoverse</a> <a href="./index.html#get-involved"><img src="./images/palaeoverse-pkg.png" class="img-fluid" alt="Palaeoverse" width="30"></a></div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item">
-    <a class="nav-link" href="./about.html">About Palaeoverse</a>
-  </li>  
     <li class="nav-item">
     <a class="nav-link" href="./conduct.html">Code of Conduct</a>
   </li>  
@@ -558,7 +775,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/palaeoverse-community">
+    <a class="nav-link" href="https://github.com/palaeoverse">
       <i class="bi bi-github" role="img">
 </i> 
     </a>

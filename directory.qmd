@@ -2,18 +2,24 @@
 pagetitle: Directory
 title: Palaeoverse Directory
 title-block-banner: true
-toc: true
+toc: false
+page-layout: custom
 ---
 
-::: {.justify}
+::: {.grid .justify}
+
+::: {.g-col-2}
+
+:::
+
+::: {.g-col-8}
 Welcome to the Palaeoverse Directory! This resource is provided to promote the communication of upcoming conferences, workshops, and vacancies. It also provides a register of research labs and their research focus. We hope that this resource will foster networking and collaboration across the globe.
 
 If you wish to register an upcoming conference, workshop, vacancy or your lab, please complete the <a href="./form/directory.qmd" style="text-decoration: none" target="_blank">**submission form**</a>.
 
 Posts shared here do not imply endorsement from the Palaeoverse team and we can hold no responsibility for any interactions you make via this service. If you face any issues or have any concerns about current postings, please contact a member of the Palaeoverse team.
-:::
 
-# Map view {.column-page}
+# Map view
 
 ```{r}
 #| echo: false
@@ -97,7 +103,7 @@ l %>%
 
 <br>
 
-# Table view {.column-page}
+# Table view
 
 ```{r}
 #| echo: false
@@ -135,3 +141,12 @@ options = list(
 )) %>%
   DT::formatStyle(columns = c(1:6), fontSize = '65%')
 ```
+
+
+:::
+
+::: {.g-col-2}
+
+:::
+
+:::

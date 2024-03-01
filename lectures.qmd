@@ -1,0 +1,68 @@
+---
+pagetitle: Lectures
+title: Lecture Series
+title-block-banner: true
+toc: true
+page-layout: custom
+---
+
+::: {.grid .white-background}
+
+::: {.g-col-3}
+
+:::
+
+::: {.g-col-6 .center}
+
+::: {.huge}
+**Spring 2024**
+
+:::
+
+::: {.justify}
+
+We are excited to announce the Spring 2024 Palaeoverse Lecture Series focused on software development and methodological approaches in palaeontology. The aim of this lecture series is to promote the use of new tools in the field and to give researchers a platform to showcase their work. The format is intended to be flexible but will generally include a short seminar followed by a demonstration of the speaker's software toolkit and/or method and will conclude with a group discussion.
+
+**Lectures will be held on the last Thursday of each month from 14:00--15:00 UTC.**
+
+This semester, we will be joined by the following four speakers:
+
+**February 29^th^ 2024 - Dr Emily Mitchell, University of Cambridge**  
+Using Spatial point process analyses to quantify the behavioural ecology behind trace fossils
+
+**March 28^th^ 2024 - Dr Benjamin Shipley, University of Oxford**  
+Modelling species range shifts in the past and future
+
+**April 25^th^ 2024 - Laura Mulvey, FAU Erlangen-Nürnberg**  
+Assessing the adequacy of morphological models used in palaeobiology
+
+**May 30^th^ 2024 - Prof. Daniele Silvestro, University of Fribourg**  
+Neural network models to infer diversity trajectories and the drivers of speciation and extinction
+
+Please register below for the series. All are welcome to join and we ask that all participants abide by the [**Palaeoverse Code of Conduct**](conduct.qmd).
+
+:::
+
+::: {.column width="60%" .colour-boxhighlight}
+##### [**REGISTER**](https://t.co/A5l2c1P9qH)
+:::
+
+<br>
+
+::: {.huge}
+**Previous lectures**
+:::
+
+**February 29^th^ 2024 - Dr Emily Mitchell, University of Cambridge**  
+Using Spatial point process analyses to quantify the behavioural ecology behind trace fossils
+
+Recording coming soon...
+
+
+:::
+
+::: {.g-col-3}
+
+:::
+
+:::

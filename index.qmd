@@ -1,21 +1,480 @@
 ---
-pagetitle: Welcome
-title-block-banner: false
+pagetitle: Welcome to Palaeoverse
 image: "/images/palaeoverse-pkg.png"
 open-graph: true
 twitter-card: true
 toc: false
+page-layout: custom
 ---
 
-# Welcome to Palaeoverse {.center-h1}
+::: {.grid .white-background}
 
-::: center
+::: {.g-col-2}
 
-**A Resource Hub for Palaeobiologists**
+:::
+
+::: {.g-col-8 .center}
+# Welcome to Palaeoverse
+
+::: {.huge}
+**A resource hub and community space for Palaeobiologists**
+
+:::
+
+::: {.justify}
 
 Palaeoverse is an initiative which aims to bring the palaeobiology community together to share resources, reach agreed standards, and improve reproducibility in palaeobiological research.
 
-[![](images/twitter.png){fig-align="center" width="5%"}](https://twitter.com/ThePalaeoverse)
+:::
 
-![](images/palaeoverse-pkg.png){fig-align="center" width="30%"}
+::: {.column width="30%" .colour-boxhighlight}
+##### [🚨**LECTURE SERIES**🚨](lectures.qmd)
+:::
+
+:::
+
+::: {.g-col-2}
+
+:::
+
+:::
+
+![](images/banner.png)
+
+::: {.grid .white-background}
+
+::: {.g-col-2}
+
+:::
+
+::: {.g-col-8}
+
+# Our toolkits
+
+[**palaeoverse**](https://palaeoverse.palaeoverse.org) provides functionality to support data preparation and exploration for palaeobiological analyses, improving code reproducibility and accessibility. The aim of the palaeoverse R package is to bring the palaeobiological community together to establish agreed standards. <br>
+<a href="https://zenodo.org/badge/latestdoi/468929230"><img src="https://zenodo.org/badge/468929230.svg" alt="Zenodo"></a>
+<a href="https://cran.r-project.org/package=palaeoverse"><img src="https://cranlogs.r-pkg.org/badges/grand-total/palaeoverse" alt="CRAN downloads"></a>
+<a href="https://CRAN.R-project.org/package=palaeoverse"><img src="https://www.r-pkg.org/badges/version/palaeoverse" alt="CRAN status"></a>
+
+```{r, eval=FALSE}
+install.packages("palaeoverse")
+```
+
+[**rphylopic**](https://rphylopic.palaeoverse.org) allows users to add silhouettes of organisms from the PhyloPic website to plots generated in base R and ggplot2. rphylopic was originally developed and maintained by <a href="https://scottchamberlain.info" style="text-decoration: none">Scott Chamberlain</a>. From ver. 1.0.0, the package is now developed and maintained by the Palaeoverse team. <br>
+<a href="https://doi.org/10.5281/zenodo.10093317"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10093317.svg" alt="DOI"></a>
+<a href="https://cran.r-project.org/package=rphylopic"><img src="https://cranlogs.r-pkg.org/badges/grand-total/rphylopic" alt="CRAN downloads"></a>
+<a href="https://CRAN.R-project.org/package=rphylopic"><img src="https://www.r-pkg.org/badges/version/rphylopic" alt="CRAN status"></a>
+
+```{r, eval=FALSE}
+install.packages("rphylopic")
+```
+
+[**sepkoski**](https://sepkoski.palaeoverse.org) provides access to Sepkoski's fossil marine animal genera compendium (Sepkoski, 2002). The aim of the package is to offer a light and easily-accessible solution to working with Sepkoski's compendium to support teaching exercises. <br>
+<a href="https://zenodo.org/badge/latestdoi/564230284"><img src="https://zenodo.org/badge/564230284.svg" alt="Zenodo"></a>
+<a href="https://cran.r-project.org/package=sepkoski"><img src="https://cranlogs.r-pkg.org/badges/grand-total/sepkoski" alt="CRAN downloads"></a>
+<a href="https://CRAN.R-project.org/package=sepkoski"><img src="https://www.r-pkg.org/badges/version/sepkoski" alt="CRAN status"></a>
+
+```{r, eval=FALSE}
+install.packages("sepkoski")
+```
+
+<br>
+
+:::
+
+::: {.g-col-2}
+
+:::
+
+:::
+
+::: {.grid .blue-background}
+
+::: {.g-col-2}
+
+:::
+
+::: {.g-col-8 .center}
+
+# Our resources
+
+::: columns
+
+::: {.column width="30%" .colour-box}
+
+### Cheat sheets
+
+It can be a lot to take in when trying to get familiar with a new R package. We provide cheat sheets for our packages to help get you started.  
+[![](images/palaeoverse-pkg.png){width="18%"}](./images/palaeoverse-cheatsheet.pdf)  [![](images/rphylopic-pkg.png){width="18%"}](./images/rphylopic-cheatsheet.pdf)
+
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%" .colour-box}
+
+### [Directory](directory.qmd)
+
+[Directory](directory.qmd) is a resource to promote the communication of upcoming con-ferences, workshops, and vacancies. It also provides a register of research labs and their research focus. We hope that this resource will foster networking and collaboration across the globe.
+
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%" .colour-box}
+
+### [Grant Track](funding.qmd)
+
+[Grant Track](funding.qmd) is an online community database of research funding schemes and grants for Palaeobiologists. This framework is provided to support the community in easily keeping track of available funding opportunities. The database is continuously growing so visit once in a while!
+
+:::
+
+<br>
+
+:::
+
+:::
+
+:::
+
+::: {.grid .white-background}
+
+::: {.g-col-2}
+
+:::
+
+::: {.g-col-8}
+# Community spaces
+
+### Google group
+
+::: columns
+
+::: {.column width="85%" .justify}
+We host a community space for palaeobiologists using the <a href="https://groups.google.com/g/palaeoverse" style="text-decoration: none">**Google Groups**</a> platform. This space provides an area to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting. Questions related to **Palaeoverse packages** are also more than welcome. This space is unmoderated, but please be kind to others. We reserve the right to remove anyone harrasing individuals.
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="10%"}
+[![](images/google-groups.png){fig-align="left" width="60%"}](https://groups.google.com/g/palaeoverse)
+:::
+
+:::
+
+### Twitter
+
+::: columns
+::: {.column width="85%"}
+::: justify
+We are active on <a href="https://twitter.com/ThePalaeoverse" style="text-decoration: none">**Twitter/X**</a>, where we share updates and news on Palaeoverse, as well as resources for the Palaeobiology community. We are also more than happy to help circulate relevant news you wish to share with the community, just remember to tag <a href="https://twitter.com/ThePalaeoverse" style="text-decoration: none">**@ThePalaeoverse**</a> and use the hashtag <a href="https://twitter.com/search?q=palaeoverse&src=typed_query" style="text-decoration: none">**#palaeoverse**</a>.
+:::
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="10%"}
+[![](images/twitter.png){fig-align="left" width="60%"}](https://twitter.com/ThePalaeoverse)
+:::
+:::
+
+<br>
+
+:::
+
+::: {.g-col-2}
+
+:::
+
+:::
+
+::: {.grid .blue-background}
+
+::: {.g-col-2}
+
+:::
+
+::: {.g-col-8 .center}
+
+# Get involved
+
+::: {.huge}
+We welcome both code and non-code contributions. You can contribute in the following ways:
+:::
+
+::: columns
+
+::: {.column width="20%" .colour-box}
+
+### R packages 👩🏽‍💻 
+Contribute to functionality available in Palaeoverse <a id="contribute" href="https://github.com/palaeoverse-community" style="text-decoration: none" target="_blank">**R Packages**</a>.  
+
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="20%" .colour-box}
+
+### Review 🔍 
+
+Become a <a href="./form/reviewer.qmd" style="text-decoration: none" target="_blank">**Palaeoverse Reviewer**</a> - Review code, documentation, and resources.  
+
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="20%" .colour-box}
+
+### Data 🗃
+
+Contribute to Palaeoverse databases such as the <a href="./directory.qmd" style="text-decoration: none" target="_blank">**Directory**</a> and <a href="./funding.qmd" style="text-decoration: none" target="_blank">**Grant Track**.</a>  
+
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="20%" .colour-box}
+
+### Community 💬
+
+Be active in Palaeoverse community spaces such as the <a href="https://groups.google.com/g/palaeoverse" style="text-decoration: none" target="_blank">**Google Group**</a>.  
+
+:::
+
+<br>
+
+:::
+
+:::
+
+::: {.g-col-2}
+
+:::
+
+:::
+
+::: {.grid .white-background}
+
+::: {.g-col-2}
+
+:::
+
+::: {.g-col-8}
+# About us
+
+We are an international group of Early Career Researchers with the aim of encouraging more open, reproducible and collaborative research in Palaeobiology. To do so, we provide tools and resources--developed alongside the community--that help to promote this culture. 
+
+## Core team
+
+::: columns
+::: {.column width="20%"}
+![](/images/profiles/Lewis.JPG){width="100%"}
+
+::: {.center .large}
+**Lewis Jones**\
+Universidade de Vigo
+:::
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="20%"}
+![](/images/profiles/Will.jpeg){width="100%"}  
+
+::: {.center .large}
+**William Gearty**\
+American Museum of Natural History
+:::
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="20%"}
+![](/images/profiles/Bethany.jpeg){width="100%"}
+
+::: {.center .large}
+**Bethany Allen**\
+ETH Zürich
+:::
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="20%"}
+![](/images/profiles/Chris.jpeg){width="100%"}
+
+::: {.center .large}
+**Christopher Dean**\
+University College London
+:::
+:::
+:::
+
+::: columns
+::: {.column width="20%"}
+![](/images/profiles/Sofia.jpeg){width="100%"}
+
+::: {.center .large}
+**Sofía Galván**\
+Universidade de Vigo
+:::
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="20%"}
+![](/images/profiles/Pedro.jpeg){width="100%"}
+
+::: {.center .large}
+**Pedro Godoy**\
+University of São Paulo
+:::
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="20%"}
+![](/images/profiles/Miranta.jpeg){width="100%"}
+
+::: {.center .large}
+**Miranta Kouvari**\
+University College London
+:::
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="20%"}
+![](/images/profiles/Cecily.png){width="100%"}
+
+::: {.center .large}
+**Cecily Nicholl**\
+University College London
+:::
+:::
+:::
+
+::: columns
+::: {.column width="20%"}
+![](/images/profiles/Kilian.jpeg){width="100%"}
+
+::: {.center .large}
+**Kilian Eichenseer**\
+University of Durham
+:::
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="20%"}
+![](/images/profiles/Alessandro.jpg){width="100%"}
+
+::: {.center .large}
+**Alessandro Chiarenza**\
+Universidade de Vigo
+:::
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="20%"}
+![](/images/profiles/Erin.png){width="100%"}
+
+::: {.center .large}
+**Erin Dillon**\
+Smithsonian Tropical Research Institute
+:::
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="20%"}
+![](/images/profiles/Lucas.jpeg){width="100%"}
+
+::: {.center .large}
+**Lucas Buffan**\
+École Normale Supérieure de Lyon
+:::
+:::
+
+:::
+
+:::
+
+::: {.g-col-2}
+
+:::
+
+:::
+
+
+
+
+::: {.footer-text}
+::: {.footer-container .blue-background}
+::: {.footer-block}
+::: grid
+
+::: {.g-col-12 .g-col-md-2}
+:::
+::: {.g-col-12 .g-col-md-3}
+### About us
+[Our aims](index.qmd)\
+[Our team](index.qmd#about-us)\
+[Contact us](mailto:LewisA.Jones@outlook.com)
+:::
+::: {.g-col-12 .g-col-md-3}
+### Contribute
+[Guidelines](https://palaeoverse.palaeoverse.org/articles/structure-and-standards.html)\
+
+### Cheat sheets
+[palaeoverse](images/palaeoverse-cheatsheet.pdf)  
+[rphylopic](images/rphylopic-cheatsheet.pdf)
+
+:::
+::: {.g-col-12 .g-col-md-3}
+### Follow us
+[GitHub](https://github.com/palaeoverse)\
+[Twitter/X](https://twitter.com/ThePalaeoverse)\
+[YouTube](https://www.youtube.com/channel/UCTzcJ84EF08PZX6VfNDf0Hg)\
+[Google Group](https://groups.google.com/g/palaeoverse)\
+:::
+::: {.g-col-12 .g-col-md-2}
+:::
+
+:::
+:::
+:::
 :::

@@ -8,54 +8,57 @@ website:
   favicon: "/images/palaeoverse-pkg.png"
   open-graph: true
   twitter-card: true
-  repo-url: https://github.com/palaeoverse-community/palaeoverse-quarto
+  repo-url: https://github.com/palaeoverse/palaeoverse-quarto
   page-footer: 
+    background: "#c1e0e2"
     left: |
-      [Get involved with Palaeoverse](./contribute.qmd)  [![](/images/palaeoverse-pkg.png){fig-alt="Palaeoverse" width=30px}](./contribute.qmd)
+      [Get involved with Palaeoverse](index.qmd#get-involved)  [![](/images/palaeoverse-pkg.png){fig-alt="Palaeoverse" width=30px}](index.qmd#get-involved)
     center: 
-      - href: about.qmd
-        text: About Palaeoverse
       - href: conduct.qmd
         text: Code of Conduct
     right: 
       - icon: github
-        href: https://github.com/palaeoverse-community
+        href: https://github.com/palaeoverse
       - icon: twitter 
         href: https://twitter.com/ThePalaeoverse
   navbar:
     pinned: true
-    background: "#1c9099"
+    background: "#c1e0e2"
     logo: "/images/palaeoverse-pkg.png"
-    left: 
+    right: 
       - href: index.qmd
-        text: Overview
-      - about.qmd
-      - href: package.qmd
+        text: 🏠
+      - href: index.qmd#about-us
+        text: About Us
+      - href: index.qmd#our-toolkits
         text: R Packages
+      - href: index.qmd#our-resources
+        text: Resources
       - href: directory.qmd
         text: Directory
       - href: funding.qmd
         text: Grant Track
-      - community.qmd
-      - href: contribute.qmd
+      - href: index.qmd#community-spaces
+        text: Community
+      - href: index.qmd#get-involved
         text: Contribute
-      - news.qmd
-    right:
+      - href: lectures.qmd
+        text: Lecture Series
       - icon: twitter
         href: https://twitter.com/ThePalaeoverse
         aria-label: Palaeoverse Twitter
       - icon: github
-        href: https://github.com/palaeoverse-community/palaeoverse-quarto
+        href: https://github.com/palaeoverse/palaeoverse-quarto
         aria-label: Palaeoverse GitHub
 
 format:
   html:
-    theme:
-      light: flatly
-      dark: darkly
-    linkcolor: "#1c9099"
+    theme: flatly
+    linkcolor: "#565656"
     link-external-icon: false
     link-external-newwindow: true
+    fontcolor: "#565656"
     css: styles.css
     toc: true
     toc-depth: 3
+    code-block-border-left: false

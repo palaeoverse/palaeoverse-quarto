@@ -3,11 +3,27 @@
   font-weight: 500;  
 }
 
-.center-h1 h1 {
+.left-h1 h1 {
+  text-align: left;
+  font-size: 2.5em;
+}
+
+.title {
   text-align: center;
 }
 
+.subtitle {
+  text-align: center;
+}
+
+.center-h1 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 2.5em;
+}
+
 .center-h2 h2 {
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
@@ -31,6 +47,10 @@
   text-align: center !important
 }
 
+.left {
+  text-align: left !important
+}
+
 .huge {
   font-size: 22px;
 }
@@ -48,6 +68,7 @@
 }
 
 .normal {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
 
@@ -57,4 +78,107 @@
 
 .smaller {
   font-size: 8px;
+}
+
+a:link { 
+  text-decoration: none;
+}
+
+/*-- footer styles --*/
+
+.footer-container {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 1em;
+  margin-top: 2.5em;
+}
+
+.footer-text h3, .h3 {
+  font-size: .875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  margin-top: 0.3rem;
+  border-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 0px;
+}
+
+.footer-text p, .p {
+  font-size: .875rem;
+  font-weight: 400;
+}
+
+.footer-text p > a {
+  font-size: .875rem;
+  font-weight: 400;
+}
+
+.footer-text p > a:hover {
+  font-size: .875rem;
+  font-weight: 400;
+}
+
+.footer-block {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-bottom: 1.8em; 
+  box-sizing: border-box;
+}
+
+/*-- navbar styles --*/
+
+.navbar-brand {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.navbar {
+  border: none;
+  border-bottom: 2px solid #565656 !important;
+  color: #565656;
+}
+
+/*-- background styles --*/
+
+.hero-banner {
+  position: relative;
+  background-color: #c1e0e2;
+  display: flex;
+  justify-content: center;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.grey-background {
+  background-color: #fff6f6;
+}
+
+.blue-background {
+  background-color: #c1e0e2;
+}
+
+/*-- fun styles --*/
+
+.colour-box {
+  background: #f8f9fa;
+  border: 2px solid #565656 !important;
+  padding-left:1rem; 
+  padding-right:1rem;
+}
+
+.colour-boxhighlight {
+  background: #c1e0e2;
+  border: 2px solid #565656 !important;
+  padding-top:0.7rem; 
+  padding-bottom:0rem; 
+  padding-left:1rem; 
+  padding-right:1rem;
 }

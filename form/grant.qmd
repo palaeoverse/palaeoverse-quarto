@@ -1,11 +1,11 @@
 ---
-title: GrantTrack Form
+title: Grant Track Form
 title-block-banner: true
 toc: false
 ---
 
 ::: justify
-This service is provided to contribute to the **GrantTrack** community database of research funding schemes and grants for Palaeobiologists. If you wish to make an entry, please complete the following form. **Please note that all information provided here will be published online and accessible to all.** We aim to update entries once a week.
+This service is provided to contribute to the **Grant Track** community database of research funding schemes and grants for Palaeobiologists. If you wish to make an entry, please complete the following form. **Please note that all information provided here will be published online and accessible to all.** We aim to update entries once a week.
 
 We reserve the right to refuse the entries of any inappropriate material or remove content where necessary. If you face any issues, please contact <a href="mailto:kilian.eichenseer@gmail.com" style="text-decoration: none" target="_blank">**Kilian Eichenseer**</a> or <a href="mailto:LewisA.Jones@outlook.com" style="text-decoration: none" target="_blank">**Lewis A. Jones**</a>.
 :::
