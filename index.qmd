@@ -27,9 +27,7 @@ Palaeoverse is an initiative which aims to bring the palaeobiology community tog
 
 :::
 
-::: {.column width="30%" .colour-boxhighlight}
-##### [🚨**LECTURE SERIES**🚨](lectures.qmd)
-:::
+<a href="lectures.qmd" class="card-link h2">🚨**LECTURE SERIES**🚨</a>
 
 :::
 
@@ -100,7 +98,7 @@ install.packages("sepkoski")
 
 ::: columns
 
-::: {.column width="30%" .colour-box}
+::: {.column width="30%" .card-link}
 
 ### Cheat sheets
 
@@ -113,7 +111,7 @@ It can be a lot to take in when trying to get familiar with a new R package. We 
 <!-- empty column to create gap -->
 :::
 
-::: {.column width="30%" .colour-box}
+::: {.column width="30%" .card-link}
 
 ### [Directory](directory.qmd)
 
@@ -125,7 +123,7 @@ It can be a lot to take in when trying to get familiar with a new R package. We 
 <!-- empty column to create gap -->
 :::
 
-::: {.column width="30%" .colour-box}
+::: {.column width="30%" .card-link}
 
 ### [Grant Track](funding.qmd)
 
@@ -202,9 +200,13 @@ We are active on <a href="https://twitter.com/ThePalaeoverse" style="text-decora
 
 :::
 
-::: {.g-col-8 .center}
+::: {.g-col-8}
+
+::: {.center}
 
 # Get involved
+
+:::
 
 ::: {.huge}
 We welcome both code and non-code contributions. You can contribute in the following ways:
@@ -212,7 +214,7 @@ We welcome both code and non-code contributions. You can contribute in the follo
 
 ::: columns
 
-::: {.column width="20%" .colour-box}
+::: {.column width="20%" .card-link}
 
 ### R packages 👩🏽‍💻 
 Contribute to functionality available in Palaeoverse <a id="contribute" href="https://github.com/palaeoverse" style="text-decoration: none" target="_blank">**R Packages**</a>.  
@@ -223,7 +225,7 @@ Contribute to functionality available in Palaeoverse <a id="contribute" href="ht
 <!-- empty column to create gap -->
 :::
 
-::: {.column width="20%" .colour-box}
+::: {.column width="20%" .card-link}
 
 ### Review 🔍 
 
@@ -235,7 +237,7 @@ Become a <a href="./form/reviewer.qmd" style="text-decoration: none" target="_bl
 <!-- empty column to create gap -->
 :::
 
-::: {.column width="20%" .colour-box}
+::: {.column width="20%" .card-link}
 
 ### Data 🗃
 
@@ -247,7 +249,7 @@ Contribute to Palaeoverse databases such as the <a href="./directory.qmd" style=
 <!-- empty column to create gap -->
 :::
 
-::: {.column width="20%" .colour-box}
+::: {.column width="20%" .card-link}
 
 ### Community 💬
 

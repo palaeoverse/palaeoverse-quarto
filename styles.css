@@ -167,18 +167,19 @@ a:link {
 
 /*-- fun styles --*/
 
-.colour-box {
-  background: #f8f9fa;
-  border: 2px solid #565656 !important;
-  padding-left:1rem; 
-  padding-right:1rem;
+.card-link {
+    background-color: #c1e0e2;
+    color: #565656;
+    border: 2px solid #565656;
+    border-color: #565656;
+    padding: 1px .5rem 1px .5rem !important;
+    margin: 0;
+    border-radius: 5px; 
+    display: inline-block;
+    text-decoration: none;  
 }
 
-.colour-boxhighlight {
-  background: #c1e0e2;
-  border: 2px solid #565656 !important;
-  padding-top:0.7rem; 
-  padding-bottom:0rem; 
-  padding-left:1rem; 
-  padding-right:1rem;
+.card-link:hover {
+  background-color: #F18661;
+  color: #565656;
 }

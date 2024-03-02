@@ -43,11 +43,7 @@ Please register below for the series. All are welcome to join and we ask that al
 
 :::
 
-::: {.column width="60%" .colour-boxhighlight}
-##### [**REGISTER**](https://t.co/A5l2c1P9qH)
-:::
-
-<br>
+<a href="https://t.co/A5l2c1P9qH" class="card-link h2">🚨**REGISTER**🚨</a>
 
 ::: {.huge}
 **Previous lectures**
