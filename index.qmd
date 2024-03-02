@@ -14,12 +14,9 @@ page-layout: custom
 :::
 
 ::: {.g-col-8 .center}
-# Welcome to Palaeoverse
+# **Welcome to Palaeoverse**
 
-::: {.huge}
-**A resource hub and community space for Palaeobiologists**
-
-:::
+## A resource hub and community space for Palaeobiologists
 
 ::: {.justify}
 

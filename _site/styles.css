@@ -1,43 +1,34 @@
-.download-text {
-  font-size: 1.1em;
-  font-weight: 500;  
-}
+/*-- Fonts --*/
 
-.left-h1 h1 {
-  text-align: left;
-  font-size: 2.5em;
-}
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Bebas+Neue&family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300&family=Montserrat:wght@300;400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,700;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,700&family=Nunito:wght@300&family=Source+Sans+3:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-.title {
-  text-align: center;
-}
+title, .title {
+   font-family: 'Economica', sans-serif;
+   text-align: center !important
+ }
 
-.subtitle {
-  text-align: center;
-}
+body, .body {
+   font-family: 'Economica', sans-serif;
+   font-weight: normal;
+   font-size: 1.3em;
+   letter-spacing: 1px;
+ }
 
-.center-h1 h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  font-size: 2.5em;
-}
-
-.center-h2 h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-}
-
-.center-h3 h3 {
-  text-align: center;
-}
-
-.center-h4 h4 {
-  text-align: center;
-}
-
-.center-h5 h5 {
-  text-align: center;
-}
+h1, .h1 {
+   font-family: 'Economica', sans-serif;
+   font-weight: normal;
+   text-transform: uppercase;
+ }
+ 
+ h2, .h2 {
+   font-family: 'Economica', sans-serif;
+   font-weight: bold;
+ }
+ 
+  h3, .h3 {
+   font-family: 'Economica', sans-serif;
+   font-weight: bold;
+ }
 
 .justify {
   text-align: justify !important
@@ -47,41 +38,9 @@
   text-align: center !important
 }
 
-.left {
-  text-align: left !important
-}
-
-.huge {
-  font-size: 22px;
-}
-
-.largest {
-  font-size: 18px;
-}
-
-.larger {
-  font-size: 16px;
-}
-
-.large {
-  font-size: 14px;
-}
-
-.normal {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-}
-
-.small {
-  font-size: 10px;
-}
-
-.smaller {
-  font-size: 8px;
-}
-
 a:link { 
   text-decoration: none;
+  font-weight: bold;
 }
 
 /*-- footer styles --*/
@@ -129,20 +88,16 @@ a:link {
 
 /*-- navbar styles --*/
 
-.navbar-brand {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .navbar {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400;
-}
-
-.navbar {
-  border: none;
-  border-bottom: 2px solid #565656 !important;
-  color: #565656;
-}
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 1em;
+    font-family: 'Economica', sans-serif;
+    text-transform: uppercase;
+    border: none;
+    border-bottom: 2px solid #565656 !important;
+    color: #565656;
+  }
 
 /*-- background styles --*/
 

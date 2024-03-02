@@ -54,10 +54,10 @@ website:
 format:
   html:
     theme: flatly
-    linkcolor: "#565656"
     link-external-icon: false
     link-external-newwindow: true
     fontcolor: "#565656"
+    linkcolor: "#565656"
     css: styles.css
     toc: true
     toc-depth: 3
