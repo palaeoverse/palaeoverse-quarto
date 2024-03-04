@@ -18,7 +18,7 @@ page-layout: custom
 
 ## A resource hub and community space for Palaeobiologists
 
-::: {.justify}
+::: {.center}
 
 Palaeoverse is an initiative which aims to bring the palaeobiology community together to share resources, reach agreed standards, and improve reproducibility in palaeobiological research.
 
@@ -210,17 +210,11 @@ We are active on <a href="https://twitter.com/ThePalaeoverse" style="text-decora
 
 :::
 
-::: {.g-col-8}
-
-::: {.center}
+::: {.g-col-8 .center}
 
 # Get involved
 
-:::
-
-::: {.huge}
-We welcome both code and non-code contributions. You can contribute in the following ways:
-:::
+### We welcome both code and non-code contributions. You can contribute in the following ways:
 
 ::: columns
 
