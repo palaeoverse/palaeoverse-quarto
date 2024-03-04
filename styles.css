@@ -127,6 +127,32 @@ a:link {
 
 /*-- fun styles --*/
 
+.profile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 200px;
+    font-size: 0.5em;
+    width: 25%;
+    background-color: #c1e0e2;
+    color: #565656;
+    border: 2px solid #565656;
+    border-color: #565656;
+    padding: 10px .5rem 0px .5rem !important;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 2px; 
+    display: inline-block;
+    text-decoration: none;  
+}
+
+.profile:hover {
+  font-size: 1em;
+  background-color: #F18661;
+  color: #565656;
+}
+
 .card-link {
     display: flex;
     flex-direction: row;

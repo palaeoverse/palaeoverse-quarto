@@ -292,7 +292,7 @@ We are an international group of Early Career Researchers with the aim of encour
 ## Core team
 
 ::: columns
-::: {.column width="20%"}
+::: {.column width="22%" .profile}
 ![](/images/profiles/Lewis.JPG){width="100%"}
 
 ::: {.center .large}
@@ -301,11 +301,7 @@ Universidade de Vigo
 :::
 :::
 
-::: {.column width="5%"}
-<!-- empty column to create gap -->
-:::
-
-::: {.column width="20%"}
+::: {.column width="22%" .profile}
 ![](/images/profiles/Will.jpeg){width="100%"}  
 
 ::: {.center .large}
@@ -314,11 +310,7 @@ American Museum of Natural History
 :::
 :::
 
-::: {.column width="5%"}
-<!-- empty column to create gap -->
-:::
-
-::: {.column width="20%"}
+::: {.column width="22%" .profile}
 ![](/images/profiles/Bethany.jpeg){width="100%"}
 
 ::: {.center .large}
@@ -327,11 +319,7 @@ ETH Zürich
 :::
 :::
 
-::: {.column width="5%"}
-<!-- empty column to create gap -->
-:::
-
-::: {.column width="20%"}
+::: {.column width="22%" .profile}
 ![](/images/profiles/Chris.jpeg){width="100%"}
 
 ::: {.center .large}
@@ -342,7 +330,7 @@ University College London
 :::
 
 ::: columns
-::: {.column width="20%"}
+::: {.column width="22%" .profile}
 ![](/images/profiles/Sofia.jpeg){width="100%"}
 
 ::: {.center .large}
@@ -351,11 +339,7 @@ Universidade de Vigo
 :::
 :::
 
-::: {.column width="5%"}
-<!-- empty column to create gap -->
-:::
-
-::: {.column width="20%"}
+::: {.column width="22%" .profile}
 ![](/images/profiles/Pedro.jpeg){width="100%"}
 
 ::: {.center .large}
@@ -364,11 +348,7 @@ University of São Paulo
 :::
 :::
 
-::: {.column width="5%"}
-<!-- empty column to create gap -->
-:::
-
-::: {.column width="20%"}
+::: {.column width="22%" .profile}
 ![](/images/profiles/Miranta.jpeg){width="100%"}
 
 ::: {.center .large}
@@ -377,11 +357,7 @@ University College London
 :::
 :::
 
-::: {.column width="5%"}
-<!-- empty column to create gap -->
-:::
-
-::: {.column width="20%"}
+::: {.column width="22%" .profile}
 ![](/images/profiles/Cecily.png){width="100%"}
 
 ::: {.center .large}
@@ -392,7 +368,7 @@ University College London
 :::
 
 ::: columns
-::: {.column width="20%"}
+::: {.column width="22%" .profile}
 ![](/images/profiles/Kilian.jpeg){width="100%"}
 
 ::: {.center .large}
@@ -401,11 +377,7 @@ University of Durham
 :::
 :::
 
-::: {.column width="5%"}
-<!-- empty column to create gap -->
-:::
-
-::: {.column width="20%"}
+::: {.column width="22%" .profile}
 ![](/images/profiles/Alessandro.jpg){width="100%"}
 
 ::: {.center .large}
@@ -414,11 +386,7 @@ Universidade de Vigo
 :::
 :::
 
-::: {.column width="5%"}
-<!-- empty column to create gap -->
-:::
-
-::: {.column width="20%"}
+::: {.column width="22%" .profile}
 ![](/images/profiles/Erin.png){width="100%"}
 
 ::: {.center .large}
@@ -427,11 +395,7 @@ Smithsonian Tropical Research Institute
 :::
 :::
 
-::: {.column width="5%"}
-<!-- empty column to create gap -->
-:::
-
-::: {.column width="20%"}
+::: {.column width="22%" .profile}
 ![](/images/profiles/Lucas.jpeg){width="100%"}
 
 ::: {.center .large}
