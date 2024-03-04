@@ -15,6 +15,7 @@ body, .body {
  }
 
 h1, .h1 {
+   font-size: 1.75em;
    font-family: 'Economica', sans-serif;
    font-weight: normal;
    text-transform: uppercase;
@@ -36,6 +37,10 @@ h1, .h1 {
 
 .center {
   text-align: center !important
+}
+
+.left {
+  text-align: left !important
 }
 
 a:link { 
@@ -137,4 +142,8 @@ a:link {
 .card-link:hover {
   background-color: #F18661;
   color: #565656;
+}
+
+html {
+  scroll-behavior: smooth;
 }

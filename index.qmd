@@ -44,7 +44,11 @@ Palaeoverse is an initiative which aims to bring the palaeobiology community tog
 
 ::: {.g-col-8}
 
+::: {.left}
+
 # Our toolkits
+
+:::
 
 [**palaeoverse**](https://palaeoverse.palaeoverse.org) provides functionality to support data preparation and exploration for palaeobiological analyses, improving code reproducibility and accessibility. The aim of the palaeoverse R package is to bring the palaeobiological community together to establish agreed standards. <br>
 <a href="https://zenodo.org/badge/latestdoi/468929230"><img src="https://zenodo.org/badge/468929230.svg" alt="Zenodo"></a>
@@ -91,7 +95,11 @@ install.packages("sepkoski")
 
 ::: {.g-col-8 .center}
 
+::: {.center}
+
 # Our resources
+
+:::
 
 ::: columns
 
@@ -143,7 +151,12 @@ It can be a lot to take in when trying to get familiar with a new R package. We 
 :::
 
 ::: {.g-col-8}
+
+::: {.left}
+
 # Community spaces
+
+:::
 
 ### Google group
 
@@ -273,7 +286,12 @@ Be active in Palaeoverse community spaces such as the <a href="https://groups.go
 :::
 
 ::: {.g-col-8 .justify}
+
+::: {.left}
+
 # About us
+
+:::
 
 We are an international group of Early Career Researchers with the aim of encouraging more open, reproducible and collaborative research in palaeobiology. To do so, we provide tools and resources--developed alongside the community--that help to promote this culture. 
 

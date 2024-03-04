@@ -28,20 +28,20 @@ website:
     right: 
       - href: index.qmd
         text: 🏠
-      - href: index.qmd#about-us
-        text: About Us
       - href: index.qmd#our-toolkits
         text: R Packages
       - href: index.qmd#our-resources
         text: Resources
-      - href: directory.qmd
-        text: Directory
-      - href: funding.qmd
-        text: Grant Track
       - href: index.qmd#community-spaces
         text: Community
       - href: index.qmd#get-involved
         text: Contribute
+      - href: index.qmd#about-us
+        text: About Us
+      - href: directory.qmd
+        text: Directory
+      - href: funding.qmd
+        text: Grant Track
       - href: lectures.qmd
         text: Lecture Series
       - icon: twitter
