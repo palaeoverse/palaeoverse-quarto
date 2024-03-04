@@ -112,20 +112,12 @@ It can be a lot to take in when trying to get familiar with a new R package. We 
 
 :::
 
-::: {.column width="5%"}
-<!-- empty column to create gap -->
-:::
-
 ::: {.column width="30%" .card-link}
 
 ### [Directory](directory.qmd)
 
 [Directory](directory.qmd) is a resource to promote the communication of upcoming conferences, workshops, and vacancies. It also provides a register of research labs and their research focus. We hope that this resource will foster networking and collaboration across the globe.
 
-:::
-
-::: {.column width="5%"}
-<!-- empty column to create gap -->
 :::
 
 ::: {.column width="30%" .card-link}
@@ -225,10 +217,6 @@ Contribute to functionality available in Palaeoverse <a id="contribute" href="ht
 
 :::
 
-::: {.column width="5%"}
-<!-- empty column to create gap -->
-:::
-
 ::: {.column width="20%" .card-link}
 
 ### Review 🔍 
@@ -237,20 +225,12 @@ Become a <a href="./form/reviewer.qmd" style="text-decoration: none" target="_bl
 
 :::
 
-::: {.column width="5%"}
-<!-- empty column to create gap -->
-:::
-
 ::: {.column width="20%" .card-link}
 
 ### Data 🗃
 
 Contribute to Palaeoverse databases such as the <a href="./directory.qmd" style="text-decoration: none" target="_blank">**Directory**</a> and <a href="./funding.qmd" style="text-decoration: none" target="_blank">**Grant Track**.</a>  
 
-:::
-
-::: {.column width="5%"}
-<!-- empty column to create gap -->
 :::
 
 ::: {.column width="20%" .card-link}

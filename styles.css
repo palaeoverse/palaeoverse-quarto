@@ -164,7 +164,9 @@ a:link {
     border: 2px solid #565656;
     border-color: #565656;
     padding: 1px .5rem 1px .5rem !important;
-    margin: 0;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     border-radius: 2px; 
     display: inline-block;
     text-decoration: none;  
