@@ -103,7 +103,7 @@ install.packages("sepkoski")
 ### Cheat sheets  
 
 It can be a lot to take in when trying to get familiar with a new R package. We provide cheat sheets for our packages to help get you started.  
-[![](images/palaeoverse-pkg.png){width="18%"}](./images/palaeoverse-cheatsheet.pdf)  [![](images/rphylopic-pkg.png){width="18%"}](./images/rphylopic-cheatsheet.pdf)
+[![](images/palaeoverse-pkg.png){width="30%"}](./images/palaeoverse-cheatsheet.pdf)  [![](images/rphylopic-pkg.png){width="30%"}](./images/rphylopic-cheatsheet.pdf)
 
 :::
 
@@ -111,7 +111,7 @@ It can be a lot to take in when trying to get familiar with a new R package. We 
 
 ### [Directory](directory.qmd)
 
-[Directory](directory.qmd) is a resource to promote the communication of upcoming conferences, workshops, and vacancies. It also provides a register of research labs and their research focus. We hope that this resource will foster networking and collaboration across the globe.
+[Directory](directory.qmd) is a resource to promote the communication of upcoming conferences, workshops, and vacancies. It also provides a register of research labs and their research focus. We hope that this resource fosters networking and collaboration across the globe.
 
 :::
 
@@ -119,7 +119,7 @@ It can be a lot to take in when trying to get familiar with a new R package. We 
 
 ### [Grant Track](funding.qmd)
 
-[Grant Track](funding.qmd) is an online community database of research funding schemes and grants for Palaeobiologists. This framework is provided to support the community in easily keeping track of available funding opportunities. The database is continuously growing so visit once in a while!
+[Grant Track](funding.qmd) is an online community database of research funding schemes and grants for Palaeobiologists. This framework is provided to support the community in easily keeping track of available funding opportunities.
 
 :::
 
@@ -141,42 +141,14 @@ It can be a lot to take in when trying to get familiar with a new R package. We 
 
 # Community spaces
 
-:::
+### Google group [![](images/google-groups.png){fig-align="left" width="5%"}](https://groups.google.com/g/palaeoverse)
 
-### Google group
-
-::: columns
-
-::: {.column width="85%" .justify}
 We host a community space for palaeobiologists using the <a href="https://groups.google.com/g/palaeoverse" style="text-decoration: none">**Google Groups**</a> platform. This space provides an area to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting. Questions related to Palaeoverse packages are also more than welcome.
-:::
 
-::: {.column width="5%"}
-<!-- empty column to create gap -->
-:::
+### Twitter [![](images/twitter.png){fig-align="left" width="5%"}](https://twitter.com/ThePalaeoverse)
 
-::: {.column width="10%"}
-[![](images/google-groups.png){fig-align="left" width="60%"}](https://groups.google.com/g/palaeoverse)
-:::
-
-:::
-
-### Twitter
-
-::: columns
-::: {.column width="85%"}
-::: justify
 We are active on <a href="https://twitter.com/ThePalaeoverse" style="text-decoration: none">**Twitter/X**</a>, where we share updates and news on Palaeoverse, as well as resources for the palaeobiology community. We are also more than happy to help circulate relevant news you wish to share with the community, just remember to tag <a href="https://twitter.com/ThePalaeoverse" style="text-decoration: none">**@ThePalaeoverse**</a> and use the hashtag <a href="https://twitter.com/search?q=palaeoverse&src=typed_query" style="text-decoration: none">**#palaeoverse**</a>.
-:::
-:::
 
-::: {.column width="5%"}
-<!-- empty column to create gap -->
-:::
-
-::: {.column width="10%"}
-[![](images/twitter.png){fig-align="left" width="60%"}](https://twitter.com/ThePalaeoverse)
-:::
 :::
 
 <br>
@@ -229,7 +201,7 @@ Contribute to Palaeoverse databases such as the <a href="./directory.qmd" style=
 
 ### Community 💬
 
-Be active in Palaeoverse community spaces such as the <a href="https://groups.google.com/g/palaeoverse" style="text-decoration: none" target="_blank">**Google Group**</a>.  
+Be active in community spaces such as the <a href="https://groups.google.com/g/palaeoverse" style="text-decoration: none" target="_blank">**Palaeoverse Google Group**</a>.  
 
 :::
 
@@ -263,116 +235,114 @@ We are an international group of Early Career Researchers with the aim of encour
 
 ## Core team
 
-::: columns
-::: {.column width="22%" .profile}
+::: {.center}
+
+::: {.profile}
 ![](/images/profiles/Lewis.JPG){width="100%"}
 
-::: {.center .large}
+::: {.large}
 **Lewis Jones**\
 Universidade de Vigo
 :::
 :::
 
-::: {.column width="22%" .profile}
+::: {.profile}
 ![](/images/profiles/Will.jpeg){width="100%"}  
 
-::: {.center .large}
+::: {.large}
 **William Gearty**\
 American Museum of Natural History
 :::
 :::
 
-::: {.column width="22%" .profile}
+::: {.profile}
 ![](/images/profiles/Bethany.jpeg){width="100%"}
 
-::: {.center .large}
+::: {.large}
 **Bethany Allen**\
 ETH Zürich
 :::
 :::
 
-::: {.column width="22%" .profile}
+::: {.profile}
 ![](/images/profiles/Chris.jpeg){width="100%"}
 
-::: {.center .large}
+::: {.large}
 **Christopher Dean**\
 University College London
 :::
 :::
-:::
 
-::: columns
-::: {.column width="22%" .profile}
+::: {.profile}
 ![](/images/profiles/Sofia.jpeg){width="100%"}
 
-::: {.center .large}
+::: {.large}
 **Sofía Galván**\
 Universidade de Vigo
 :::
 :::
 
-::: {.column width="22%" .profile}
+::: {.profile}
 ![](/images/profiles/Pedro.jpeg){width="100%"}
 
-::: {.center .large}
+::: {.large}
 **Pedro Godoy**\
 University of São Paulo
 :::
 :::
 
-::: {.column width="22%" .profile}
+::: {.profile}
 ![](/images/profiles/Miranta.jpeg){width="100%"}
 
-::: {.center .large}
+::: {.large}
 **Miranta Kouvari**\
 University College London
 :::
 :::
 
-::: {.column width="22%" .profile}
+::: {.profile}
 ![](/images/profiles/Cecily.png){width="100%"}
 
-::: {.center .large}
+::: {.large}
 **Cecily Nicholl**\
 University College London
 :::
 :::
-:::
 
-::: columns
-::: {.column width="22%" .profile}
+::: {.profile}
 ![](/images/profiles/Kilian.jpeg){width="100%"}
 
-::: {.center .large}
+::: {.large}
 **Kilian Eichenseer**\
 University of Durham
 :::
 :::
 
-::: {.column width="22%" .profile}
+::: {.profile}
 ![](/images/profiles/Alessandro.jpg){width="100%"}
 
-::: {.center .large}
+::: {.large}
 **Alessandro Chiarenza**\
 Universidade de Vigo
 :::
 :::
 
-::: {.column width="22%" .profile}
+::: {.profile}
 ![](/images/profiles/Erin.png){width="100%"}
 
-::: {.center .large}
+::: {.large}
 **Erin Dillon**\
 Smithsonian Tropical Research Institute
 :::
 :::
 
-::: {.column width="22%" .profile}
+::: {.profile}
 ![](/images/profiles/Lucas.jpeg){width="100%"}
 
-::: {.center .large}
+::: {.large}
 **Lucas Buffan**\
 École Normale Supérieure de Lyon
+:::
 :::
 :::
 
