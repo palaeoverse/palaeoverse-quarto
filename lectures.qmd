@@ -52,7 +52,7 @@ Please register below for the series. All are welcome to join and we ask that al
 **February 29^th^ 2024 - Dr Emily Mitchell, University of Cambridge**  
 Using Spatial point process analyses to quantify the behavioural ecology behind trace fossils
 
-Recording coming soon...
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cW3Glw_zN0I?si=SBvAlltr6Yr5v-ZG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 :::
