@@ -49,6 +49,11 @@ Please register below for the series. All are welcome to join and we ask that al
 **Previous lectures**
 :::
 
+**April 25^th^ 2024 - Laura Mulvey, FAU Erlangen-Nürnberg**  
+Assessing the adequacy of morphological models used in palaeobiology
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7S7rsUmd2Sk?si=Ar7SPPGTfr1YSNUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 **March 28^th^ 2024 - Dr Benjamin Shipley, University of Oxford**  
 Modelling species range shifts in the past and future
 
