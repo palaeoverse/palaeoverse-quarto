@@ -93,7 +93,9 @@ install.packages("sepkoski")
 
 :::
 
-::: {.g-col-8 .center}
+::: {.g-col-8}
+
+::: {.center}
 
 # Our resources
 
@@ -103,7 +105,7 @@ install.packages("sepkoski")
 ### Cheat sheets  
 
 It can be a lot to take in when trying to get familiar with a new R package. We provide cheat sheets for our packages to help get you started.  
-[![](images/palaeoverse-pkg.png){width="30%"}](./images/palaeoverse-cheatsheet.pdf)  [![](images/rphylopic-pkg.png){width="30%"}](./images/rphylopic-cheatsheet.pdf)
+[![](images/palaeoverse-pkg.png){width="22%"}](./images/palaeoverse-cheatsheet.pdf)  [![](images/rphylopic-pkg.png){width="22%"}](./images/rphylopic-cheatsheet.pdf)
 
 :::
 
@@ -122,6 +124,10 @@ It can be a lot to take in when trying to get familiar with a new R package. We 
 [Grant Track](funding.qmd) is an online community database of research funding schemes and grants for Palaeobiologists. This framework is provided to support the community in easily keeping track of available funding opportunities.
 
 :::
+
+:::
+
+<br>
 
 :::
 
@@ -167,7 +173,9 @@ We are active on <a href="https://twitter.com/ThePalaeoverse" style="text-decora
 
 :::
 
-::: {.g-col-8 .center}
+::: {.g-col-8}
+
+::: {.center}
 
 # Get involved
 
@@ -177,7 +185,7 @@ We are active on <a href="https://twitter.com/ThePalaeoverse" style="text-decora
 ::: {.column width="20%" .card-link}
 
 ### R packages 👩🏽‍💻 
-Contribute to functionality available in Palaeoverse <a id="contribute" href="https://github.com/palaeoverse" style="text-decoration: none" target="_blank">**R Packages**</a>.
+Contribute to functionality available in Palaeoverse <a id="contribute" href="https://github.com/palaeoverse" style="text-decoration: none" target="_blank">**R Packages**</a>, such as palaeoverse, rmacrostrat, and rphylopic. [Jump to toolkits...](https://github.com/palaeoverse)
 
 :::
 
@@ -185,7 +193,7 @@ Contribute to functionality available in Palaeoverse <a id="contribute" href="ht
 
 ### Review 🔍 
 
-Become a <a href="./form/reviewer.qmd" style="text-decoration: none" target="_blank">**Palaeoverse Reviewer**</a> - Review code, documentation, and resources.
+Become a <a href="./form/reviewer.qmd" style="text-decoration: none" target="_blank">**Palaeoverse Reviewer**</a> - Review code, documentation, and resources. We believe community input is key to improving user experience!
 
 :::
 
@@ -193,7 +201,7 @@ Become a <a href="./form/reviewer.qmd" style="text-decoration: none" target="_bl
 
 ### Data 🗃
 
-Contribute to Palaeoverse databases such as the <a href="./directory.qmd" style="text-decoration: none" target="_blank">**Directory**</a> and <a href="./funding.qmd" style="text-decoration: none" target="_blank">**Grant Track**.</a>  
+Contribute to Palaeoverse databases such as the <a href="./directory.qmd" style="text-decoration: none" target="_blank">**Directory**</a> and <a href="./funding.qmd" style="text-decoration: none" target="_blank">**Grant Track**.</a>  These databases aim to centralise useful information for the community.
 
 :::
 
@@ -201,7 +209,9 @@ Contribute to Palaeoverse databases such as the <a href="./directory.qmd" style=
 
 ### Community 💬
 
-Be active in community spaces such as the <a href="https://groups.google.com/g/palaeoverse" style="text-decoration: none" target="_blank">**Palaeoverse Google Group**</a>.  
+Be active in community spaces such as the <a href="https://groups.google.com/g/palaeoverse" style="text-decoration: none" target="_blank">**Palaeoverse Google Group**</a>, an area to share ideas and resources, advertise opportunities, and network with colleagues.  
+
+:::
 
 :::
 
