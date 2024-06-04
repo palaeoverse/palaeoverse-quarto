@@ -133,7 +133,7 @@ a:link {
     flex-wrap: wrap;
     min-width: 200px;
     width: 22%;
-    font-size: 0.5em;
+    font-size: 0.8em;
     background-color: #c1e0e2;
     color: #565656;
     border: 2px solid #565656;
@@ -146,12 +146,6 @@ a:link {
     display: inline-block;
     text-decoration: none;  
     text-align: center !important;
-}
-
-.profile:hover {
-  font-size: 1em;
-  background-color: #F18661;
-  color: #565656;
 }
 
 .card-link {

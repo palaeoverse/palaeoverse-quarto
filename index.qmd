@@ -241,7 +241,7 @@ We are an international group of Early Career Researchers with the aim of encour
 ![](/images/profiles/Lewis.JPG){width="100%"}
 
 ::: {.large}
-**Lewis Jones**\
+[**Lewis Jones**](https://lewisajones.com)\
 Universidade de Vigo
 :::
 :::
@@ -250,7 +250,7 @@ Universidade de Vigo
 ![](/images/profiles/Will.jpeg){width="100%"}  
 
 ::: {.large}
-**William Gearty**\
+[**William Gearty**](https://williamgearty.com)\
 American Museum of Natural History
 :::
 :::
@@ -259,7 +259,7 @@ American Museum of Natural History
 ![](/images/profiles/Bethany.jpeg){width="100%"}
 
 ::: {.large}
-**Bethany Allen**\
+[**Bethany Allen**](https://bsse.ethz.ch/cevo/the-group/people/person-detail.html?persid=295484)\
 ETH Zürich
 :::
 :::
@@ -268,7 +268,7 @@ ETH Zürich
 ![](/images/profiles/Chris.jpeg){width="100%"}
 
 ::: {.large}
-**Christopher Dean**\
+[**Christopher Dean**](https://www.ucl.ac.uk/earth-sciences/people/research-staff/dr-chris-dean)\
 University College London
 :::
 :::
@@ -277,7 +277,7 @@ University College London
 ![](/images/profiles/Sofia.jpeg){width="100%"}
 
 ::: {.large}
-**Sofía Galván**\
+[**Sofía Galván**](https://www.researchgate.net/profile/Sofia-Galvan-3)\
 Universidade de Vigo
 :::
 :::
@@ -286,7 +286,7 @@ Universidade de Vigo
 ![](/images/profiles/Pedro.jpeg){width="100%"}
 
 ::: {.large}
-**Pedro Godoy**\
+[**Pedro Godoy**](https://pedrolgodoy.netlify.app)\
 University of São Paulo
 :::
 :::
@@ -295,7 +295,7 @@ University of São Paulo
 ![](/images/profiles/Miranta.jpeg){width="100%"}
 
 ::: {.large}
-**Miranta Kouvari**\
+[**Miranta Kouvari**](https://www.mirantakouvari.com)\
 University College London
 :::
 :::
@@ -304,7 +304,7 @@ University College London
 ![](/images/profiles/Cecily.png){width="100%"}
 
 ::: {.large}
-**Cecily Nicholl**\
+[**Cecily Nicholl**](https://www.ucl.ac.uk/earth-sciences/people/research-students/cecily-nicholl)\
 University College London
 :::
 :::
@@ -313,7 +313,7 @@ University College London
 ![](/images/profiles/Kilian.jpeg){width="100%"}
 
 ::: {.large}
-**Kilian Eichenseer**\
+[**Kilian Eichenseer**](https://keichenseer.com)\
 University of Durham
 :::
 :::
@@ -322,7 +322,7 @@ University of Durham
 ![](/images/profiles/Alessandro.jpg){width="100%"}
 
 ::: {.large}
-**Alessandro Chiarenza**\
+[**Alessandro Chiarenza**](https://sites.google.com/view/dinomacroecoevo/home-page)\
 Universidade de Vigo
 :::
 :::
@@ -331,7 +331,7 @@ Universidade de Vigo
 ![](/images/profiles/Erin.png){width="100%"}
 
 ::: {.large}
-**Erin Dillon**\
+[**Erin Dillon**](https://erinmdillon.wordpress.com)\
 Smithsonian Tropical Research Institute
 :::
 :::
@@ -340,7 +340,7 @@ Smithsonian Tropical Research Institute
 ![](/images/profiles/Lucas.jpeg){width="100%"}
 
 ::: {.large}
-**Lucas Buffan**\
+[**Lucas Buffan**](https://isem-evolution.fr/en/membre/buffan/)\
 École Normale Supérieure de Lyon
 :::
 :::
