@@ -152,7 +152,7 @@ a:link {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    min-width: 300px;
+    min-width: 250px;
     min-height: 300px;
     width: 30%;
     background-color: #c1e0e2;
