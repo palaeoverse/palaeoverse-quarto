@@ -15,35 +15,35 @@ page-layout: custom
 ::: {.g-col-6 .center}
 
 ::: {.huge}
-**Spring 2024**
+**Summer 2024**
 
 :::
 
 ::: {.justify}
 
-We are excited to announce the Spring 2024 Palaeoverse Lecture Series focused on software development and methodological approaches in palaeontology. The aim of this lecture series is to promote the use of new tools in the field and to give researchers a platform to showcase their work. The format is intended to be flexible but will generally include a short seminar followed by a demonstration of the speaker's software toolkit and/or method and will conclude with a group discussion.
+We are excited to announce the Summer 2024 Palaeoverse Lecture Series focused on software development and methodological approaches in palaeontology. The aim of this lecture series is to promote the use of new tools in the field and to give researchers a platform to showcase their work. The format is intended to be flexible but will generally include a short seminar followed by a demonstration of the speaker's software toolkit and/or method and will conclude with a group discussion.
 
-**Lectures will be held on the last Thursday of each month from 14:00--15:00 UTC.**
+**Lectures will be held on the last Thursday of each month from 18:00--19:00 UTC (14:00 EDT).**
 
 This semester, we will be joined by the following four speakers:
 
-**February 29^th^ 2024 - Dr Emily Mitchell, University of Cambridge**  
-Using Spatial point process analyses to quantify the behavioural ecology behind trace fossils
+**June 27^th^ 2024 - Dr April Wright, Southeastern Louisiana University**  
+Models, Meaning, and the Middle Cambrian
 
-**March 28^th^ 2024 - Dr Benjamin Shipley, University of Oxford**  
-Modelling species range shifts in the past and future
+**July 25^th^ 2024 - Dr Gawain Antell, University of California**  
+Spatially standardized subsampling for fair comparisons and meaningful characterisations of ecological metrics through time
 
-**April 25^th^ 2024 - Laura Mulvey, FAU Erlangen-Nürnberg**  
-Assessing the adequacy of morphological models used in palaeobiology
+**August 29^th^ 2024 - Dr Rafaela Missagia, Universidade de São Paulo**  
+Advancing morphological research with computed tomography: a case study on predatory rodents
 
-**May 30^th^ 2024 - Prof. Daniele Silvestro, University of Fribourg**  
-Neural network models to infer diversity trajectories and the drivers of speciation and extinction
+**September 26^th^ 2024 - Dr Euan Furness, University of Cambridge**  
+Reproducing emergent eco-evolutionary patterns from a first-principles agent-based model
 
 Please register below for the series. All are welcome to join and we ask that all participants abide by the [**Palaeoverse Code of Conduct**](conduct.qmd).
 
 :::
 
-<a href="https://smithsonian.zoom.us/webinar/register/WN_9gcEQW6kQg62ak9X9hCX2A#/registration" class="card-link h2">🚨**REGISTER**🚨</a>
+<a href="https://smithsonian.zoom.us/webinar/register/WN_J1HHoN7PQw-B-AjPOjbIjw#/registration" class="card-link h2">🚨**REGISTER**🚨</a>
 
 ::: {.huge}
 **Previous lectures**

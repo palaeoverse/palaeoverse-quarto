@@ -24,7 +24,7 @@ Palaeoverse is an initiative which aims to bring the palaeobiology community tog
 
 :::
 
-<a href="lectures.qmd" class="h2">🚨**LECTURE SERIES**🚨</a>
+<a href="lectures.qmd" class="card-link h2">🚨**LECTURE SERIES**🚨</a>
 
 :::
 
