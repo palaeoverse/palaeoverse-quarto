@@ -21,6 +21,8 @@ website:
         href: https://github.com/palaeoverse
       - icon: twitter 
         href: https://twitter.com/ThePalaeoverse
+      - icon: youtube
+        href: https://www.youtube.com/@ThePalaeoverse
   navbar:
     pinned: true
     background: "#c1e0e2"
@@ -48,8 +50,11 @@ website:
         href: https://twitter.com/ThePalaeoverse
         aria-label: Palaeoverse Twitter
       - icon: github
-        href: https://github.com/palaeoverse/palaeoverse-quarto
+        href: https://github.com/palaeoverse/
         aria-label: Palaeoverse GitHub
+      - icon: youtube
+        href: https://www.youtube.com/@ThePalaeoverse
+        aria-label: Palaeoverse YouTube
 
 format:
   html:
