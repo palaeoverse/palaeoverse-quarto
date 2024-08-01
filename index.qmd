@@ -59,6 +59,15 @@ Palaeoverse is an initiative which aims to bring the palaeobiology community tog
 install.packages("palaeoverse")
 ```
 
+[**rmacrostrat**](https://rmacrostrat.palaeoverse.org) provides streamlined and improved accessibility to the geological database Macrostrat. The package provides functionality for querying the database via the dedicated API and retrieving various geological data (e.g. lithostratigraphic units) and definitions/metadata associated with those data and Macrostrat more broadly. <br>
+<a href="https://doi.org/10.5281/zenodo.13143096"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.13143096.svg" alt="DOI"></a>
+<a href="https://cran.r-project.org/package=rmacrostrat"><img src="https://cranlogs.r-pkg.org/badges/grand-total/rmacrostrat" alt="CRAN downloads"></a>
+<a href="https://CRAN.R-project.org/package=rmacrostrat"><img src="https://www.r-pkg.org/badges/version/rmacrostrat" alt="CRAN status"></a>
+
+```{r, eval=FALSE}
+install.packages("rmacrostrat")
+```
+
 [**rphylopic**](https://rphylopic.palaeoverse.org) allows users to add silhouettes of organisms from the PhyloPic website to plots generated in base R and ggplot2. rphylopic was originally developed and maintained by <a href="https://scottchamberlain.info" style="text-decoration: none">Scott Chamberlain</a>. From ver. 1.0.0, the package is now developed and maintained by the Palaeoverse team. <br>
 <a href="https://doi.org/10.5281/zenodo.10093317"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10093317.svg" alt="DOI"></a>
 <a href="https://cran.r-project.org/package=rphylopic"><img src="https://cranlogs.r-pkg.org/badges/grand-total/rphylopic" alt="CRAN downloads"></a>
