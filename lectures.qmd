@@ -49,6 +49,11 @@ Please register below for the series. All are welcome to join and we ask that al
 **Previous lectures**
 :::
 
+**August 29^th^ 2024 - Dr Rafaela Missagia, Universidade de São Paulo**  
+Advancing morphological research with computed tomography: a case study on predatory rodents
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZeSkob8wtfE?si=cXOMi_9KVX0c86Dw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 **July 25^th^ 2024 - Dr Gawain Antell, University of California**  
 Spatially standardized subsampling for fair comparisons and meaningful characterisations of ecological metrics through time
 
