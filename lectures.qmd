@@ -15,39 +15,44 @@ page-layout: custom
 ::: {.g-col-6 .center}
 
 ::: {.huge}
-**Summer 2024**
+**Winter 2024/25**
 
 :::
 
 ::: {.justify}
 
-We are excited to announce the Summer 2024 Palaeoverse Lecture Series focused on software development and methodological approaches in palaeontology. The aim of this lecture series is to promote the use of new tools in the field and to give researchers a platform to showcase their work. The format is intended to be flexible but will generally include a short seminar followed by a demonstration of the speaker's software toolkit and/or method and will conclude with a group discussion.
+We are excited to announce the Winter 2024/25 Palaeoverse Lecture Series focused on software development and methodological approaches in palaeontology. The aim of this lecture series is to promote the use of new tools in the field and to give researchers a platform to showcase their work. The format is intended to be flexible but will generally include a short seminar followed by a demonstration of the speaker's software toolkit and/or method and will conclude with a group discussion.
 
-**Lectures will be held on the last Thursday of each month from 18:00--19:00 UTC (14:00 EDT).**
+**Lectures will be held on the last Thursday of each month from 16:00--17:00 UTC (12:00 EDT)\*.**
 
 This semester, we will be joined by the following four speakers:
 
-**June 27^th^ 2024 - Dr April Wright, Southeastern Louisiana University**  
-Models, Meaning, and the Middle Cambrian
+**October 31^st^ 2024 - Niklas Hohmann, Utrecht University**  
+Building modeling pipelines for stratigraphic paleobiology in R
 
-**July 25^th^ 2024 - Dr Gawain Antell, University of California**  
-Spatially standardized subsampling for fair comparisons and meaningful characterisations of ecological metrics through time
+\***November 21^st^ 2024 (15:00 UTC) - Dr Roxanne Banker, Providence College**  
+Quantitative approaches to understanding marine ecosystems: Insights from Stellar's Sea Cow and ancient food webs
 
-**August 29^th^ 2024 - Dr Rafaela Missagia, Universidade de São Paulo**  
-Advancing morphological research with computed tomography: a case study on predatory rodents
+**December 19^th^ 2024 - Dr Thomas Guillerme, University of Sheffield**  
+Using the 'dispRity' R package to measure multidimensional space occupancy in palaeobiology
 
-**September 26^th^ 2024 - Dr Euan Furness, University of Cambridge**  
-Reproducing emergent eco-evolutionary patterns from a first-principles agent-based model
+**January 30^th^ 2025 - Dr Ádám Kocsis, FAU Erlangen-Nürnberg**  
+The 'rgplates' interface to tectonic calculations in R: overview, updates and related projects
 
 Please register below for the series. All are welcome to join and we ask that all participants abide by the [**Palaeoverse Code of Conduct**](conduct.qmd).
 
 :::
 
-<a href="https://smithsonian.zoom.us/webinar/register/WN_J1HHoN7PQw-B-AjPOjbIjw#/registration" class="card-link h2">🚨**REGISTER**🚨</a>
+<a href="https://bit.ly/palaeoverse-lecture-series-winter2024-25" class="card-link h2">🚨**REGISTER**🚨</a>
 
 ::: {.huge}
 **Previous lectures**
 :::
+
+**September 26^th^ 2024 - Dr Euan Furness, University of Cambridge**  
+Reproducing emergent eco-evolutionary patterns from a first-principles agent-based model
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UMQZfIUJzTA?si=ujUsK38RtaF-kCQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **August 29^th^ 2024 - Dr Rafaela Missagia, Universidade de São Paulo**  
 Advancing morphological research with computed tomography: a case study on predatory rodents
