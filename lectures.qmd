@@ -50,7 +50,8 @@ Please register below for the series. All are welcome to join and we ask that al
 :::
 
 **October 31^st^ 2024 - Niklas Hohmann, Utrecht University**  
-Building modeling pipelines for stratigraphic paleobiology in R
+Building modeling pipelines for stratigraphic paleobiology in R  
+Lecture materials: [https://doi.org/10.5281/zenodo.14001502](https://doi.org/10.5281/zenodo.14001502)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1H-xnD82fzA?si=zuqFdJ5vnFcOlsav" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
