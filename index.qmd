@@ -252,7 +252,7 @@ Be active in community spaces such as the <a href="https://groups.google.com/g/p
 
 We are an international group of Early Career Researchers with the aim of encouraging more open, reproducible and collaborative research in palaeobiology. To do so, we provide tools and resources--developed alongside the community--that help to promote this culture. 
 
-## Core team
+## The team
 
 ::: {.center}
 
@@ -363,6 +363,32 @@ Smithsonian Tropical Research Institute
 École Normale Supérieure de Lyon
 :::
 :::
+
+::: {.profile}
+![](/images/profiles/Harriet.jpg){width="100%"}
+
+::: {.large}
+[**Harriet Drage**](http://harrietdrage.wordpress.com/)\
+University of Lausanne
+:::
+:::
+
+::: {.profile}
+![](/images/profiles/Bruna.jpeg){width="100%"}
+
+::: {.large}
+[**Bruna Farina**](https://www.researchgate.net/profile/Bruna-Farina)\
+University of Fribourg
+:::
+:::
+
+::: {.profile}
+![](/images/profiles/Joe.jpg){width="100%"}
+
+::: {.large}
+[**Joe Flannery-Sutherland**](https://research.birmingham.ac.uk/en/persons/joe-flannery-sutherland)\
+University of Birmingham
+:::
 :::
 
 :::
@@ -374,9 +400,6 @@ Smithsonian Tropical Research Institute
 :::
 
 :::
-
-
-
 
 ::: {.footer-text}
 ::: {.footer-container .blue-background}
