@@ -1,0 +1,51 @@
+---
+pagetitle: External Resources
+title: External Resources
+title-block-banner: true
+toc: false
+page-layout: custom
+---
+
+::: {.grid .justify}
+
+::: {.g-col-2}
+
+:::
+
+::: {.g-col-8}
+
+This external resource table was created by Christopher Dean and Erin Dillon to help the community to find relevant palaeobiological resources.
+
+If you notice any issues with this page or wish to add a resource, please contact <a href="mailto:christopherdaviddean@gmail.com" style="text-decoration: none" target="_blank">**Christopher Dean**</a> or <a href="mailto:emdillon23@gmail.com" style="text-decoration: none" target="_blank">**Erin Dillon**</a>.
+
+```{r}
+#| echo: false
+#| column: page
+#| warning: false
+# Load libraries
+library(googlesheets4)
+library(dplyr)
+library(DT)
+library(reactable)
+# Get sheet
+df <- read_sheet("https://docs.google.com/spreadsheets/d/1ZwvmmBUEPZzGEcdE-ZWYPDGkafYcfSQkYwue9cQ_x9c/edit?usp=share_link")
+
+df$Link <- paste0("<a href='",df$Link,"' target='_blank'>",df$Link,"</a>")
+
+df %>%
+  DT::datatable(style = "bootstrap4", escape = FALSE, rownames = FALSE,
+options = list(
+  pageLength = 30, 
+  columnDefs = list(list(className = 'dt-left', targets = "_all"))
+)) %>%
+  DT::formatStyle(columns = c(1:6), fontSize = '85%')
+```
+
+:::
+
+::: {.g-col-2}
+
+:::
+
+:::
+

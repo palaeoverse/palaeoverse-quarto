@@ -14,11 +14,11 @@
     "text": "The team\n\n\n\n\nLewis Jones\nUniversity College London\n\n\n\n\n\nWilliam Gearty\nAmerican Museum of Natural History\n\n\n\n\n\nBethany Allen\nETH Zürich\n\n\n\n\n\nChristopher Dean\nUniversity College London\n\n\n\n\n\nSofía Galván\nUniversidade de Vigo\n\n\n\n\n\nPedro Godoy\nUniversity of São Paulo\n\n\n\n\n\nMiranta Kouvari\nUniversity College London\n\n\n\n\n\nCecily Nicholl\nUniversity College London\n\n\n\n\n\nKilian Eichenseer\nUniversity of Durham\n\n\n\n\n\nAlessandro Chiarenza\nUniversidade de Vigo\n\n\n\n\n\nErin Dillon\nSmithsonian Tropical Research Institute\n\n\n\n\n\nLucas Buffan\nÉcole Normale Supérieure de Lyon\n\n\n\n\n\nHarriet Drage\nUniversity of Lausanne\n\n\n\n\n\nBruna Farina\nUniversity of Fribourg\n\n\n\n\n\nJoe Flannery-Sutherland\nUniversity of Birmingham"
   },
   {
-    "objectID": "form/reviewer.html",
-    "href": "form/reviewer.html",
-    "title": "Become a Palaeoverse Reviewer",
+    "objectID": "form/directory.html",
+    "href": "form/directory.html",
+    "title": "Palaeoverse Directory Form",
     "section": "",
-    "text": "Our ultimate hope for Palaeoverse is community involvement. One important way you can contribute to Palaeoverse is by volunteering to review code, documentation and/or resources. If you are interested in registering as an official reviewer for Palaeoverse, please complete the following form. We will periodically run training workshops on how to review code via GitHub.\nIf you face any issues with completing this form, please contact Lewis A. Jones or William Gearty.\n\n\n\n\nName\n\n\n\n\nEmail address\n\n\n\n\nWhat is your field of expertise?\n\n\n\n\nWhat are you willing to review?\n\n\n\n\nDo you have familiarity with reviewing code?\n\n\n\n\nAre you familiar with using GitHub?\n\n\n\n\nSubmit"
+    "text": "This service is provided to advertise research labs, vacancies, upcoming conferences, and workshops related to the field of palaeobiology. If you wish to make a posting, please complete the following form. Please note that all information provided here will be published online and accessible to all. We aim to update postings once a week.\nWe reserve the right to refuse the posting of any inappropriate material or remove content where necessary. If you face any issues, please contact a member of the Palaeoverse team.\n\n\n\n\nContact name\n\n\n\n\nContact email\n\n\n\n\nType of posting (Lab, Conference, Workshop or Vacancy)\n\n Lab Conference\nWorkshop Vacancy  \n\n\nPost title (e.g. name of lab, workshop or position)\n\n\n\n\nPost link (e.g. lab website)\n\n\n\n\nInstitution\n\n\n\n\nStreet address\n\n\n\n\nCity\n\n\n\n\nCounty, province, or state\n\n\n\n\nCountry\n\n\n\n\nExpiry date (e.g. registration or application deadline, for research labs you may use 2099)\n\n\n\n\nProvide a short description of the posting (limited to 50–350 characters)\n\nEnter text...\n  \n Submit"
   },
   {
     "objectID": "form/grant.html",
@@ -28,11 +28,11 @@
     "text": "This service is provided to contribute to the Grant Track community database of research funding schemes and grants for Palaeobiologists. If you wish to make an entry, please complete the following form. Please note that all information provided here will be published online and accessible to all. We aim to update entries once a week.\nWe reserve the right to refuse the entries of any inappropriate material or remove content where necessary. If you face any issues, please contact Kilian Eichenseer or Lewis A. Jones.\n\n\n\n\nName of the grant\n\n\n\n\nFunding body\n\n\n\n\nApplicant nationality eligibility (e.g. EU-citizens only)\n\n\n\n\nHost country\n\n\n\n\nCareer stage eligibility\n\n\n\n\nGrant link\n\n\n\n\nAward\n\n\n\n\nResearch cost allowance\n\n\n\n\nDuration\n\n\n\n\nApplication deadline\n\n\n\n\nSubmit"
   },
   {
-    "objectID": "form/directory.html",
-    "href": "form/directory.html",
-    "title": "Palaeoverse Directory Form",
+    "objectID": "form/reviewer.html",
+    "href": "form/reviewer.html",
+    "title": "Become a Palaeoverse Reviewer",
     "section": "",
-    "text": "This service is provided to advertise research labs, vacancies, upcoming conferences, and workshops related to the field of palaeobiology. If you wish to make a posting, please complete the following form. Please note that all information provided here will be published online and accessible to all. We aim to update postings once a week.\nWe reserve the right to refuse the posting of any inappropriate material or remove content where necessary. If you face any issues, please contact a member of the Palaeoverse team.\n\n\n\n\nContact name\n\n\n\n\nContact email\n\n\n\n\nType of posting (Lab, Conference, Workshop or Vacancy)\n\n Lab Conference\nWorkshop Vacancy  \n\n\nPost title (e.g. name of lab, workshop or position)\n\n\n\n\nPost link (e.g. lab website)\n\n\n\n\nInstitution\n\n\n\n\nStreet address\n\n\n\n\nCity\n\n\n\n\nCounty, province, or state\n\n\n\n\nCountry\n\n\n\n\nExpiry date (e.g. registration or application deadline, for research labs you may use 2099)\n\n\n\n\nProvide a short description of the posting (limited to 50–350 characters)\n\nEnter text...\n  \n Submit"
+    "text": "Our ultimate hope for Palaeoverse is community involvement. One important way you can contribute to Palaeoverse is by volunteering to review code, documentation and/or resources. If you are interested in registering as an official reviewer for Palaeoverse, please complete the following form. We will periodically run training workshops on how to review code via GitHub.\nIf you face any issues with completing this form, please contact Lewis A. Jones or William Gearty.\n\n\n\n\nName\n\n\n\n\nEmail address\n\n\n\n\nWhat is your field of expertise?\n\n\n\n\nWhat are you willing to review?\n\n\n\n\nDo you have familiarity with reviewing code?\n\n\n\n\nAre you familiar with using GitHub?\n\n\n\n\nSubmit"
   },
   {
     "objectID": "conduct.html",

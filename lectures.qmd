@@ -49,6 +49,11 @@ Please register below for the series. All are welcome to join and we ask that al
 **Previous lectures**
 :::
 
+**November 21^st^ 2024 - Dr Roxanne Banker, Providence College**  
+Quantitative approaches to understanding marine ecosystems: Insights from Stellar's Sea Cow and ancient food webs
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jL4z3dqSxvk?si=wpOVTHKcrsP1l0wh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 **October 31^st^ 2024 - Niklas Hohmann, Utrecht University**  
 Building modeling pipelines for stratigraphic paleobiology in R  
 Lecture materials: [https://doi.org/10.5281/zenodo.14001502](https://doi.org/10.5281/zenodo.14001502)

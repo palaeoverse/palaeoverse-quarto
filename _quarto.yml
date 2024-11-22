@@ -32,18 +32,22 @@ website:
         text: 🏠
       - href: index.qmd#our-toolkits
         text: R Packages
-      - href: index.qmd#our-resources
-        text: Resources
+      - text: Resources
+        menu:
+         - href: index.qmd#our-resources
+           text: Our Resources
+         - href: directory.qmd
+           text: Directory
+         - href: funding.qmd
+           text: Grant Track
+         - href: external.qmd
+           text: External Resources
       - href: index.qmd#community-spaces
         text: Community
       - href: index.qmd#get-involved
         text: Contribute
       - href: index.qmd#about-us
         text: About Us
-      - href: directory.qmd
-        text: Directory
-      - href: funding.qmd
-        text: Grant Track
       - href: lectures.qmd
         text: Lecture Series
       - icon: twitter
