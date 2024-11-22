@@ -213,15 +213,21 @@ We are active on <a href="https://twitter.com/ThePalaeoverse" style="text-decora
 
 ### We welcome both code and non-code contributions. You can contribute in the following ways:
 
+:::
+
 ::: columns
-::: {.column width="20%"}
+::: {.column width="22%" .card-link}
 
 ### R packages 👩🏽‍💻 
 Contribute to functionality available in Palaeoverse <a id="contribute" href="https://github.com/palaeoverse" style="text-decoration: none" target="_blank">**R Packages**</a>, such as palaeoverse, rmacrostrat, and rphylopic. [Jump to toolkits...](https://github.com/palaeoverse)
 
 :::
 
-::: {.column width="20%"}
+::: {.column width="2%"}
+
+:::
+
+::: {.column width="22%" .card-link}
 
 ### Review 🔍 
 
@@ -229,7 +235,11 @@ Become a <a href="./form/reviewer.qmd" style="text-decoration: none" target="_bl
 
 :::
 
-::: {.column width="20%"}
+::: {.column width="2%"}
+
+:::
+
+::: {.column width="22%" .card-link}
 
 ### Data 🗃
 
@@ -237,7 +247,11 @@ Contribute to Palaeoverse databases such as the <a href="./directory.qmd" style=
 
 :::
 
-::: {.column width="20%"}
+::: {.column width="2%"}
+
+:::
+
+::: {.column width="22%" .card-link}
 
 ### Community 💬
 
@@ -248,8 +262,6 @@ Be active in community spaces such as the <a href="https://groups.google.com/g/p
 :::
 
 <br>
-
-:::
 
 :::
 
