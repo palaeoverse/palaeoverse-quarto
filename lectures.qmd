@@ -51,7 +51,7 @@ Please register below for the series. All are welcome to join and we ask that al
 
 **December 19^th^ 2024 - Dr Thomas Guillerme, University of Sheffield**  
 Top 10 of the best disparity metrics to use in palaeobiology; number 10 might surprise you!  
-Lecture materials: [Vignette](https://cdn.githubraw.com/TGuillerme/dispRity/refs/heads/master/inst/vignettes/select_disparity_metrics.html) | [Code](https://github.com/TGuillerme/dispRity/blob/master/inst/vignettes/generating_inapplicable_characters.Rmd)
+Lecture materials: [Vignette](https://cdn.githubraw.com/TGuillerme/dispRity/refs/heads/master/inst/vignettes/select_disparity_metrics.html) | [Code](https://github.com/TGuillerme/dispRity/blob/master/inst/vignettes/select_disparity_metrics.Rmd)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JKpUQbxID9A?si=izjfyfEn_7TSHclD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
