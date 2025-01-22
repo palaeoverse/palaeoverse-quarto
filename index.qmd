@@ -68,7 +68,7 @@ install.packages("palaeoverse")
 install.packages("rmacrostrat")
 ```
 
-[**rphylopic**](https://rphylopic.palaeoverse.org) allows users to add silhouettes of organisms from the PhyloPic website to plots generated in base R and ggplot2. rphylopic was originally developed and maintained by <a href="https://scottchamberlain.info" style="text-decoration: none">Scott Chamberlain</a>. From ver. 1.0.0, the package is now developed and maintained by the Palaeoverse team. <br>
+[**rphylopic**](https://rphylopic.palaeoverse.org) allows users to add silhouettes of organisms from the PhyloPic website to plots generated in base R and ggplot2. rphylopic was originally developed and maintained by <a href="https://scottchamberlain.info">Scott Chamberlain</a>. From ver. 1.0.0, the package is now developed and maintained by the Palaeoverse team. <br>
 <a href="https://doi.org/10.5281/zenodo.10093317"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10093317.svg" alt="DOI"></a>
 <a href="https://cran.r-project.org/package=rphylopic"><img src="https://cranlogs.r-pkg.org/badges/grand-total/rphylopic" alt="CRAN downloads"></a>
 <a href="https://CRAN.R-project.org/package=rphylopic"><img src="https://www.r-pkg.org/badges/version/rphylopic" alt="CRAN status"></a>
@@ -108,56 +108,30 @@ install.packages("sepkoski")
 
 # Our Resources
 
-:::
-
-::: columns
-
-::: {.column width="22%" .card-link}
-
-### Cheat sheets  
+## Cheat sheets  
 
 It can be a lot to take in when trying to get familiar with a new R package. We provide cheat sheets for our packages to help get you started.  
-[![](images/palaeoverse-pkg.png){width="18%"}](./images/palaeoverse-cheatsheet.pdf)  [![](images/rphylopic-pkg.png){width="18%"}](./images/rphylopic-cheatsheet.pdf)
+[![](images/palaeoverse-pkg.png){width="5%"}](./images/palaeoverse-cheatsheet.pdf) [![](images/rphylopic-pkg.png){width="5%"}](./images/rphylopic-cheatsheet.pdf)
 
-:::
+## [CRAN Task View](https://cran.r-project.org/web/views/Paleontology.html)
 
-::: {.column width="2%"}
+[CRAN Task View](https://cran.r-project.org/web/views/Paleontology.html) is a catalogue of R packages that are specifically geared towards acquiring, cleaning, visualising, and/or analysing various kinds of palaeontological and palaeontology-adjacent data. We use this venue to showcase the wide variety of R packages available across the palaeosciences and to provide a brief overview of each package for a broad audience of R users.
 
-:::
-
-::: {.column width="22%" .card-link}
-
-### [Grant Track](funding.qmd)
-
-[Grant Track](funding.qmd) is an online community database of research funding schemes and grants for Palaeobiologists. This framework is provided to support the community in easily keeping track of available funding opportunities.
-
-:::
-
-::: {.column width="2%"}
-
-:::
-
-::: {.column width="22%" .card-link}
-
-### [Directory](directory.qmd)
+## [Directory](directory.qmd)
 
 [Directory](directory.qmd) is a resource to promote the communication of upcoming conferences, workshops, and vacancies. It also provides a register of research labs and their research focus. We hope that this resource fosters networking and collaboration across the globe.
 
-:::
+## [Grant Track](funding.qmd)
 
-::: {.column width="2%"}
+[Grant Track](funding.qmd) is an online community database of research funding schemes and grants for Palaeobiologists. This framework is provided to support the community in easily keeping track of available funding opportunities.
 
-:::
-
-::: {.column width="22%" .card-link}
-
-### [External resources](external.qmd)
+## [External resources](external.qmd)
 
 We have created a table of [external resources](external.qmd) to help the community to find relevant R and palaeobiological resources. 
 
 :::
 
-:::
+<br>
 
 :::
 
@@ -181,11 +155,11 @@ We have created a table of [external resources](external.qmd) to help the commun
 
 ### Google group [![](images/google-groups.png){fig-align="left" width="5%"}](https://groups.google.com/g/palaeoverse)
 
-We host a community space for palaeobiologists using the <a href="https://groups.google.com/g/palaeoverse" style="text-decoration: none">**Google Groups**</a> platform. This space provides an area to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting. Questions related to Palaeoverse packages are also more than welcome.
+We host a community space for palaeobiologists using the <a href="https://groups.google.com/g/palaeoverse">**Google Groups**</a> platform. This space provides an area to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting. Questions related to Palaeoverse packages are also more than welcome.
 
 ### Twitter [![](images/twitter.png){fig-align="left" width="5%"}](https://twitter.com/ThePalaeoverse)
 
-We are active on <a href="https://twitter.com/ThePalaeoverse" style="text-decoration: none">**Twitter/X**</a>, where we share updates and news on Palaeoverse, as well as resources for the palaeobiology community. We are also more than happy to help circulate relevant news you wish to share with the community, just remember to tag <a href="https://twitter.com/ThePalaeoverse" style="text-decoration: none">**@ThePalaeoverse**</a> and use the hashtag <a href="https://twitter.com/search?q=palaeoverse&src=typed_query" style="text-decoration: none">**#palaeoverse**</a>.
+We are active on <a href="https://twitter.com/ThePalaeoverse">**Twitter/X**</a>, where we share updates and news on Palaeoverse, as well as resources for the palaeobiology community. We are also more than happy to help circulate relevant news you wish to share with the community, just remember to tag <a href="https://twitter.com/ThePalaeoverse">**@ThePalaeoverse**</a> and use the hashtag <a href="https://twitter.com/search?q=palaeoverse&src=typed_query">**#palaeoverse**</a>.
 
 :::
 
@@ -213,55 +187,24 @@ We are active on <a href="https://twitter.com/ThePalaeoverse" style="text-decora
 
 ### We welcome both code and non-code contributions. You can contribute in the following ways:
 
-:::
+## R packages 👩🏽‍💻 
+Contribute to functionality available in Palaeoverse <a id="contribute" href="https://github.com/palaeoverse" target="_blank">**R Packages**</a>, such as palaeoverse, rmacrostrat, and rphylopic. [Jump to toolkits...](https://github.com/palaeoverse)
 
-::: columns
-::: {.column width="22%" .card-link}
+## Review 🔍 
 
-### R packages 👩🏽‍💻 
-Contribute to functionality available in Palaeoverse <a id="contribute" href="https://github.com/palaeoverse" style="text-decoration: none" target="_blank">**R Packages**</a>, such as palaeoverse, rmacrostrat, and rphylopic. [Jump to toolkits...](https://github.com/palaeoverse)
+Become a <a href="./form/reviewer.qmd" target="_blank">**Palaeoverse Reviewer**</a> - Review code, documentation, and resources. We believe community input is key to improving user experience!
 
-:::
+## Data 🗃
 
-::: {.column width="2%"}
+Contribute to Palaeoverse databases such as the <a href="./directory.qmd" target="_blank">**Directory**</a> and <a href="./funding.qmd" target="_blank">**Grant Track**.</a>  These databases aim to centralise useful information for the community.
 
-:::
+## Community 💬
 
-::: {.column width="22%" .card-link}
-
-### Review 🔍 
-
-Become a <a href="./form/reviewer.qmd" style="text-decoration: none" target="_blank">**Palaeoverse Reviewer**</a> - Review code, documentation, and resources. We believe community input is key to improving user experience!
-
-:::
-
-::: {.column width="2%"}
-
-:::
-
-::: {.column width="22%" .card-link}
-
-### Data 🗃
-
-Contribute to Palaeoverse databases such as the <a href="./directory.qmd" style="text-decoration: none" target="_blank">**Directory**</a> and <a href="./funding.qmd" style="text-decoration: none" target="_blank">**Grant Track**.</a>  These databases aim to centralise useful information for the community.
-
-:::
-
-::: {.column width="2%"}
-
-:::
-
-::: {.column width="22%" .card-link}
-
-### Community 💬
-
-Be active in community spaces such as the <a href="https://groups.google.com/g/palaeoverse" style="text-decoration: none" target="_blank">**Palaeoverse Google Group**</a>, an area to share ideas and resources, advertise opportunities, and network with colleagues.  
-
-:::
-
-:::
+Be active in community spaces such as the <a href="https://groups.google.com/g/palaeoverse" target="_blank">**Palaeoverse Google Group**</a>, an area to share ideas and resources, advertise opportunities, and network with colleagues.  
 
 <br>
+
+:::
 
 :::
 
@@ -305,7 +248,7 @@ University College London
 
 ::: {.large}
 [**William Gearty**](https://williamgearty.com)\
-American Museum of Natural History
+Syracuse University
 :::
 :::
 

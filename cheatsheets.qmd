@@ -1,0 +1,45 @@
+---
+pagetitle: Cheat Sheets
+title: Cheat Sheets
+title-block-banner: true
+toc: false
+page-layout: custom
+---
+
+::: {.grid}
+
+::: {.g-col-3}
+
+:::
+
+::: {.g-col-6}
+
+It can be a lot to take in when trying to get familiar with a new R package. We provide cheat sheets for our packages to help get you started.
+
+::: {.grid}
+
+::: {.g-col-6}
+
+## palaeoverse R package
+
+[![](images/palaeoverse-cheatsheet.png)](./images/palaeoverse-cheatsheet.pdf)
+
+:::
+
+::: {.g-col-6}
+
+## rphylopic R package
+
+[![](images/rphylopic-cheatsheet.png)](./images/rphylopic-cheatsheet.pdf)
+
+:::
+
+:::
+
+:::
+
+::: {.g-col-3}
+
+:::
+
+:::

@@ -36,6 +36,10 @@ website:
         menu:
          - href: index.qmd#our-resources
            text: Our Resources
+         - href: cheatsheets.qmd
+           text: Cheat Sheets
+         - href: https://cran.r-project.org/web/views/Paleontology.html
+           text: CRAN Task View
          - href: directory.qmd
            text: Directory
          - href: funding.qmd
