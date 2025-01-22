@@ -157,6 +157,7 @@ a:link {
     margin-right: 0.5rem;
     border-radius: 2px; 
     display: inline-block;
+    text-decoration: none;  
 }
 
 .card-link:hover {
