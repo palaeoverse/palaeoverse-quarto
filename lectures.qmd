@@ -21,23 +21,23 @@ page-layout: custom
 
 ::: {.justify}
 
-We are excited to announce the Winter 2024/25 Palaeoverse Lecture Series focused on software development and methodological approaches in palaeontology. The aim of this lecture series is to promote the use of new tools in the field and to give researchers a platform to showcase their work. The format is intended to be flexible but will generally include a short seminar followed by a demonstration of the speaker's software toolkit and/or method and will conclude with a group discussion.
+We are excited to announce the Spring 2025 Palaeoverse Lecture Series focused on software development and methodological approaches in palaeontology. The aim of this lecture series is to promote the use of new tools in the field and to give researchers a platform to showcase their work. The format is intended to be flexible but will generally include a short seminar followed by a demonstration of the speaker's software toolkit and/or method and will conclude with a group discussion.
 
-**Lectures will be held on the last Thursday of each month from 16:00--17:00 UTC (12:00 EDT)\*.**
+**Lectures will be held on the last Thursday of each month from 16:00--17:00 UTC\*.**
 
 This semester, we will be joined by the following four speakers:
 
-**October 31^st^ 2024 - Niklas Hohmann, Utrecht University**  
-Building modeling pipelines for stratigraphic paleobiology in R
+**February 27^th^ 2025 - Dr Xia Wang, Chengdu University of Technology**  
+TBC
 
-\***November 21^st^ 2024 (15:00 UTC) - Dr Roxanne Banker, Providence College**  
-Quantitative approaches to understanding marine ecosystems: Insights from Stellar's Sea Cow and ancient food webs
+**March 27^th^ 2025 - Dr Ond&rcaron;ej Mottl - Charles University**  
+FOSSILPOL: The Workflow To Process Global Palaeoecological Data Of Fossil Pollen For Vegetation-Based Macroecological Synthesis  
 
-**December 19^th^ 2024 - Dr Thomas Guillerme, University of Sheffield**  
-Top 10 of the best disparity metrics to use in palaeobiology; number 10 might surprise you!
+**April 24^th^ 2025 - Dr Richard Stockey, University of Southampton**  
+Modelling ancient animal habitats in space and time: linking fossils and Earth system models
 
-**January 30^th^ 2025 - Dr Ádám Kocsis, FAU Erlangen-Nürnberg**  
-The 'rgplates' interface to tectonic calculations in R: overview, updates and related projects
+**May 29^th^ 2025 - Dr Allison Hsiang, Stockholm University**  
+TBD
 
 Please register below for the series. All are welcome to join and we ask that all participants abide by the [**Palaeoverse Code of Conduct**](conduct.qmd).
 
@@ -48,6 +48,12 @@ Please register below for the series. All are welcome to join and we ask that al
 ::: {.huge}
 **Previous lectures**
 :::
+
+**January 30^th^ 2025 - Dr Ádám Kocsis, FAU Erlangen-Nürnberg**  
+The 'rgplates' interface to tectonic calculations in R: overview, updates and related projects  
+[Lecture materials](https://github.com/adamkocsis/rgplates_palaeoverse)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vrezsXEknoY?si=dOaTwQ3tQRMTUrS1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **December 19^th^ 2024 - Dr Thomas Guillerme, University of Sheffield**  
 Top 10 of the best disparity metrics to use in palaeobiology; number 10 might surprise you!  
