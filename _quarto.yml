@@ -3,9 +3,8 @@ project:
 
 website:
   site-url: https://palaeoverse.org
-  title: "Palaeoverse"
-  image: "/images/palaeoverse-pkg.png"
-  favicon: "/images/palaeoverse-pkg.png"
+  image: "/images/logo.png"
+  favicon: "/images/favicon.png"
   open-graph: true
   twitter-card: true
   repo-url: https://github.com/palaeoverse/palaeoverse-quarto
@@ -17,16 +16,16 @@ website:
       - href: conduct.qmd
         text: Code of Conduct
     right: 
-      - icon: github
-        href: https://github.com/palaeoverse
       - text: "{{< iconify fa6-brands:bluesky >}}"
-        href: "https://bsky.app/profile/palaeoverse.bsky.social"
-      - icon: youtube
+        href: https://bsky.app/profile/palaeoverse.bsky.social
+      - text: "{{< iconify fa6-brands:github >}}"
+        href: https://github.com/palaeoverse
+      - text: "{{< iconify fa6-brands:youtube >}}"
         href: https://www.youtube.com/@ThePalaeoverse
   navbar:
     pinned: true
     background: "#c1e0e2"
-    logo: "/images/palaeoverse-pkg.png"
+    logo: "/images/logo.png"
     right: 
       - href: index.qmd
         text: 🏠
@@ -55,14 +54,11 @@ website:
       - href: lectures.qmd
         text: Lecture Series
       - text: "{{< iconify fa6-brands:bluesky >}}"
-        href: "https://bsky.app/profile/palaeoverse.bsky.social"
-        aria-label: Palaeoverse Bluesky
-      - icon: github
-        href: https://github.com/palaeoverse/
-        aria-label: Palaeoverse GitHub
-      - icon: youtube
+        href: https://bsky.app/profile/palaeoverse.bsky.social
+      - text: "{{< iconify fa6-brands:github >}}"
+        href: https://github.com/palaeoverse
+      - text: "{{< iconify fa6-brands:youtube >}}"
         href: https://www.youtube.com/@ThePalaeoverse
-        aria-label: Palaeoverse YouTube
 
 format:
   html:
