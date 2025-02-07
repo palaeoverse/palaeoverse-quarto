@@ -19,8 +19,8 @@ website:
     right: 
       - icon: github
         href: https://github.com/palaeoverse
-      - icon: twitter 
-        href: https://twitter.com/ThePalaeoverse
+      - text: "{{< iconify fa6-brands:bluesky >}}"
+        href: "https://bsky.app/profile/palaeoverse.bsky.social"
       - icon: youtube
         href: https://www.youtube.com/@ThePalaeoverse
   navbar:
@@ -54,9 +54,9 @@ website:
         text: About Us
       - href: lectures.qmd
         text: Lecture Series
-      - icon: twitter
-        href: https://twitter.com/ThePalaeoverse
-        aria-label: Palaeoverse Twitter
+      - text: "{{< iconify fa6-brands:bluesky >}}"
+        href: "https://bsky.app/profile/palaeoverse.bsky.social"
+        aria-label: Palaeoverse Bluesky
       - icon: github
         href: https://github.com/palaeoverse/
         aria-label: Palaeoverse GitHub

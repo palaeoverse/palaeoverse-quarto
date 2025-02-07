@@ -157,9 +157,9 @@ We have created a table of [external resources](external.qmd) to help the commun
 
 We host a community space for palaeobiologists using the <a href="https://groups.google.com/g/palaeoverse">**Google Groups**</a> platform. This space provides an area to share ideas and resources, advertise opportunities, and network with colleagues in an informal setting. Questions related to Palaeoverse packages are also more than welcome.
 
-### Twitter [![](images/twitter.png){fig-align="left" width="5%"}](https://twitter.com/ThePalaeoverse)
+### Bluesky [![](images/bluesky.png){fig-align="left" width="5%"}](https://bsky.app/profile/palaeoverse.bsky.social)
 
-We are active on <a href="https://twitter.com/ThePalaeoverse">**Twitter/X**</a>, where we share updates and news on Palaeoverse, as well as resources for the palaeobiology community. We are also more than happy to help circulate relevant news you wish to share with the community, just remember to tag <a href="https://twitter.com/ThePalaeoverse">**@ThePalaeoverse**</a> and use the hashtag <a href="https://twitter.com/search?q=palaeoverse&src=typed_query">**#palaeoverse**</a>.
+We are active on <a href="https://bsky.app/profile/palaeoverse.bsky.social">**Bluesky**</a>, where we share updates and news on Palaeoverse, as well as resources for the palaeobiology community. We are also more than happy to help circulate relevant news you wish to share with the community, just remember to tag <a href="https://bsky.app/profile/palaeoverse.bsky.social">**@palaeoverse.bsky.social**</a> and use the hashtag <a href="https://bsky.app/search?q=%23palaeoverse">**#palaeoverse**</a>.
 
 :::
 
@@ -404,7 +404,7 @@ University of Birmingham
 ::: {.g-col-12 .g-col-md-3}
 ### Follow us
 [GitHub](https://github.com/palaeoverse)\
-[Twitter/X](https://twitter.com/ThePalaeoverse)\
+[Bluesky](https://bsky.app/profile/palaeoverse.bsky.social)\
 [YouTube](https://www.youtube.com/channel/UCTzcJ84EF08PZX6VfNDf0Hg)\
 [Google Group](https://groups.google.com/g/palaeoverse)\
 :::

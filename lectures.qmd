@@ -28,7 +28,7 @@ We are excited to announce the Spring 2025 Palaeoverse Lecture Series focused on
 This semester, we will be joined by the following four speakers:
 
 **February 27^th^ 2025 - Dr Xia Wang, Chengdu University of Technology**  
-TBC
+DDE-Outcrop3D: an interactive platform for digital outcrop models  
 
 **March 27^th^ 2025 - Dr Ond&rcaron;ej Mottl - Charles University**  
 FOSSILPOL: The Workflow To Process Global Palaeoecological Data Of Fossil Pollen For Vegetation-Based Macroecological Synthesis  
@@ -37,7 +37,7 @@ FOSSILPOL: The Workflow To Process Global Palaeoecological Data Of Fossil Pollen
 Modelling ancient animal habitats in space and time: linking fossils and Earth system models
 
 **May 29^th^ 2025 - Dr Allison Hsiang, Stockholm University**  
-TBD
+Automating large-scale morphometric data generation using AutoMorph and deep learning  
 
 Please register below for the series. All are welcome to join and we ask that all participants abide by the [**Palaeoverse Code of Conduct**](conduct.qmd).
 
