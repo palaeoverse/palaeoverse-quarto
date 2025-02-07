@@ -11,7 +11,7 @@ website:
   page-footer: 
     background: "#c1e0e2"
     left: |
-      [Get involved with Palaeoverse](index.qmd#get-involved)  [![](/images/palaeoverse-pkg.png){fig-alt="Palaeoverse" width=30px}](index.qmd#get-involved)
+      [Get involved with Palaeoverse](index.qmd#get-involved)  [![](/images/logo.png){fig-alt="Palaeoverse" width=30px}](index.qmd#get-involved)
     center: 
       - href: conduct.qmd
         text: Code of Conduct
