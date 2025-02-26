@@ -15,7 +15,7 @@ page-layout: custom
 ::: {.g-col-6 .center}
 
 ::: {.huge}
-**Winter 2024/25**
+**Spring 2025**
 
 :::
 

@@ -108,7 +108,7 @@ install.packages("sepkoski")
 
 # Our Resources
 
-## Cheat sheets  
+## [Cheat sheets](cheatsheets.qmd)
 
 It can be a lot to take in when trying to get familiar with a new R package. We provide cheat sheets for our packages to help get you started.  
 [![](images/palaeoverse-pkg.png){width="5%"}](./images/palaeoverse-cheatsheet.pdf) [![](images/rphylopic-pkg.png){width="5%"}](./images/rphylopic-cheatsheet.pdf)
