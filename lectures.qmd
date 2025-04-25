@@ -49,6 +49,11 @@ Please register below for the series. All are welcome to join and we ask that al
 **Previous lectures**
 :::
 
+**April 24^th^ 2025 - Dr Richard Stockey, University of Southampton**  
+Modelling ancient animal habitats in space and time: linking fossils and Earth system models
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o5VZg2hqtA0?si=PbY6Vk8r3js_7Qqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 **March 27^th^ 2025 - Dr Ond&rcaron;ej Mottl - Charles University**  
 FOSSILPOL: The Workflow To Process Global Palaeoecological Data Of Fossil Pollen For Vegetation-Based Macroecological Synthesis  
 
