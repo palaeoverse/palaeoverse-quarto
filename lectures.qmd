@@ -15,39 +15,44 @@ page-layout: custom
 ::: {.g-col-6 .center}
 
 ::: {.huge}
-**Spring 2025**
+**Summer 2025**
 
 :::
 
 ::: {.justify}
 
-We are excited to announce the Spring 2025 Palaeoverse Lecture Series focused on software development and methodological approaches in palaeontology. The aim of this lecture series is to promote the use of new tools in the field and to give researchers a platform to showcase their work. The format is intended to be flexible but will generally include a short seminar followed by a demonstration of the speaker's software toolkit and/or method and will conclude with a group discussion.
+We are excited to announce the Summer 2025 Palaeoverse Lecture Series focused on software development and methodological approaches in palaeontology. The aim of this lecture series is to promote the use of new tools in the field and to give researchers a platform to showcase their work. The format is intended to be flexible but will generally include a short seminar followed by a demonstration of the speaker's software toolkit and/or method and will conclude with a group discussion.
 
-**Lectures will be held on the last Thursday of each month from 16:00--17:00 UTC\*.**
+**Lectures will be held on the last Thursday of each month from 15:00--16:00 UTC\*.**
 
 This semester, we will be joined by the following four speakers:
 
-**February 27^th^ 2025 - Dr Xia Wang, Chengdu University of Technology**  
-DDE-Outcrop3D: an interactive platform for digital outcrop models  
+**June 26^th^ 2025 - Dr Katie Collins, Natural History Museum (UK)**  
+Both round and upward: Spiral morphometry and how to compare things that are the same, but different 
 
-**March 27^th^ 2025 - Dr Ond&rcaron;ej Mottl - Charles University**  
-FOSSILPOL: The Workflow To Process Global Palaeoecological Data Of Fossil Pollen For Vegetation-Based Macroecological Synthesis  
+**July 31^st^ 2025 - No speaker due to CPEG**  
+[4th Crossing the Paleontological-Ecological Gap (CPEG) Meeting & 3rd Conservation Paleobiology Symposium](https://www.cpeg-cpb25.uzh.ch/en.html)
 
-**April 24^th^ 2025 - Dr Richard Stockey, University of Southampton**  
-Modelling ancient animal habitats in space and time: linking fossils and Earth system models
+**August 28^th^ 2025 - Amy Shipley, University of Leeds**  
+Modelling ancient food webs: ecosystem changes across the Pliocene marine megafaunal extinction
 
-**May 29^th^ 2025 - Dr Allison Hsiang, Stockholm University**  
-Automating large-scale morphometric data generation using AutoMorph and deep learning  
+**September 25^th^ 2025 - Dr Nicolás Mongiardino Koch, University of California San Diego and Dr Russell Garwood, University of Manchester**  
+The Tree of Life and Death: What do Fossil Taxa Contribute to Morphological Phylogenetics? 
 
 Please register below for the series. All are welcome to join and we ask that all participants abide by the [**Palaeoverse Code of Conduct**](conduct.qmd).
 
 :::
 
-<a href="https://bit.ly/palaeoverse-lecture-series-winter2024-25" class="card-link h2">🚨**REGISTER**🚨</a>
+<a href="https://bit.ly/palaeoverse-lecture-series-2025" class="card-link h2">🚨**REGISTER**🚨</a>
 
 ::: {.huge}
 **Previous lectures**
 :::
+
+**May 29^th^ 2025 - Dr Allison Hsiang, Stockholm University**  
+Automating large-scale morphometric data generation using AutoMorph and deep learning 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/isavzYBoyPU?si=fAw1sXnhyXDLQv8_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **April 24^th^ 2025 - Dr Richard Stockey, University of Southampton**  
 Modelling ancient animal habitats in space and time: linking fossils and Earth system models
