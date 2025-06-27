@@ -35,7 +35,7 @@ Both round and upward: Spiral morphometry and how to compare things that are the
 **August 28^th^ 2025 - Amy Shipley, University of Leeds**  
 Modelling ancient food webs: ecosystem changes across the Pliocene marine megafaunal extinction
 
-**September 25^th^ 2025 - Dr Nicolás Mongiardino Koch, University of California San Diego and Dr Russell Garwood, University of Manchester**  
+**September 25^th^ 2025 - Dr Nicolás Mongiardino Koch, Princeton University and Dr Russell Garwood, University of Manchester**  
 The Tree of Life and Death: What do Fossil Taxa Contribute to Morphological Phylogenetics? 
 
 Please register below for the series. All are welcome to join and we ask that all participants abide by the [**Palaeoverse Code of Conduct**](conduct.qmd).
@@ -47,6 +47,11 @@ Please register below for the series. All are welcome to join and we ask that al
 ::: {.huge}
 **Previous lectures**
 :::
+
+**June 26^th^ 2025 - Dr Katie Collins, Natural History Museum (UK)**  
+Both round and upward: Spiral morphometry and how to compare things that are the same, but different 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mcPC1ipt2Fc?si=uDsQZ4jlYQfNyd7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **May 29^th^ 2025 - Dr Allison Hsiang, Stockholm University**  
 Automating large-scale morphometric data generation using AutoMorph and deep learning 
