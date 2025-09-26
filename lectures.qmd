@@ -15,28 +15,28 @@ page-layout: custom
 ::: {.g-col-6 .center}
 
 ::: {.huge}
-**Summer 2025**
+**Winter 2025/26**
 
 :::
 
 ::: {.justify}
 
-We are excited to announce the Summer 2025 Palaeoverse Lecture Series focused on software development and methodological approaches in palaeontology. The aim of this lecture series is to promote the use of new tools in the field and to give researchers a platform to showcase their work. The format is intended to be flexible but will generally include a short seminar followed by a demonstration of the speaker's software toolkit and/or method and will conclude with a group discussion.
+We are excited to announce the Winter 2025/26 Palaeoverse Lecture Series focused on software development and methodological approaches in palaeontology. The aim of this lecture series is to promote the use of new tools in the field and to give researchers a platform to showcase their work. The format is intended to be flexible but will generally include a short seminar followed by a demonstration of the speaker's software toolkit and/or method and will conclude with a group discussion.
 
-**Lectures will be held on the last Thursday of each month from 15:00--16:00 UTC\*.**
+**Lectures will be held from 15:00--16:00 UTC.**
 
 This semester, we will be joined by the following four speakers:
 
-**June 26^th^ 2025 - Dr Katie Collins, Natural History Museum (UK)**  
-Both round and upward: Spiral morphometry and how to compare things that are the same, but different 
+**October 30^th^ 2025 – Dr Oskar Hagen, Goethe University Frankfurt (Germany)**  
+Mechanistic biodiversity modelling with gen3sis: population-based simulations across regional and global domains to deep and shallow time
 
-**July 31^st^ 2025 - Summer break, no lecture**
+**November 20^th^ 2025 – Dr Carrie Tyler, University of Nevada (USA)**  
+The high fidelity of trophic structure in ancient marine ecosystems: from functional diversity to food webs
 
-**August 28^th^ 2025 - Amy Shipley, University of Leeds**  
-Modelling ancient food webs: ecosystem changes across the Pliocene marine megafaunal extinction
+**December 18^th^ 2025 – Dr Juan Cantalapiedra, Museo Nacional de Ciencias Naturales (Spain)**  
+Mammals as a key to evolutionary theory
 
-**September 25^th^ 2025 - Dr Nicolás Mongiardino Koch, Princeton University and Dr Russell Garwood, University of Manchester**  
-The Tree of Life and Death: What do Fossil Taxa Contribute to Morphological Phylogenetics? 
+**January 29^th^ 2026 – To be announced!**
 
 Please register below for the series. All are welcome to join and we ask that all participants abide by the [**Palaeoverse Code of Conduct**](conduct.qmd).
 
@@ -48,14 +48,18 @@ Please register below for the series. All are welcome to join and we ask that al
 **Previous lectures**
 :::
 
+**September 25^th^ 2025 - Dr Nicolás Mongiardino Koch, Princeton University and Dr Russell Garwood, University of Manchester**  
+The Tree of Life and Death: What do Fossil Taxa Contribute to Morphological Phylogenetics? 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mSUFsv4jnNI?si=X8SCBMH9DnR2wzYT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 **August 28^th^ 2025 - Amy Shipley, University of Leeds**  
 Modelling ancient food webs: ecosystem changes across the Pliocene marine megafaunal extinction
-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VfPbe3OW8RQ?si=RYxqhLEuiQKVgQwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **June 26^th^ 2025 - Dr Katie Collins, Natural History Museum (UK)**  
-Both round and upward: Spiral morphometry and how to compare things that are the same, but different 
+Both round and upward: Spiral morphometry and how to compare things that are the same, but different
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mcPC1ipt2Fc?si=uDsQZ4jlYQfNyd7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
