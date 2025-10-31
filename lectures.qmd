@@ -49,6 +49,11 @@ Please register below for the series. All are welcome to join and we ask that al
 **Previous lectures**
 :::
 
+**October 30^th^ 2025 – Dr Oskar Hagen, Goethe University Frankfurt (Germany)**  
+Mechanistic biodiversity modelling with gen3sis: population-based simulations across regional and global domains to deep and shallow time
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l1urCQtToYQ?si=8uNa1Z3iI0WEFiA9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 **September 25^th^ 2025 - Dr Nicolás Mongiardino Koch, Princeton University and Dr Russell Garwood, University of Manchester**  
 The Tree of Life and Death: What do Fossil Taxa Contribute to Morphological Phylogenetics? 
 
