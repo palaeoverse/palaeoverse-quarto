@@ -15,29 +15,29 @@ page-layout: custom
 ::: {.g-col-6 .center}
 
 ::: {.huge}
-**Winter 2025/26**
+**Spring 2026**
 
 :::
 
 ::: {.justify}
 
-We are excited to announce the Winter 2025/26 Palaeoverse Lecture Series focused on software development and methodological approaches in palaeontology. The aim of this lecture series is to promote the use of new tools in the field and to give researchers a platform to showcase their work. The format is intended to be flexible but will generally include a short seminar followed by a demonstration of the speaker's software toolkit and/or method and will conclude with a group discussion.
+We are excited to announce the Spring 2026 Palaeoverse Lecture Series focused on software development and methodological approaches in palaeontology. The aim of this lecture series is to promote the use of new tools in the field and to give researchers a platform to showcase their work. The format is intended to be flexible but will generally include a short seminar followed by a demonstration of the speaker's software toolkit and/or method and will conclude with a group discussion.
 
 **Lectures will be held from 15:00--16:00 UTC.**
 
 This semester, we will be joined by the following four speakers:
 
-**October 30^th^ 2025 – Dr Oskar Hagen, Goethe University Frankfurt (Germany)**  
-Mechanistic biodiversity modelling with gen3sis: population-based simulations across regional and global domains to deep and shallow time
+**February 26^th^ 2026 – Dr Natalie Cooper, Natural History Museum (UK)**  
+Hack-a-thons: what, why, and how to run them
 
-**November 20^th^ 2025 – Dr Carrie Tyler, University of Nevada (USA)**  
-The high fidelity of trophic structure in ancient marine ecosystems: from functional diversity to food webs
+**March 26^th^ 2026 – Dr Brooke Long-Fox, South Dakota School of Mines and Technology (USA)**  
+Building Open, Reproducible Palaeontology: A Practical Introduction to FAIR Data and MorphoBank
 
-**December 18^th^ 2025 – Dr Juan Cantalapiedra, Museo Nacional de Ciencias Naturales (Spain)**  
-Mammals as a key to evolutionary theory
+**April 30^th^ 2026 – Dr Joseph Flannery-Sutherland, University of Birmingham (UK)**  
+Cleaning taxonomy, time, and their messy interactions with the fossilbrush R package
 
-**January 29^th^ 2026 – Dr Johannes De Groeve, University of Amsterdam (Netherlands)**  
-Tips for TABS (Temporal Altitudinal Biogeographic Shifts)
+**May 28^th^ 2026 – Dr Alexandra Howard, Texas A&M University (USA)**  
+ppgm R package: palaeophylogeographic models
 
 Please register below for the series. All are welcome to join and we ask that all participants abide by the [**Palaeoverse Code of Conduct**](conduct.qmd).
 
@@ -48,6 +48,11 @@ Please register below for the series. All are welcome to join and we ask that al
 ::: {.huge}
 **Previous lectures**
 :::
+
+**January 29^th^ 2026 – Dr Johannes De Groeve, University of Amsterdam (Netherlands)**  
+Tips for TABS (Temporal Altitudinal Biogeographic Shifts)
+
+At the request of the speaker, this lecture is not publicly available. However, you may request a private link to the talk from either [Dr Johannes De Groeve](mailto:j.degroeve@uva.nl) or [Dr Erin Dillon](mailto:DillonE@si.edu).
 
 **December 18^th^ 2025 – Dr Juan Cantalapiedra, Museo Nacional de Ciencias Naturales (Spain)**  
 Mammals as a key to evolutionary theory
