@@ -21,11 +21,11 @@ page-layout: custom
 
 ::: {.justify}
 
-We are excited to announce the Spring 2026 Palaeoverse Lecture Series focused on software development and methodological approaches in palaeontology. The aim of this lecture series is to promote the use of new tools in the field and to give researchers a platform to showcase their work. The format is intended to be flexible but will generally include a short seminar followed by a demonstration of the speaker's software toolkit and/or method and will conclude with a group discussion.
+We are excited to announce the Palaeoverse Lecture Series focused on software development and methodological approaches in palaeontology. The aim of this lecture series is to promote the use of new tools in the field and to give researchers a platform to showcase their work. The format is intended to be flexible but will generally include a short seminar followed by a demonstration of the speaker's software toolkit and/or method and will conclude with a group discussion.
 
 **Lectures will be held from 15:00--16:00 UTC.**
 
-This semester, we will be joined by the following four speakers:
+This spring, we will be joined by the following four speakers:
 
 **February 26^th^ 2026 – Dr Natalie Cooper, Natural History Museum (UK)**  
 Hack-a-thons: what, why, and how to run them
@@ -43,7 +43,7 @@ Please register below for the series. All are welcome to join and we ask that al
 
 :::
 
-<a href="https://bit.ly/palaeoverse-lecture-series-2025" class="card-link h2">🚨**REGISTER**🚨</a>
+<a href="https://bit.ly/palaeoverse-lectures" class="card-link h2">🚨**REGISTER**🚨</a>
 
 ::: {.huge}
 **Previous lectures**
