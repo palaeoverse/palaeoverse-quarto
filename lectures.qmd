@@ -1,6 +1,6 @@
 ---
 pagetitle: Lectures
-title: Lecture Series
+title: Palaeoverse Lecture Series
 title-block-banner: true
 toc: true
 page-layout: custom
@@ -14,30 +14,25 @@ page-layout: custom
 
 ::: {.g-col-6 .center}
 
-::: {.huge}
-**Spring 2026**
-
-:::
-
 ::: {.justify}
 
-We are excited to announce the Spring 2026 Palaeoverse Lecture Series focused on software development and methodological approaches in palaeontology. The aim of this lecture series is to promote the use of new tools in the field and to give researchers a platform to showcase their work. The format is intended to be flexible but will generally include a short seminar followed by a demonstration of the speaker's software toolkit and/or method and will conclude with a group discussion.
+We are excited to announce that the Palaeoverse Lecture Series will continue through 2026. The series remains dedicated to software development and methodological approaches in palaeontology, with the aim of promoting the use of new tools in the field and to give researchers a platform to showcase their work. The format remains flexible and will generally include a short seminar followed by a demonstration of the speaker’s software toolkit and/or method, concluding with a Q&A session.
 
 **Lectures will be held from 15:00--16:00 UTC.**
 
-This spring, we will be joined by the following four speakers:
+For this first set of talks, we will be joined by the following four speakers:
 
 **February 26^th^ 2026 – Dr Natalie Cooper, Natural History Museum (UK)**  
 Hack-a-thons: what, why, and how to run them
 
-**March 26^th^ 2026 – Dr Brooke Long-Fox, South Dakota School of Mines and Technology (USA)**  
+**March 26^th^ 2026 – Dr Brooke Long-Fox, Phoenix Bioinformatics (USA)**  
 Building Open, Reproducible Palaeontology: A Practical Introduction to FAIR Data and MorphoBank
 
 **April 30^th^ 2026 – Dr Joseph Flannery-Sutherland, University of Birmingham (UK)**  
 Cleaning taxonomy, time, and their messy interactions with the fossilbrush R package
 
 **May 28^th^ 2026 – Dr Alexandra Howard, Texas A&M University (USA)**  
-ppgm R package: palaeophylogeographic models
+Using palaeontological, neontological, and spatial data to understand evolution through time and space
 
 Please register below for the series. All are welcome to join and we ask that all participants abide by the [**Palaeoverse Code of Conduct**](conduct.qmd).
 
