@@ -44,6 +44,11 @@ Please register below for the series. All are welcome to join and we ask that al
 **Previous lectures**
 :::
 
+**February 26^th^ 2026 – Dr Natalie Cooper, Natural History Museum (UK)**  
+Hack-a-thons: what, why, and how to run them
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SdpHSIuZktQ?si=BoUH4dUszgmbQ0BT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 **January 29^th^ 2026 – Dr Johannes De Groeve, University of Amsterdam (Netherlands)**  
 Tips for TABS (Temporal Altitudinal Biogeographic Shifts)
 
