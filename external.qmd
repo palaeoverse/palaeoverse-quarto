@@ -28,7 +28,7 @@ library(dplyr)
 library(DT)
 library(reactable)
 # Get sheet
-df <- read_sheet("https://docs.google.com/spreadsheets/d/1ZwvmmBUEPZzGEcdE-ZWYPDGkafYcfSQkYwue9cQ_x9c/edit?usp=share_link")
+df <- read_sheet("https://docs.google.com/spreadsheets/d/1w0K1gWOBQjMH6q5pYGkY7FNFyBjNt42Pbv9N2JFbquc/edit?usp=sharing")
 
 df$Link <- paste0("<a href='",df$Link,"' target='_blank'>",df$Link,"</a>")
 

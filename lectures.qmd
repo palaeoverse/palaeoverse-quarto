@@ -44,6 +44,11 @@ Please register below for the series. All are welcome to join and we ask that al
 **Previous lectures**
 :::
 
+**March 26^th^ 2026 – Dr Brooke Long-Fox, Phoenix Bioinformatics (USA)**  
+Building Open, Reproducible Palaeontology: A Practical Introduction to FAIR Data and MorphoBank
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ka_9e2DXkN8?si=Y_KE3pcB019WtD11" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 **February 26^th^ 2026 – Dr Natalie Cooper, Natural History Museum (UK)**  
 Hack-a-thons: what, why, and how to run them
 
