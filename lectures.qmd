@@ -20,19 +20,19 @@ We are excited to announce that the Palaeoverse Lecture Series will continue thr
 
 **Lectures will be held from 15:00--16:00 UTC.**
 
-For this first set of talks, we will be joined by the following four speakers:
+For the next set of talks, we will be joined by the following four speakers:
 
-**February 26^th^ 2026 – Dr Natalie Cooper, Natural History Museum (UK)**  
-Hack-a-thons: what, why, and how to run them
+**June 25^th^ 2026 – Dr Cori Myers/Jonė Naujokaityte, University of New Mexico**  
+Ecological niche models in the deep time fossil record (Title TBC)
 
-**March 26^th^ 2026 – Dr Brooke Long-Fox, Phoenix Bioinformatics (USA)**  
-Building Open, Reproducible Palaeontology: A Practical Introduction to FAIR Data and MorphoBank
+**July 30^th^ 2026 – Dr Pablo Milla Carmona, University of Bristol**  
+Investigating evolution using theoretical morphospaces: a practical workflow with 'morphospace'
 
-**April 30^th^ 2026 – Dr Joseph Flannery-Sutherland, University of Birmingham (UK)**  
-Cleaning taxonomy, time, and their messy interactions with the fossilbrush R package
+**August 27^th^ 2026 – Bruno do Rosario Petrucci, Iowa State University**  
+Budding phylogenetic trees: inference with BEAST2 and post-processing with paleobuddy
 
-**May 28^th^ 2026 – Dr Alexandra Howard, Texas A&M University (USA)**  
-Using palaeontological, neontological, and spatial data to understand evolution through time and space
+**September 24^th^ 2026 – Dr Emilia Jarochowska, Utrecht University**  
+CarboKitten.jl – stratigraphic forward modeling of marine carbonate rocks and its applications in paleobiology
 
 Please register below for the series. All are welcome to join and we ask that all participants abide by the [**Palaeoverse Code of Conduct**](conduct.qmd).
 
@@ -43,6 +43,11 @@ Please register below for the series. All are welcome to join and we ask that al
 ::: {.huge}
 **Previous lectures**
 :::
+
+**May 28^th^ 2026 – Dr Alexandra Howard, Texas A&M University (USA)**  
+Using palaeontological, neontological, and spatial data to understand evolution through time and space
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4ejZB6yvqhk?si=bYTuuq0xAsjBLl49" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **April 30^th^ 2026 – Dr Joseph Flannery-Sutherland, University of Birmingham (UK)**  
 Cleaning taxonomy, time, and their messy interactions with the fossilbrush R package
